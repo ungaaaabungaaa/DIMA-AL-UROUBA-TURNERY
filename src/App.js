@@ -1,12 +1,24 @@
 import './Styles/index.css';
 import React from 'react';
 import usePreventActions from './Hooks/usePreventActions';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home';
+import Departments from './Pages/Departments';
+import About from './Pages/About';
+import Terms from './Pages/Terms';
 
 function App() {
   usePreventActions();
   return (
     <>
-    <h1>Dima Ul Turnory</h1>
+     <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/departments" element={<Departments />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/terms" element={<Terms />} />
+      </Routes>
+    </Router>
     </>
   );
 }
