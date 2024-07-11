@@ -8,7 +8,7 @@ function Header() {
     <>
     <div className='header'>
        <div className='header_title'>
-          <h1 className='header_h1'>DIMA AL UROUBA TURNERY</h1>
+          <h2 className='header_h1'>DIMA AL UROUBA TURNERY</h2>
        </div>
       
         <div className='header_nav'>

@@ -6,7 +6,7 @@
     padding-bottom: 0.8rem;
     display: grid; /* Corrected from 'gird' to 'grid' */
     grid-template-columns: 5% 45% 30% 15% 5%;
-    position: fixed; /* Changed from 'absolute' to 'fixed' */
+    position: relative; /* Changed from 'absolute' to 'fixed' */
     top: 0;
     left: 0;
     background-color: white; /* Added to avoid content underneath showing through */
@@ -52,6 +52,11 @@
 {
     color: #2B1B12;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.header_h3:hover {
+    transform: scale(1.2); /* Scale up to 1.1 on hover */
 }
 
 

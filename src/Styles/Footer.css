@@ -6,8 +6,9 @@
     display: grid;
     padding-top: 4.2rem;
     padding-bottom: 4.2rem;
+    margin: 0;
     grid-template-columns: 5% 35% 10% 15% 15% 15% 5%;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
 }
