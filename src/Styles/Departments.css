@@ -1,0 +1,146 @@
+.departments
+{
+    width: 100%;
+    height: auto;
+    margin-top: 4.2rem;
+    margin-bottom: 2.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.margin_zero
+{
+    margin: 0;
+}
+
+.department_grid
+{
+   width: 66%;
+   height: auto;
+   display: grid; 
+   margin-bottom: 2.2rem;
+   grid-auto-columns: 1rem; 
+   grid-template-columns: 32% 32% 32%; 
+   grid-template-rows: 32% 32% 32%; 
+   gap: 1.2rem 1.2rem; 
+   grid-template-areas: 
+    "Cnc Conventional Electrical"
+    "Mold Sheet-Metal Welding"
+    ". GearBox ."; 
+}
+
+.Cnc 
+{
+    grid-area: Cnc; 
+    width: 100%;
+    height: 100%;
+    border-radius: 1.1rem;
+    background-color: #DDC7BB;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.Conventional 
+{ 
+    grid-area: Conventional;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.1rem;
+    background-color: #DDC7BB;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column; 
+}
+
+.Electrical 
+{ 
+    grid-area: Electrical; 
+    width: 100%;
+    height: 100%;
+    border-radius: 1.1rem;
+    background-color: #DDC7BB;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.Mold 
+{ 
+    grid-area: Mold;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.1rem;
+    background-color: #DDC7BB;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.Sheet-Metal 
+{ 
+    grid-area: Sheet-Metal;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.1rem;
+    background-color: #DDC7BB; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.Welding 
+{ 
+    grid-area: Welding;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.1rem;
+    background-color: #DDC7BB;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column; 
+}
+.GearBox 
+{ 
+    grid-area: GearBox; 
+    width: 100%;
+    height: 100%;
+    border-radius: 1.1rem;
+    background-color: #DDC7BB;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.logo_grid
+{
+    margin-left: 8%;
+    margin-top: 8%;
+    padding: 1.2rem;
+    border-radius: 0.6rem;
+    background-color: #FBF5F1;
+}
+
+.logo_title
+{
+    color: #2B1B12;
+    margin-left: 8%;
+    margin-top: 4%;
+    margin-bottom: 0;
+}
+
+.logo_desc
+{
+    width: 85%;
+    color: #2B1B12;
+    margin-left: 8%;
+    margin-bottom: 2.2rem;
+}
+
