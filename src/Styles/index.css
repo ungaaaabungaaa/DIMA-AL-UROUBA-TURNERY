@@ -8,7 +8,6 @@
 }
 
 
-
 html,body
 {
     text-overflow: ellipsis;
@@ -18,4 +17,8 @@ html,body
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+ul {
+    list-style-type: none; /* Removes default bullet points */
 }
