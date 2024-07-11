@@ -1,0 +1,68 @@
+.header
+{
+    width: 100%;
+    height: 6vh;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    display: grid; /* Corrected from 'gird' to 'grid' */
+    grid-template-columns: 5% 45% 30% 15% 5%;
+    position: fixed; /* Changed from 'absolute' to 'fixed' */
+    top: 0;
+    left: 0;
+    background-color: white; /* Added to avoid content underneath showing through */
+    z-index: 1000; /* Added to ensure the header is above other content */
+}
+
+.header_title
+{
+    width: 100%;
+    height: 100%;
+    grid-column-start: 2;
+}
+
+.contact
+{
+    width: 100%;
+    height: 100%;
+    grid-column-start: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_button
+{
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    background-color: #2A1B12;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+
+.header_h1
+{
+    color: #2A1B12;
+}
+
+.header_h3
+{
+    color: #2B1B12;
+    cursor: pointer;
+}
+
+
+
+.header_nav
+{
+    grid-column-start: 3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}

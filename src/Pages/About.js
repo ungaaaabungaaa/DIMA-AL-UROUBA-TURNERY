@@ -1,10 +1,11 @@
 import React from 'react';
 import Footer from '../Components/footer';
+import Header from '../Components/header';
 
 function About() {
   return (
     <>
-    <h1>About</h1>
+    <Header></Header>
     <Footer></Footer>
     </>
   );
