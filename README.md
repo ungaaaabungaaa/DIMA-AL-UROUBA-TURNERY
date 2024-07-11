@@ -22,11 +22,10 @@ This website serves as an online platform for DIMA AL UROUBA TURNERY, a company 
 
 ## Technologies Used
 
-- React
-- Next.js
+- React.js
 - email.js
 - Framer Motion
-- FIREBASE 
+- FIREBASE
 - VERCEL CLI
 
 ## Installation
