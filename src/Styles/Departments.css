@@ -143,3 +143,9 @@
     margin-bottom: 2.2rem;
 }
 
+.metalforming
+{
+    width: 85%;
+    image-rendering: optimizeQuality;
+}
+

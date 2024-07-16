@@ -13,6 +13,11 @@ import GearBox from '../Resources/Logo/Gear.svg';
 import '../Styles/Aboutus.css';
 import Image2 from '../Resources/AboutUs2.jpg';
 import Image3 from '../Resources/AboutUs3.jpg';
+import MetalForming from '../Resources/Metal Forming.png'
+import GearManufacturing from '../Resources/Gear Manufacturing.png'
+import Mould from '../Resources/Mold.png'
+import Maintenance from '../Resources/Maintaince.png'
+
 
 
 
@@ -105,7 +110,9 @@ function Departments() {
           <br></br>
       </div>
       </div>  
-      <br></br>
+    
+      <img className='metalforming' src={MetalForming}></img>
+      
       <div class="container3">
         <div class="Aboutus4_image">
           <img className='image3' src={Image3}></img>
@@ -125,7 +132,7 @@ function Departments() {
             <br></br>
         </div>
       </div> 
-      <br></br>
+      <img className='metalforming' src={GearManufacturing}></img>
       <div class="container">
       <div class="Aboutus3_image">
         <img className='image2' src={Image2}></img>
@@ -143,8 +150,7 @@ function Departments() {
           <br></br>
       </div>
       </div>  
-      <br></br>
-      <br></br>
+      <img className='metalforming' src={Mould}></img>
       <div class="container3">
         <div class="Aboutus4_image">
           <img className='image3' src={Image3}></img>
@@ -168,7 +174,8 @@ function Departments() {
             <br></br>
         </div>
       </div> 
-      
+      <img className='metalforming' src={Maintenance}></img>
+      <br></br>
 
     </div>
     
