@@ -8,7 +8,7 @@ import About from './Pages/About';
 import Terms from './Pages/Terms';
 
 function App() {
-  usePreventActions();
+  // usePreventActions();
   return (
     <>
      <Router>

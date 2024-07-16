@@ -10,7 +10,25 @@ function Home() {
   return (
     <>
     <Header></Header>
+    <div className='departments'>
+      <br></br>
+      <br></br>
+      <h2>Departments</h2>
+      <h3>Precision-engineered components crafted with expertise and <br></br> efficiency in our advanced  Department’s</h3>
+      <br></br>
+
+
+
+     
+
+
+
+
+
+      <br></br>
+    </div>
     <div className='objectives'>
+    <br></br>
     <br></br>
     <h2>Objectives</h2>
     <br></br>
@@ -24,7 +42,7 @@ function Home() {
       </Marquee>
     <br></br>
     </div>
-    
+
     <Footer></Footer>
     </>
   );
