@@ -104,6 +104,11 @@
 
 
 
+
+
+
+
+
 .container2
 {  
     display: grid;
@@ -145,4 +150,23 @@
     grid-area: Aboutus4_titel; 
 }
   
+
+
+
+.container3
+{  
+    display: grid;
+    margin-bottom: 1.1rem;
+    margin-top: 1.1rem;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    background-color: white;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Aboutus4_titel Aboutus4_image ";
+}
 

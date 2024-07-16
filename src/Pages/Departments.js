@@ -10,6 +10,11 @@ import Mold from '../Resources/Logo/mold.svg';
 import Sheet from '../Resources/Logo/Sheet Metal.svg';
 import Welding from '../Resources/Logo/weild.svg';
 import GearBox from '../Resources/Logo/Gear.svg';
+import '../Styles/Aboutus.css';
+import Image2 from '../Resources/AboutUs2.jpg';
+import Image3 from '../Resources/AboutUs3.jpg';
+
+
 
 function Departments() {
   return (
@@ -70,6 +75,101 @@ function Departments() {
               </p>
           </div>
       </div>
+      <br></br>
+      <div class="container">
+      <div class="Aboutus3_image">
+        <img className='image2' src={Image2}></img>
+      </div>
+      <div class="Aboutus3_titel">
+        <h1> Manufacturing , Metal Forming & Production Line Cutting Departments, Which Includes | أقسام التصنيع وتشكيل المعادن وتقطيع خطوط الإنتاج والتي تشمل </h1>
+          <p>
+           Manufacturing Spare Parts From Raw Materials From All Kinds of Iron
+          </p>
+          <p>
+          "تصنيع قطع الغيار من المواد الخام من الحديد بجميع أنواعه"
+          </p>
+          <ul>
+              <li>Stainless Steel</li>
+              <li>Cast Iron Copper</li>
+              <li>Bronze</li>
+              <li>Aluminum</li>
+              <li>Teflon Plastic</li>
+          </ul>
+          <ul>
+          <li>الفولاذ المقاوم للصدأ</li>
+          <li>الحديد الزهر والنحاس</li>
+          <li>البرونز</li>
+          <li>الألومنيوم</li>
+          <li>البلاستيك التفلون</li>
+          </ul>
+          <br></br>
+      </div>
+      </div>  
+      <br></br>
+      <div class="container3">
+        <div class="Aboutus4_image">
+          <img className='image3' src={Image3}></img>
+        </div>
+        <div class="Aboutus4_titel">
+          <h1>Gears Manufacturing & Sorting Section Which Includes | قسم تصنيع وفرز التروس والذي يشمل </h1>
+          <ul>
+              <li>Manufacturing & Sorting of Helical Gears</li>
+              <li>Mechnical Movement Systems in all Materials</li>
+              
+            </ul>
+            <br></br>
+            <ul>
+            <li>تصنيع وفرز التروس الحلزونية</li>
+            <li>أنظمة الحركة الميكانيكية بجميع المواد</li>
+            </ul>
+            <br></br>
+        </div>
+      </div> 
+      <br></br>
+      <div class="container">
+      <div class="Aboutus3_image">
+        <img className='image2' src={Image2}></img>
+      </div>
+      <div class="Aboutus3_titel">
+        <h1> Mold Manufacturing & Maintenance Departments Which Includes | أقسام تصنيع وصيانة القوالب والتي تشمل </h1>
+          <ul>
+              <li>Manufacturing of plastic Mold Factories</li>
+              <li>Iron Molds</li>
+          </ul>
+          <ul>
+            <li>تصنيع قوالب البلاستيك</li>
+            <li>قوالب الحديد</li>
+          </ul>
+          <br></br>
+      </div>
+      </div>  
+      <br></br>
+      <br></br>
+      <div class="container3">
+        <div class="Aboutus4_image">
+          <img className='image3' src={Image3}></img>
+        </div>
+        <div class="Aboutus4_titel">
+          <h1>Maintenance Department Which Includes | قسم الصيانة والذي يضم </h1>
+          <ul>
+              <li>Heavy Machinery & Equipment</li>
+              <li>Electric Motor Winding</li>
+              <li>Genrator</li>
+              <li>Mechnical Maintenance & Pumps</li>
+
+            </ul>
+            <br></br>
+            <ul>
+            <li>الآلات والمعدات الثقيلة</li>
+            <li>لف المحركات الكهربائية</li>
+            <li>مولد</li>
+            <li>الصيانة الميكانيكية والمضخات</li>
+            </ul>
+            <br></br>
+        </div>
+      </div> 
+      
+
     </div>
     
 
