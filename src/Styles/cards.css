@@ -1,0 +1,24 @@
+.Cards
+{
+    width: 16.2rem;
+    height: 21.2rem;
+    background-color: #DDC7BB;
+    border-radius: 1.4rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 2.2rem;
+    background-position: top 12% right 12%;
+    background-image: url(../Resources/Logo/quotation.svg);
+}
+
+.task
+{
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+}
