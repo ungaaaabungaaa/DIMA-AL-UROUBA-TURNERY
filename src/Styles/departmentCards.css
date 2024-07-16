@@ -1,0 +1,41 @@
+.departmentCards
+{
+    width: 14.2rem;
+    height: 18.2rem;
+    overflow: hidden;
+    border-radius: 1.2rem;
+    background-color: #DDC7BB;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+    margin-bottom: 2.2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column; 
+}
+
+
+.logo_grid
+{
+    margin-left: 8%;
+    margin-top: 8%;
+    padding: 1.2rem;
+    border-radius: 0.6rem;
+    background-color: #FBF5F1;
+}
+
+.logo_title
+{
+    color: #2B1B12;
+    margin-left: 8%;
+    margin-top: 4%;
+    margin-bottom: 0;
+}
+
+.logo_desc
+{
+    width: 85%;
+    color: #2B1B12;
+    margin-left: 8%;
+    margin-bottom: 2.2rem;
+}

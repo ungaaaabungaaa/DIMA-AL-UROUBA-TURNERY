@@ -8,12 +8,13 @@
 }
 
 
-.departments
+.departments_layout
 {
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
+   
 }

@@ -5,31 +5,30 @@ import '../Styles/home.css';
 import Marquee from "react-fast-marquee";
 import Cards from '../Components/cards';
 import { objectives } from '../Data/objectivesData';
+import { departments } from '../Data/departmentsData';
+import DepartmentCards from '../Components/departmentCards';
 
 function Home() {
   return (
     <>
     <Header></Header>
-    <div className='departments'>
-      <br></br>
-      <br></br>
+    <div className='departments_layout'>
       <h2>Departments</h2>
       <h3>Precision-engineered components crafted with expertise and <br></br> efficiency in our advanced  Department’s</h3>
       <br></br>
-
-
-
+      <Marquee pauseOnHover pauseOnClick>
+            {departments.map((department, index) => (
+              <DepartmentCards 
+                key={index} 
+                name={department.name} 
+                desc={department.description} 
+                icon={department.icon} 
+              />
+            ))}
+      </Marquee>
      
-
-
-
-
-
-      <br></br>
     </div>
     <div className='objectives'>
-    <br></br>
-    <br></br>
     <h2>Objectives</h2>
     <br></br>
       <Marquee autoFill>
@@ -40,7 +39,6 @@ function Home() {
           <Cards objective={objectives[4]} />
           <Cards objective={objectives[5]} />
       </Marquee>
-    <br></br>
     </div>
 
     <Footer></Footer>
