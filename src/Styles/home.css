@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 
 }
 
@@ -28,7 +29,10 @@
     width: 100vw;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 75% 25%;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 2% 2%;
     grid-auto-flow: row;
   }
   
@@ -79,31 +83,40 @@
 
   .hero
   {
-    margin-top: 2.2rem;
-    height: 72vh;
-    background-color: #DDC7BB;
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
     width: 100vw;
+    height: 68vh;
+    background-color: #fef7f2;
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 10% 45% 45%;
     grid-template-rows: 100%;
   }
-  
-  .hero_text
-  {
-    grid-column-start: 1;
-    width: 100%;
-    height: 100%;
-    color: #2B1B12;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-   
-  }
 
-  .hero_image
+  .hero_text
   {
     grid-column-start: 2;
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
   }
+
+  .hero_title
+  {
+    margin: 0;
+  }
+
+  .hero_image
+  {
+    grid-column-start: 3;
+    width: 100%;
+    height: 100%;
+    background-size: 88%;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/heroimage.png);
+  }
+  

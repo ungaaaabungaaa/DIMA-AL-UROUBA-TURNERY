@@ -6,6 +6,7 @@ import Image1 from '../Resources/AboutUs.jpg';
 import Image2 from '../Resources/AboutUs2.jpg';
 import Image3 from '../Resources/AboutUs3.jpg';
 import Image4 from '../Resources/AboutUs4.jpg';
+import HeroImage from '../Resources/heroimage.png';
 
 
 function About() {

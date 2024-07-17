@@ -8,14 +8,26 @@ import { objectives } from '../Data/objectivesData';
 import { departments } from '../Data/departmentsData';
 import DepartmentCards from '../Components/departmentCards';
 import SomethingImage from '../Resources/AboutUs4.jpg'
+import HeroImage from '../Resources/heroimage.png';
 
 function Home() {
   return (
     <>
     <Header></Header>
+ 
 
+   <div className='hero'>
+    <div className='hero_text'>
+      <h1 className='hero_title'>DIMA AL <br></br> UROUBA</h1>
+      <p>Precision Crafting for a Brighter Tomorrow | صناعة  <br></br>دقيقة لمستقبل أكثر إشراقًا</p>
+      <br></br>
+      <button className='contact_button'>Contact</button>
+    </div>
+    <div className='hero_image'>
+    </div>
+   </div>
   
-    <div class="container">
+    <div className="container">
       <div class="Something-Else-Image">
         <img className='something_Image' src={SomethingImage}></img>
       </div>
@@ -59,6 +71,7 @@ function Home() {
     </div>
     <div className='objectives'>
     <h2>Objectives</h2>
+    <h3>Crafting precision-engineered components with expertise and <br></br> efficiency in our advanced department</h3>
     <br></br>
       <Marquee autoFill>
           <Cards objective={objectives[0]} />
