@@ -28,10 +28,7 @@
     width: 100vw;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 1fr;
-    grid-auto-columns: 1fr;
-    gap: 2% 2%;
+    grid-template-columns: 75% 25%;
     grid-auto-flow: row;
   }
   
@@ -50,11 +47,10 @@
   { 
     grid-column-start: 2;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    color: #4F3527;
     height: 100%;
   }
 
@@ -78,4 +74,36 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+
+
+  .hero
+  {
+    margin-top: 2.2rem;
+    height: 72vh;
+    background-color: #DDC7BB;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 100%;
+  }
+  
+  .hero_text
+  {
+    grid-column-start: 1;
+    width: 100%;
+    height: 100%;
+    color: #2B1B12;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+
+  .hero_image
+  {
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
   }

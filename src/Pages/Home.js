@@ -13,6 +13,8 @@ function Home() {
   return (
     <>
     <Header></Header>
+
+  
     <div class="container">
       <div class="Something-Else-Image">
         <img className='something_Image' src={SomethingImage}></img>
