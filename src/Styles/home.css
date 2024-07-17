@@ -18,3 +18,64 @@
     text-align: center;
    
 }
+
+
+
+.container {  
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    height: 60vh;
+    width: 100vw;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 2% 2%;
+    grid-auto-flow: row;
+  }
+  
+  .Something-Else-Image 
+  { 
+    grid-column-start: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .Something-else-Text 
+  { 
+    grid-column-start: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    color: #4F3527;
+    height: 100%;
+  }
+
+  .something_Image
+  {
+    max-width: 52%;
+    height: auto;
+    border-radius: 2.2rem;
+  }
+  
+  .something_p
+  {
+    width: 75%;
+  }
+
+  .highlights
+  {
+    width: 55%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
