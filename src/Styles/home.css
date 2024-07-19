@@ -89,6 +89,7 @@
     height: 68vh;
     background-color: #fef7f2;
     display: grid;
+    z-index: 1;
     grid-template-columns: 10% 45% 45%;
     grid-template-rows: 100%;
   }
@@ -106,6 +107,7 @@
 
   .hero_title
   {
+    font-size: 3.2rem;
     margin: 0;
   }
 
@@ -120,3 +122,83 @@
     background-image: url(../Resources/heroimage.png);
   }
   
+
+  .hero_contact
+  {
+    width: 100vw;
+    height: 4.2rem;
+    z-index: 1000;
+    margin-top: -3.4rem;
+    margin-bottom: 3.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero_contact_section
+  {
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+    width: 85%;
+    height: 96%;
+    background-color: #DDC7BB;
+    border-radius: 1.2rem;
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 25% 25% 25% 15%; 
+    grid-template-rows: 100%; 
+    gap: 0% 2%; 
+    grid-template-areas: 
+    "Email Contact whats-app Location"; 
+    align-items: center; /* Center items vertically */
+    justify-items: center; /* Center items horizontally */
+  }
+
+  .Email 
+  { 
+    grid-area: Email;
+    border-radius: 0.4rem;
+    width: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 92%;
+    background-color: #FBF5F1;
+  }
+  .Contact 
+  { 
+    border-radius: 0.4rem;
+    width: 92%;
+    height: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #FBF5F1;
+    grid-area: Contact; 
+  }
+  .whats-app 
+  { 
+    border-radius: 0.4rem;
+    width: 92%;
+    height: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #FBF5F1;
+    grid-area: whats-app; 
+  }
+  .Location 
+  { 
+    grid-area: Location; 
+    width: 85%;
+    border-radius: 0.4rem;
+    height: 92%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B1B12;
+  }
