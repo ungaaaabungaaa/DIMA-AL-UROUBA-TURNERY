@@ -8,11 +8,11 @@ import { objectives } from '../Data/objectivesData';
 import { departments } from '../Data/departmentsData';
 import DepartmentCards from '../Components/departmentCards';
 import SomethingImage from '../Resources/AboutUs4.jpg'
-import HeroImage from '../Resources/heroimage.png';
+import sale1 from '../Resources/Sale1.png';
+import sale2 from '../Resources/Sale2.png';
+import sale3 from '../Resources/Sale3.png';
 
 function Home() {
-
-
 
     const handleEmailClick = () => {
       window.location.href = 'mailto:sales@dimaalouroba.com';
@@ -39,13 +39,12 @@ function Home() {
     <>
     <Header></Header>
    
-    
-
    <div className='hero'>
     <div className='hero_text'>
       <h1 className='hero_title'>DIMA AL <br></br> UROUBA</h1>
       <h3>Precision Crafting for a Brighter Tomorrow | صناعة  <br></br>دقيقة لمستقبل أكثر إشراقًا</h3>
       <br></br>
+      <button className='contact_button'>Contact</button>
     </div>
     <div className='hero_image'>
     </div>
@@ -77,10 +76,6 @@ function Home() {
     </div>
    </div>
 
-   <div className='hero_contact'>
-    
-   </div>
-  
     <div className="container">
       <div class="Something-Else-Image">
         <img className='something_Image' src={SomethingImage}></img>
@@ -123,6 +118,7 @@ function Home() {
       </Marquee>
      
     </div>
+
     <div className='objectives'>
     <h2>Objectives</h2>
     <h3>Crafting precision-engineered components with expertise and <br></br> efficiency in our advanced department</h3>
@@ -136,7 +132,32 @@ function Home() {
           <Cards objective={objectives[5]} />
       </Marquee>
     <br></br>
+    <br></br>
+    <br></br>
     </div>
+
+    <div className='sales'>
+      <h2>Machine Tools <br></br>For Sales</h2>
+      <br></br>
+      <div className='sales_grid'>
+        <div className='salesCard1'>
+         <img src={sale2} className='salesimage'></img>
+         <h3 className='margin_bottom_zero'>CNC Milling | Turning Tools</h3>
+         <p>Precision-engineered CNC milling and turning tools for unparalleled accuracy and efficiency</p>
+        </div>
+        <div className='salesCard2'>
+         <img src={sale1} className='salesimage'></img>
+         <h3 className='margin_bottom_zero'>CNC Holder</h3>
+         <p>Reliable CNC holders for secure and precise tool mounting.</p>
+        </div>
+        <div className='salesCard3'>
+          <img src={sale3} className='salesimage'></img>
+          <h3 className='margin_bottom_zero'>Carbide End Mill</h3>
+          <p>High-performance carbide end mills for superior cutting and durability.</p>
+        </div>
+      </div>
+    </div>
+
 
     <Footer></Footer>
     </>

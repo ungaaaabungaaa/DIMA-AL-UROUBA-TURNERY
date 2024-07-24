@@ -9,6 +9,12 @@
 }
 
 
+.margin_bottom_zero
+{
+  margin-bottom: 0;
+}
+
+
 .departments_layout
 {
     display: flex;
@@ -139,8 +145,8 @@
   {
     padding-top: 2.2rem;
     padding-bottom: 2.2rem;
-    width: 85%;
-    height: 96%;
+    width: 76%;
+    height: 86%;
     background-color: #DDC7BB;
     border-radius: 1.2rem;
     display: grid; 
@@ -202,3 +208,70 @@
     justify-content: center;
     background-color: #2B1B12;
   }
+
+
+
+  .sales
+  {
+    margin-top: 2.2rem;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+    margin-bottom: 2.2rem;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    background-color: #FEF7F2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  .sales_grid
+  {
+    padding-bottom: 2.1rem;
+    width: 78%;
+    height: 72%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 1%;
+  }
+
+
+  .salesCard1,.salesCard2,.salesCard3
+  {
+    grid-column-start: 1;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    width: 85%;
+    height: auto;
+    border-radius: 2.2rem;
+    background-color: #DDC7BB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .salesCard2
+  {
+    grid-column-start: 2;
+  }
+
+  .salesCard3
+  {
+    grid-column-start: 3;
+  }
+
+  .salesimage
+  {
+    border-radius: 1.1rem;
+    width: 85%;
+    height: auto;
+    border: none;
+    object-fit: cover; /* Options: contain, cover, fill, scale-down, none */
+  }
+
+ 
