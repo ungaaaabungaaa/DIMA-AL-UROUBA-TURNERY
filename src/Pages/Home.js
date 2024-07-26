@@ -19,13 +19,12 @@ function Home() {
 
   const handleSendMessage = () => {
     if (message.trim()) {
-      const phoneNumber = '1234567890'; // Replace with your WhatsApp number
+      const phoneNumber = '+9665099096620'; // Replace with your WhatsApp number
       const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
       window.open(whatsappUrl, '_blank');
       setMessage('');
     }
   };
-
 
     const handleEmailClick = () => {
       window.location.href = 'mailto:sales@dimaalouroba.com';
@@ -37,7 +36,7 @@ function Home() {
   
     const handleWhatsAppClick = () => {
       const phoneNumber = '+9665099096620';
-      const message = ''; // You can prefill a message if needed
+      const message = 'Hello'; // You can prefill a message if needed
       const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
       window.open(url, '_blank');
     };
