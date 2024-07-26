@@ -7,8 +7,17 @@ import Departments from './Pages/Departments';
 import About from './Pages/About';
 import Terms from './Pages/Terms';
 
+import CNC from './Pages/CNC';
+import Conventional from './Pages/Conventional';
+import Electrical from './Pages/Electrical';
+import Gearbox from './Pages/GearBox';
+import Mold from './Pages/Mold';
+import Sheet from './Pages/Sheet';
+import Welding from './Pages/Welding';
+
+
 function App() {
-  // usePreventActions();
+  usePreventActions();
   return (
     <>
      <Router>
@@ -17,6 +26,13 @@ function App() {
         <Route path="/departments" element={<Departments />} />
         <Route path="/about" element={<About />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="/cnc" element={<CNC />} />
+        <Route path="/conventional" element={<Conventional />} />
+        <Route path="/electrical" element={<Electrical />} />
+        <Route path="/gearbox" element={<Gearbox />} />
+        <Route path="/mold" element={<Mold />} />
+        <Route path="/sheetmetal" element={<Sheet />} />
+        <Route path="/welding" element={<Welding />} />
       </Routes>
     </Router>
     </>
