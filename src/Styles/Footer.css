@@ -84,3 +84,12 @@
     justify-content: start;
     flex-direction: column;
 }
+
+WhatsApp
+{
+    color: #4F3527;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: color 0.5s ease, transform 0.3s ease;
+    background-color: transparent;
+}

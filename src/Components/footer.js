@@ -1,10 +1,26 @@
 import React from 'react';
 import '../Styles/Footer.css';
 import { useNavigate } from 'react-router-dom';
+import WhatsApp from 'react-whatsapp';
 
 
 function Footer() {
   const navigate = useNavigate();
+
+  const handlePhoneClick = () => {
+    window.location.href = 'tel:+966582444166';
+  };
+
+  const handleEmailClick = () => {
+    window.location.href = 'mailto:sales@dimaalouroba.com';
+  };
+
+  const handleWhatsAppClick = () => {
+    const phoneNumber = "+9665099096620";
+    const message = "Hello, I would like to get in touch.";
+    window.location.href = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+  };
+
   return (
     <>
     <div className='footer'>
@@ -35,9 +51,9 @@ function Footer() {
           <h3 className='footer_h3'>Our Social</h3>
           <br></br>
           <h5 className='footer_h5' onClick={() => window.location.href = 'https://www.instagram.com'}>Instagram</h5>
-          <h5 className='footer_h5' onClick={() => window.location.href = 'https://www.whatsapp.com'}>WhatsApp</h5>
-          <h5 className='footer_h5' onClick={() => window.location.href = 'https://www.facebook.com'}>Facebook</h5>
-          <h5 className='footer_h5' onClick={() => window.location.href = 'https://www.twitter.com'}>Twitter(X)</h5>
+          <h5 className='footer_h5' onClick={handleWhatsAppClick}>WhatsApp</h5>
+          <h5 className='footer_h5' onClick={handlePhoneClick}>Phone Number</h5>
+          <h5 className='footer_h5' onClick={handleEmailClick}>Email</h5>
       </div>
 
     </div>
