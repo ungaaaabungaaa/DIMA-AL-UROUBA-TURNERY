@@ -149,11 +149,9 @@ function Home() {
 
     {/* 
     
-     1.Add in Homepage
-     2.Responsiveness
-     3.Add in all the 7 pages Departments
-     4.Imporve Department Page
-     5.Add in Store Section 
+     1.Change Grid Photos
+     2.Make all the Department Pages
+     3. Responsiveness
     
     */}
 
