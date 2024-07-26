@@ -275,3 +275,76 @@
   }
 
  
+  .Contact_us
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 45vh;
+    padding-top: 1.2rem;
+    text-align: center;
+    padding-bottom: 1.2rem;
+  }
+
+
+  .contact_us_highlight
+  {
+    width: auto;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    color: #543E32;
+    font-size: large;
+    font-weight: bold;
+    height: auto;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .highlight
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 2.2rem;
+  }
+
+  .margin_right
+  {
+    margin-right: 1.2rem;
+  }
+
+  .message_box
+  {
+    width: auto;
+    height: auto;
+    margin-top: 1.2rem;
+    margin-left: 2.2rem;
+    margin-right: 2.2rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+
+  .contact_message {
+    width: 22vw;
+    color: #543E32;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    margin-right: 1.2rem;
+    border: 1px solid #DDC7BB; /* Ensure border color is defined */
+    background-color: #DDC7BB;
+    border-radius: 0.4rem;
+    outline: none; /* Remove outline */
+  }
