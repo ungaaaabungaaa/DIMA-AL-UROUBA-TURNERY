@@ -1,0 +1,22 @@
+.Mold_hero
+{
+    width: 100vw;
+    height: 82vh;
+    display: flex;
+    color: white;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Resources/Departments/Mold.png);
+    background-position: center;
+}
+
+.margin_bottom_zero
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}

@@ -6,7 +6,6 @@ import Home from './Pages/Home';
 import Departments from './Pages/Departments';
 import About from './Pages/About';
 import Terms from './Pages/Terms';
-
 import CNC from './Pages/CNC';
 import Conventional from './Pages/Conventional';
 import Electrical from './Pages/Electrical';
