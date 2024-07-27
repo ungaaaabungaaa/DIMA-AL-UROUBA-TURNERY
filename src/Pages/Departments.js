@@ -13,15 +13,17 @@ import GearBox from '../Resources/Logo/Gear.svg';
 import '../Styles/Aboutus.css';
 import Image2 from '../Resources/AboutUs2.jpg';
 import Image3 from '../Resources/AboutUs3.jpg';
-import MetalForming from '../Resources/Metal Forming.png'
-import GearManufacturing from '../Resources/Gear Manufacturing.png'
-import Mould from '../Resources/Mold.png'
-import Maintenance from '../Resources/Maintaince.png'
+import MetalForming from '../Resources/Metal Forming.png';
+import GearManufacturing from '../Resources/Gear Manufacturing.png';
+import Mould from '../Resources/Mold.png';
+import Maintenance from '../Resources/Maintaince.png';
+import { useNavigate } from 'react-router-dom';
 
 
 
 
 function Departments() {
+  const navigate = useNavigate();
   return (
     <>
     <Header></Header>
@@ -30,49 +32,49 @@ function Departments() {
       <h3>Explore the specialized capabilities of our Departments | اكتشف القدرات المتخصصة لأقسامنا</h3>
       <br></br>
       <div className='department_grid'>
-          <div class="Cnc">
+          <div onClick={() => navigate('/cnc')} class="Cnc">
             <img className='logo_grid' src={CNC}></img>
             <h2 className='logo_title'>CNC</h2>
             <p className='logo_desc'>
             High-precision CNC machining solutions for all your manufacturing needs
             </p>
           </div>
-          <div class="Conventional">
+          <div onClick={() => navigate('/conventional')} class="Conventional">
             <img className='logo_grid' src={Conventional}></img>
             <h2 className='logo_title'>Conventional</h2>
             <p className='logo_desc'>
             Reliable conventional machining for precise and durable components
             </p>
           </div>
-          <div class="Electrical">
+          <div onClick={() => navigate('/electrical')} class="Electrical">
             <img className='logo_grid' src={Electrical}></img>
             <h2 className='logo_title'>Electrical</h2>
             <p className='logo_desc'>
             Advanced electrical machining for intricate and accurate parts
             </p>
           </div>
-          <div class="Mold">
+          <div onClick={() => navigate('/mold')} class="Mold">
             <img className='logo_grid' src={Mold}></img>
             <h2 className='logo_title'>Mold & Die</h2>
             <p className='logo_desc'>
             Expert Mold & Die solutions for high-quality, custom manufacturing.
             </p>
           </div>
-          <div class="Sheet-Metal">
+          <div onClick={() => navigate('/sheetmetal')} class="Sheet-Metal">
             <img className='logo_grid' src={Sheet}></img>
             <h2 className='logo_title'>Sheet Metal</h2>
             <p className='logo_desc'>
             Precision sheet metal fabrication for versatile and durable products
             </p>
           </div>
-          <div class="Welding">
+          <div onClick={() => navigate('/welding')} class="Welding">
             <img className='logo_grid' src={Welding}></img>
             <h2 className='logo_title'>Welding</h2>
             <p className='logo_desc'>
             Expert welding services for strong and reliable joints
             </p>
           </div>
-          <div class="GearBox">
+          <div onClick={() => navigate('/gearbox')} class="GearBox">
               <img className='logo_grid' src={GearBox}></img>
               <h2 className='logo_title'>GearBox</h2>
               <p className='logo_desc'>
