@@ -130,16 +130,19 @@ function Home() {
       <div className='sales_grid'>
         <div className='salesCard1'>
          <img src={sale2} className='salesimage'></img>
+         <br></br>
          <h3 className='margin_bottom_zero'>CNC Milling | Turning Tools</h3>
          <p>Precision-engineered CNC milling and turning tools for unparalleled accuracy and efficiency</p>
         </div>
         <div className='salesCard2'>
          <img src={sale1} className='salesimage'></img>
+         <br></br>
          <h3 className='margin_bottom_zero'>CNC Holder</h3>
          <p>Reliable CNC holders for secure and precise tool mounting.</p>
         </div>
         <div className='salesCard3'>
           <img src={sale3} className='salesimage'></img>
+          <br></br>
           <h3 className='margin_bottom_zero'>Carbide End Mill</h3>
           <p>High-performance carbide end mills for superior cutting and durability.</p>
         </div>
