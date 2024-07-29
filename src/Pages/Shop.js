@@ -3,6 +3,7 @@ import Footer from '../Components/footer';
 import Header from '../Components/header';
 import '../Styles/shop.css';
 import Faq from 'react-faq-component';
+import Marquee from 'react-fast-marquee';
 
 
 
@@ -51,6 +52,23 @@ function Shop() {
   return (
     <>
     <Header></Header>
+    <Marquee className='sale_marquee_layout' autoFill>
+      <h3 className='sale_marquee'>
+      Tools Available For Sale | الأدوات المتاحة للبيع
+      </h3>
+    </Marquee>
+
+    <div className='sale_highlight_layout'>
+      <div className='sales_highligh_box'>
+        <h3>Industrial Machine Tools Available For Sale | أدوات الآلات الصناعية المتاحة للبيع</h3>
+        <div className='highlight_points'>
+          <p>CNC Milling | Turning Tools الطحن باستخدام الحاسب الآلي | أدوات تحول  <br></br>CNC Holder | حامل CNC <br></br>  Carbide End Mill (Flat & Round) <br></br> Carbide Insert (For Cnc Milling | Turning) | مطحنة نهاية الكربيد (مسطحة ومستديرة)  <br></br> Micro Meter | ميكرومت <br></br> Vernier Caliper (Digital & Manuel) | الورنية الفرجار (الرقمية ومانويل)
+          <br></br> Dial Indicator | اطلب مؤشر <br></br> Drill Bit (Carbide & HSS) | لقمة الحفر (كربيد وHSS)</p>
+        </div>
+      </div>
+      
+    </div>
+
     <div className='faq'>
       <div className='faq_context'>
         <Faq data={data}/>

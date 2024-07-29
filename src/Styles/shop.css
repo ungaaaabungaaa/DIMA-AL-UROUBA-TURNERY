@@ -16,3 +16,52 @@
   width: 65%;
   height: auto;
 }
+
+.sale_marquee_layout
+{
+  margin-top: 1.2rem;
+  width: 100vw;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  background-color: #DDC7BB;
+}
+
+.sale_marquee
+{
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+}
+
+.sale_highlight_layout
+{
+  width: 100vw;
+  height: 72vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sales_highligh_box
+{
+  width: 85%;
+  height: 92%;
+  border-radius: 1.2rem;
+  background-color: #FEF7F2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.highlight_points
+{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  height: auto;
+}
