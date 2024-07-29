@@ -11,10 +11,11 @@ import SomethingImage from '../Resources/AboutUs4.jpg'
 import sale1 from '../Resources/Sale1.png';
 import sale2 from '../Resources/Sale2.png';
 import sale3 from '../Resources/Sale3.png';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
 
-
+  const navigate = useNavigate();
   const [message, setMessage] = useState('');
 
   const handleSendMessage = () => {
@@ -153,7 +154,6 @@ function Home() {
     {/* 
     
      1.Change Grid Photos
-     2.Make all the Department Pages
      3. Responsiveness
     
     */}

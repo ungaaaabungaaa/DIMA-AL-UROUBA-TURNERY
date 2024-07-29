@@ -21,3 +21,41 @@
     margin-bottom: 0;
     cursor: pointer;
 }
+
+
+.cnc_grid_layout
+{
+    width: 100vw;
+    height: auto;
+    padding-top: 2.1rem;
+    padding-bottom: 2.1rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-image-layout
+{
+    grid-column-start: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grid-image
+{
+    width: 55%;
+}
+
+.grid-context-layout
+{
+    text-align: start;
+    width: 92%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
