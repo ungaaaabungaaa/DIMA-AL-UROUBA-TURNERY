@@ -5,6 +5,15 @@ import '../Styles/shop.css';
 import Faq from 'react-faq-component';
 import Marquee from 'react-fast-marquee';
 
+import ConcaveMilingCenter from '../Resources/Tools/Concave Milling Center.jpg';
+import FlyCutter from '../Resources/Tools/FlyCutter.jpg';
+import EndMillCutter from '../Resources/Tools/End Mill.jpg';
+import BallNoseEndMill from '../Resources/Tools/Ball Nose End.jpg';
+import FaceMillingCutter from '../Resources/Tools/Face.jpg';
+import ThreadMillCutter from '../Resources/Tools/ThreadMill.jpg';
+import RoughingEndMill from '../Resources/Tools/Roughingend.jpg';
+import WoodRuffCutter from '../Resources/Tools/Woodruff.jpg';
+
 
 
 function Shop() {
@@ -61,15 +70,19 @@ function Shop() {
 
     <div class="container_shop">
       <div class="Product1"> 
+        <img src={ConcaveMilingCenter} className='product_image'></img>
         <h3>Concave Miling Center</h3>
       </div>
       <div class="Product2">
+        <img src={FlyCutter} className='product_image'></img>
         <h3>Fly Cutter</h3>
       </div>
       <div class="Product3">
+        <img src={BallNoseEndMill} className='product_image'></img>
         <h3>Ball Nose End Mill</h3>
       </div>
       <div class="Product4">
+        <img src={FaceMillingCutter} className='product_image'></img>
         <h3>Face Milling Cutter</h3>
       </div>
     </div>
@@ -86,15 +99,19 @@ function Shop() {
 
     <div class="container_shop">
       <div class="Product1">
+        <img src={EndMillCutter} className='product_image'></img>
         <h3>End Mill Cutter</h3>
       </div>
       <div class="Product2">
+       <img src={ThreadMillCutter} className='product_image'></img>
         <h3>Thread Mill Cutter</h3>
       </div>
       <div class="Product3">
+        <img src={RoughingEndMill} className='product_image'></img>
         <h3>Roughing End Mill</h3>
       </div>
       <div class="Product4">
+       <img src={WoodRuffCutter} className='product_image'></img>
        <h3>WoodRuff Cutter</h3>
       </div>
     </div>

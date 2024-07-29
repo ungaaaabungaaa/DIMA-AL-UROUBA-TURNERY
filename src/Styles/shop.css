@@ -80,7 +80,7 @@
   grid-template-rows: 100%; 
   align-items: center;
   justify-content: center;
-  gap: 2% 2%; 
+  gap: 1% 1%; 
   grid-template-areas: 
     "Product1 Product2 Product3 Product4"; 
 }
@@ -134,5 +134,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column; 
+}
 
+.product_image
+{
+  width: 85%;
+  border-radius: 1.2rem;
+  height: auto;
 }
