@@ -70,20 +70,22 @@ function Shop() {
 
     <div class="container_shop">
       <div class="Product1"> 
-        <img src={ConcaveMilingCenter} className='product_image'></img>
-        <h3>Concave Miling Center</h3>
+        <h3 className='product_title'>Concave Miling Center</h3>
+        <p className='product_des'>Concave Milling Center, designed for high-quality metalworking and accurate concave surface machining.</p>
       </div>
       <div class="Product2">
-        <img src={FlyCutter} className='product_image'></img>
-        <h3>Fly Cutter</h3>
+        <h3 className='product_title'>Fly Cutter</h3>
+        <p className='product_des'>
+        high-quality finishes with our Fly Cutter, perfect for facing large flat surfaces in metalworking
+        </p>
       </div>
       <div class="Product3">
-        <img src={BallNoseEndMill} className='product_image'></img>
-        <h3>Ball Nose End Mill</h3>
+        <h3  className='product_title'>Ball Nose End Mill</h3>
+        <p className='product_des'>Perfect for 3D contouring and smooth finishes, our Ball Nose End Mill delivers precision in complex metalworking tasks</p>
       </div>
       <div class="Product4">
-        <img src={FaceMillingCutter} className='product_image'></img>
-        <h3>Face Milling Cutter</h3>
+        <h3 className='product_title'>Face Milling Cutter</h3>
+        <p className='product_des'>Optimize surface finishing with our Face Milling Cutter, engineered for efficient and precise removal of material on large flat surfaces</p>
       </div>
     </div>
 
@@ -99,20 +101,28 @@ function Shop() {
 
     <div class="container_shop">
       <div class="Product1">
-        <img src={EndMillCutter} className='product_image'></img>
-        <h3>End Mill Cutter</h3>
+        <h3 className='product_title' >End Mill Cutter</h3>
+        <p className='product_des'>
+          Enhance your machining versatility with our End Mill Cutter, ideal for precision cutting, slotting, and profiling in metalworking
+        </p>
       </div>
       <div class="Product2">
-       <img src={ThreadMillCutter} className='product_image'></img>
-        <h3>Thread Mill Cutter</h3>
+        <h3 className='product_title'>Thread Mill Cutter</h3>
+        <p className='product_des'>
+          Achieve precise and clean threads with our Thread Mill Cutter, designed for efficient and reliable threading operations in metalworking
+        </p>
       </div>
       <div class="Product3">
-        <img src={RoughingEndMill} className='product_image'></img>
-        <h3>Roughing End Mill</h3>
+        <h3 className='product_title'>Roughing End Mill</h3>
+        <p className='product_des'>
+         Maximize material removal with our Roughing End Mill, perfect for heavy-duty cutting and rapid stock removal in tough materials.
+        </p>
       </div>
       <div class="Product4">
-       <img src={WoodRuffCutter} className='product_image'></img>
-       <h3>WoodRuff Cutter</h3>
+       <h3 className='product_title'>WoodRuff Cutter</h3>
+       <p className='product_des'>
+         Create accurate keyways and slots with ease using our Woodruff Cutter, ideal for precise and efficient machining in metalworking
+        </p>
       </div>
     </div>
 
