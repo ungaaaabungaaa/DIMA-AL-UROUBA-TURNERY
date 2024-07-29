@@ -65,3 +65,55 @@
   padding-bottom: 1.1rem;
   height: auto;
 }
+
+
+
+
+.container_shop {
+  display: grid;
+  margin-top: 2.2rem;
+  margin-bottom: 2.2rem;
+  width: 100vw;
+  height: 52vh; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 23% 23% 23% 23%; 
+  grid-template-rows: 100%; 
+  align-items: center;
+  justify-content: center;
+  gap: 2% 2%; 
+  grid-template-areas: 
+    "Product1 Product2 Product3 Product4"; 
+}
+
+.Product1 
+{ 
+  grid-area: Product1; 
+  width: 92%;
+  height: 100%;
+  border-radius: 1.2rem;
+  background-color: #DDC7BB;
+
+}
+.Product2 { 
+  grid-area: Product2;
+  width: 92%;
+  height: 100%;
+  border-radius: 1.2rem;
+  background-color: #DDC7BB; 
+}
+.Product3 
+{ 
+  grid-area: Product3;
+  width: 92%;
+  height: 100%;
+  border-radius: 1.2rem;
+  background-color: #DDC7BB; 
+}
+.Product4 
+{ 
+  grid-area: Product4;
+  width: 92%;
+  height: 100%;
+  border-radius: 1.2rem;
+  background-color: #DDC7BB; 
+}

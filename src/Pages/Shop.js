@@ -58,6 +58,14 @@ function Shop() {
       </h3>
     </Marquee>
 
+
+    <div class="container_shop">
+      <div class="Product1"></div>
+      <div class="Product2"></div>
+      <div class="Product3"></div>
+      <div class="Product4"></div>
+    </div>
+
     <div className='sale_highlight_layout'>
       <div className='sales_highligh_box'>
         <h3>Industrial Machine Tools Available For Sale | أدوات الآلات الصناعية المتاحة للبيع</h3>
@@ -66,7 +74,13 @@ function Shop() {
           <br></br> Dial Indicator | اطلب مؤشر <br></br> Drill Bit (Carbide & HSS) | لقمة الحفر (كربيد وHSS)</p>
         </div>
       </div>
-      
+    </div>
+
+    <div class="container_shop">
+      <div class="Product1"></div>
+      <div class="Product2"></div>
+      <div class="Product3"></div>
+      <div class="Product4"></div>
     </div>
 
     <div className='faq'>
