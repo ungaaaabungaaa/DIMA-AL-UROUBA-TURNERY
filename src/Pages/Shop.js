@@ -5,17 +5,6 @@ import '../Styles/shop.css';
 import Faq from 'react-faq-component';
 import Marquee from 'react-fast-marquee';
 
-import ConcaveMilingCenter from '../Resources/Tools/Concave Milling Center.jpg';
-import FlyCutter from '../Resources/Tools/FlyCutter.jpg';
-import EndMillCutter from '../Resources/Tools/End Mill.jpg';
-import BallNoseEndMill from '../Resources/Tools/Ball Nose End.jpg';
-import FaceMillingCutter from '../Resources/Tools/Face.jpg';
-import ThreadMillCutter from '../Resources/Tools/ThreadMill.jpg';
-import RoughingEndMill from '../Resources/Tools/Roughingend.jpg';
-import WoodRuffCutter from '../Resources/Tools/Woodruff.jpg';
-
-
-
 function Shop() {
     const [message, setMessage] = useState('');
     const handleSendMessage = () => {

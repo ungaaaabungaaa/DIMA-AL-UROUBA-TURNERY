@@ -29,14 +29,7 @@ function Footer() {
           <h3 className='footer_h3'>Precision Crafting for a Brighter Tomorrow | صناعة دقيقة لمستقبل أكثر إشراقًا</h3>
       </div>
 
-      <div className='Support'>
-          <h3 className='footer_h3'>Support</h3>
-          <br></br>
-          <h5 className='footer_h5'>FAQ</h5>
-          <h5 className='footer_h5'>Contact Us</h5>
-          <h5 className='footer_h5'>Help Center</h5>
-          <h5 className='footer_h5'>Terms of Service</h5>
-      </div>
+     
 
       <div className='Pages'>
           <h3 className='footer_h3'>Pages</h3>
