@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Footer from '../Components/footer';
 import Header from '../Components/header';
 import '../Styles/shop.css';
+import Faq from 'react-faq-component';
 
 
 
@@ -18,10 +19,44 @@ function Shop() {
           // Clear the input field after sending
           setMessage('');
         }
-      };  
+      }; 
+      
+      const data = {
+        title: "FAQ",
+        rows: 
+        [
+          {
+            title: "What products do you manufacture?",
+            content: "We manufacture a wide range of metal parts and components. Our seven departments specialize in various aspects of manufacturing, including CNC machining and lathe work. Additionally, we sell a selection of high-quality tools."
+          },
+          {
+            title: "How can I place an order ?",
+            content: "You can place an order by contacting our sales team via email or phone"
+          },
+          {
+            title: "Do you offer custom manufacturing services?",
+            content: "Yes, we offer custom manufacturing services to meet your specific needs. Please reach out to us with your requirements, and our team will work with you to develop a tailored solution"
+          },
+          {
+            title: "How can I get in touch with customer support?",
+            content: "You can contact our customer support team through the contact form on our website, by email, or by calling our support hotline. We are here to assist you with any questions or concerns you may have."
+          },
+          {
+            title: "What is your lead time for manufacturing and delivery?",
+            content: "Our lead time for manufacturing varies depending on the complexity of your order and our current production schedule. Typically, it ranges from 1 to 4 weeks. Once your order is processed, we will provide an estimated delivery date"
+          }
+        
+        ]
+      }  
   return (
     <>
     <Header></Header>
+    <div className='faq'>
+      <div className='faq_context'>
+        <Faq data={data}/>
+      </div>
+    </div>
+    <br></br>
     <div className='Contact_us'>
         <h1>Do You Have Any Questions? <br></br>
         Get Help From Us</h1>

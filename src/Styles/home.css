@@ -348,3 +348,21 @@
     border-radius: 0.4rem;
     outline: none; /* Remove outline */
   }
+
+  .faq
+  {
+    width: 100%;
+    height: auto;
+    padding-top: 2.1rem;
+    padding-bottom: 2.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .faq_context
+  {
+    width: 75%;
+    height: auto;
+  }
