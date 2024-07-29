@@ -13,6 +13,7 @@ import Gearbox from './Pages/GearBox';
 import Mold from './Pages/Mold';
 import Sheet from './Pages/Sheet';
 import Welding from './Pages/Welding';
+import Shop from './Pages/Shop';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/mold" element={<Mold />} />
         <Route path="/sheetmetal" element={<Sheet />} />
         <Route path="/welding" element={<Welding />} />
+        <Route path="/shop" element={<Shop />} />
       </Routes>
     </Router>
     </>

@@ -19,14 +19,17 @@ function Home() {
   const [message, setMessage] = useState('');
 
   const handleSendMessage = () => {
-    if (message.trim()) {
-      const phoneNumber = '+9665099096620'; // Replace with your WhatsApp number
-      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    if (message.trim() !== '') {
+      const whatsappNumber = '9665099096620';
+      const encodedMessage = encodeURIComponent(message);
+      const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+      // Open WhatsApp in a new tab
       window.open(whatsappUrl, '_blank');
+
+      // Clear the input field after sending
       setMessage('');
     }
   };
-
     const handleEmailClick = () => {
       window.location.href = 'mailto:sales@dimaalouroba.com';
     };
@@ -177,8 +180,14 @@ function Home() {
           </div>
        </div>
        <div className='message_box'>
-          <input className='contact_message' type="text" placeholder="Enter your Message" value={message}  onChange={(e) => setMessage(e.target.value)}/>
-          <button className='contact_button'>Send</button>
+       <input 
+          className='contact_message' 
+          type="text" 
+          placeholder="Enter your Message" 
+          value={message}  
+          onChange={(e) => setMessage(e.target.value)}
+        />
+        <button className='contact_button' onClick={handleSendMessage}>Send</button>
        </div>
     </div>
 
