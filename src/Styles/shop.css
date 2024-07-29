@@ -92,6 +92,10 @@
   height: 100%;
   border-radius: 1.2rem;
   background-color: #DDC7BB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
 }
 .Product2 { 
@@ -100,6 +104,11 @@
   height: 100%;
   border-radius: 1.2rem;
   background-color: #DDC7BB; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }
 .Product3 
 { 
@@ -107,7 +116,12 @@
   width: 92%;
   height: 100%;
   border-radius: 1.2rem;
-  background-color: #DDC7BB; 
+  background-color: #DDC7BB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+ 
 }
 .Product4 
 { 
@@ -115,5 +129,10 @@
   width: 92%;
   height: 100%;
   border-radius: 1.2rem;
-  background-color: #DDC7BB; 
+  background-color: #DDC7BB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+
 }

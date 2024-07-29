@@ -60,10 +60,18 @@ function Shop() {
 
 
     <div class="container_shop">
-      <div class="Product1"></div>
-      <div class="Product2"></div>
-      <div class="Product3"></div>
-      <div class="Product4"></div>
+      <div class="Product1"> 
+        <h3>Concave Miling Center</h3>
+      </div>
+      <div class="Product2">
+        <h3>Fly Cutter</h3>
+      </div>
+      <div class="Product3">
+        <h3>Ball Nose End Mill</h3>
+      </div>
+      <div class="Product4">
+        <h3>Face Milling Cutter</h3>
+      </div>
     </div>
 
     <div className='sale_highlight_layout'>
@@ -77,10 +85,18 @@ function Shop() {
     </div>
 
     <div class="container_shop">
-      <div class="Product1"></div>
-      <div class="Product2"></div>
-      <div class="Product3"></div>
-      <div class="Product4"></div>
+      <div class="Product1">
+        <h3>End Mill Cutter</h3>
+      </div>
+      <div class="Product2">
+        <h3>Thread Mill Cutter</h3>
+      </div>
+      <div class="Product3">
+        <h3>Roughing End Mill</h3>
+      </div>
+      <div class="Product4">
+       <h3>WoodRuff Cutter</h3>
+      </div>
     </div>
 
     <div className='faq'>
