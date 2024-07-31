@@ -2,11 +2,11 @@ import React from 'react';
 import Footer from '../Components/footer';
 import Header from '../Components/header';
 import '../Styles/Aboutus.css';
-import Image1 from '../Resources/AboutUs.jpg';
-import Image2 from '../Resources/AboutUs2.jpg';
-import Image3 from '../Resources/AboutUs3.jpg';
-import Image4 from '../Resources/AboutUs4.jpg';
-import HeroImage from '../Resources/heroimage.png';
+import Image1 from '../Resources/AboutUs.webp';
+import Image2 from '../Resources/AboutUs2.webp';
+import Image3 from '../Resources/AboutUs3.webp';
+import Image4 from '../Resources/AboutUs4.webp';
+import HeroImage from '../Resources/heroimage.webp';
 
 
 function About() {
@@ -28,9 +28,7 @@ function About() {
     <div className='aboutus_2'>
       <img className='image1' src={Image1}></img>
     </div>
-    <br></br>
-
-
+   
     <div class="container">
       <div class="Aboutus3_image">
         <img className='image2' src={Image2}></img>

@@ -85,11 +85,61 @@
     flex-direction: column;
 }
 
-WhatsApp
-{
-    color: #4F3527;
-    margin: 0.5rem;
-    cursor: pointer;
-    transition: color 0.5s ease, transform 0.3s ease;
-    background-color: transparent;
-}
+/* Desktop */
+@media only screen and (min-width: 1025px) {
+    /* Your CSS styles for desktop */
+    
+  }
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Your CSS styles for tablet */
+    
+  }
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    /* Your CSS styles for mobile */
+
+    .footer
+    {
+        width: 100%;
+        height: auto;
+        background-color: #DDC7BB;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 2.2rem;
+        padding-bottom: 2.2rem;
+        margin: 0;
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+
+    .Our_Social
+    {
+       display: none;
+    }
+
+    .Pages
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .footer_titles
+    {
+       display: none;
+    }
+
+   
+ }
+
+  
+  

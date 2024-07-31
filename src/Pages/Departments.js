@@ -11,12 +11,12 @@ import Sheet from '../Resources/Logo/Sheet Metal.svg';
 import Welding from '../Resources/Logo/weild.svg';
 import GearBox from '../Resources/Logo/Gear.svg';
 import '../Styles/Aboutus.css';
-import Image2 from '../Resources/AboutUs2.jpg';
-import Image3 from '../Resources/AboutUs3.jpg';
-import MetalForming from '../Resources/Metal Forming.png';
-import GearManufacturing from '../Resources/Gear Manufacturing.png';
-import Mould from '../Resources/Mold.png';
-import Maintenance from '../Resources/Maintaince.png';
+import Image2 from '../Resources/AboutUs2.webp';
+import Image3 from '../Resources/AboutUs3.webp';
+import MetalForming from '../Resources/Metal Forming.webp';
+import GearManufacturing from '../Resources/Gear Manufacturing.webp';
+import Mould from '../Resources/Mold.webp';
+import Maintenance from '../Resources/Maintaince.webp';
 import { useNavigate } from 'react-router-dom';
 
 

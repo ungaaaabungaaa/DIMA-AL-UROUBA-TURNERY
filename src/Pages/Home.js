@@ -7,10 +7,10 @@ import Cards from '../Components/cards';
 import { objectives } from '../Data/objectivesData';
 import { departments } from '../Data/departmentsData';
 import DepartmentCards from '../Components/departmentCards';
-import SomethingImage from '../Resources/AboutUs4.jpg'
-import sale1 from '../Resources/Sale1.png';
-import sale2 from '../Resources/Sale2.png';
-import sale3 from '../Resources/Sale3.png';
+import SomethingImage from '../Resources/AboutUs4.webp'
+import sale1 from '../Resources/Sale1.webp';
+import sale2 from '../Resources/Sale2.webp';
+import sale3 from '../Resources/Sale3.webp';
 import { useNavigate } from 'react-router-dom';
 import Faq from 'react-faq-component';
 

@@ -72,3 +72,46 @@
     justify-content: space-between;
     flex-direction: row;
 }
+
+
+/* Desktop */
+@media only screen and (min-width: 1025px) {
+    /* Your CSS styles for desktop */
+    
+  }
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    
+  }
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    /* Your CSS styles for mobile */
+    .header
+    {
+        width: 100%;
+        height: auto;
+        margin-left: 1.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative; /* Changed from 'absolute' to 'fixed' */
+        background-color: white; /* Added to avoid content underneath showing through */
+        z-index: 1000; /* Added to ensure the header is above other content */
+    }
+
+    .contact
+    {
+       display: none;
+    }
+
+    .header_nav
+    {
+        display: none;
+    }
+
+   
+ }
