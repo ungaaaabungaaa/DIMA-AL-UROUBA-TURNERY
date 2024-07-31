@@ -3,7 +3,7 @@ import Footer from '../Components/footer';
 import Header from '../Components/header';
 import '../Styles/Conventional.css';
 import { useNavigate } from 'react-router-dom';
-import GridImage from '../Resources/Grids/ConventionalMachineryGrid .png';
+import GridImage from '../Resources/Grids/ConventionalMachineryGrid.webp';
 
 function Conventional() {
   const navigate = useNavigate();

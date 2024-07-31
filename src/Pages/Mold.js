@@ -3,7 +3,7 @@ import Footer from '../Components/footer';
 import Header from '../Components/header';
 import '../Styles/Mold.css';
 import { useNavigate } from 'react-router-dom';
-import GridImage from '../Resources/Grids/MoldGrid.png';
+import GridImage from '../Resources/Grids/MoldGrid.webp';
 
 function Mold() {
   const navigate = useNavigate();

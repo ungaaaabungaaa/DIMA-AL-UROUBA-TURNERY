@@ -3,7 +3,7 @@ import Footer from '../Components/footer';
 import Header from '../Components/header';
 import '../Styles/Electrical.css'
 import { useNavigate } from 'react-router-dom';
-import GridImage from '../Resources/Grids/ElectricalGrid.png';
+import GridImage from '../Resources/Grids/ElectricalGrid.webp';
 
 function Electrical() {
   const navigate = useNavigate();

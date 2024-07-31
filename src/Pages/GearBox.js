@@ -3,7 +3,7 @@ import Footer from '../Components/footer';
 import Header from '../Components/header';
 import '../Styles/GearBox.css';
 import { useNavigate } from 'react-router-dom';
-import GridImage from '../Resources/Grids/GearboxGrid.png';
+import GridImage from '../Resources/Grids/GearboxGrid.webp';
 
 function GearBox() {
   const navigate = useNavigate();

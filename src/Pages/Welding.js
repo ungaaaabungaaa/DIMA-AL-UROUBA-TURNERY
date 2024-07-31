@@ -3,7 +3,7 @@ import Footer from '../Components/footer';
 import Header from '../Components/header';
 import '../Styles/Welding.css';
 import { useNavigate } from 'react-router-dom';
-import GridImage from '../Resources/Grids/WeildingGrid.png';
+import GridImage from '../Resources/Grids/WeildingGrid.webp';
 
 
 function Welding() {

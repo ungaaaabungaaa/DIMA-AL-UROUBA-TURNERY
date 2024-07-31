@@ -3,7 +3,7 @@ import Footer from '../Components/footer';
 import Header from '../Components/header';
 import '../Styles/Sheet.css';
 import { useNavigate } from 'react-router-dom';
-import GridImage from '../Resources/Grids/SheetMetalGrid.png';
+import GridImage from '../Resources/Grids/SheetMetalGrid.webp';
 
 function Sheet() {
   const navigate = useNavigate();
