@@ -128,12 +128,22 @@
 .logo_grid
 {
     margin-left: 8%;
-
     margin-top: 8%;
     padding: 1.2rem;
     border-radius: 0.6rem;
     background-color: #FBF5F1;
 }
+
+
+.logo_grid_2
+{
+    margin-top: 8%;
+    padding: 1.2rem;
+    border-radius: 0.6rem;
+    background-color: #FBF5F1;
+}
+
+
 
 .logo_title
 {

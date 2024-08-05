@@ -4,6 +4,15 @@ import Header from '../Components/header';
 import '../Styles/shop.css';
 import Faq from 'react-faq-component';
 import Marquee from 'react-fast-marquee';
+import product1 from '../Resources/Icons/cnc.svg';
+import product2 from '../Resources/Icons/drill.svg';
+import product3 from '../Resources/Icons/laser.svg';
+import product4 from '../Resources/Icons/mill.svg';
+
+import product5 from '../Resources/Icons/waves.svg';
+import product6 from '../Resources/Icons/patjhsvg.svg';
+import product7 from '../Resources/Icons/trim.svg';
+import product8 from '../Resources/Icons/cutting.svg';
 
 function Shop() {
     const [message, setMessage] = useState('');
@@ -59,20 +68,24 @@ function Shop() {
 
     <div class="container_shop">
       <div class="Product1"> 
+        <img className='logo_grid_2' src={product1}></img>
         <h3 className='product_title'>Concave Miling Center</h3>
         <p className='product_des'>Concave Milling Center, designed for high-quality metalworking and accurate concave surface machining.</p>
       </div>
       <div class="Product2">
+        <img className='logo_grid_2' src={product2}></img>
         <h3 className='product_title'>Fly Cutter</h3>
         <p className='product_des'>
         high-quality finishes with our Fly Cutter, perfect for facing large flat surfaces in metalworking
         </p>
       </div>
       <div class="Product3">
+        <img className='logo_grid_2' src={product3}></img>
         <h3  className='product_title'>Ball Nose End Mill</h3>
         <p className='product_des'>Perfect for 3D contouring and smooth finishes, our Ball Nose End Mill delivers precision in complex metalworking tasks</p>
       </div>
       <div class="Product4">
+        <img className='logo_grid_2' src={product4}></img>
         <h3 className='product_title'>Face Milling Cutter</h3>
         <p className='product_des'>Optimize surface finishing with our Face Milling Cutter, engineered for efficient and precise removal of material on large flat surfaces</p>
       </div>
@@ -90,24 +103,28 @@ function Shop() {
 
     <div class="container_shop">
       <div class="Product1">
+        <img className='logo_grid_2' src={product5}></img>
         <h3 className='product_title' >End Mill Cutter</h3>
         <p className='product_des'>
           Enhance your machining versatility with our End Mill Cutter, ideal for precision cutting, slotting, and profiling in metalworking
         </p>
       </div>
       <div class="Product2">
+        <img className='logo_grid_2' src={product6}></img>
         <h3 className='product_title'>Thread Mill Cutter</h3>
         <p className='product_des'>
           Achieve precise and clean threads with our Thread Mill Cutter, designed for efficient and reliable threading operations in metalworking
         </p>
       </div>
       <div class="Product3">
+        <img className='logo_grid_2' src={product7}></img>
         <h3 className='product_title'>Roughing End Mill</h3>
         <p className='product_des'>
          Maximize material removal with our Roughing End Mill, perfect for heavy-duty cutting and rapid stock removal in tough materials.
         </p>
       </div>
       <div class="Product4">
+      <img className='logo_grid_2' src={product8}></img>
        <h3 className='product_title'>WoodRuff Cutter</h3>
        <p className='product_des'>
          Create accurate keyways and slots with ease using our Woodruff Cutter, ideal for precise and efficient machining in metalworking
