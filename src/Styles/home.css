@@ -93,7 +93,6 @@
     margin-bottom: 1.1rem;
     width: 100vw;
     height: 68vh;
-    background-color: #fef7f2;
     display: grid;
     z-index: 1;
     grid-template-columns: 10% 45% 45%;
@@ -125,7 +124,7 @@
     background-size: 88%;
     background-position: center right;
     background-repeat: no-repeat;
-    background-image: url(../Resources/heroimage.webp);
+    transition: background-image 1s ease-in-out;
   }
   
 

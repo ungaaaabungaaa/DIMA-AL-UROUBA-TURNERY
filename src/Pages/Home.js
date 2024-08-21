@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Footer from '../Components/footer';
 import Header from '../Components/header';
 import '../Styles/home.css';
@@ -13,13 +13,16 @@ import sale2 from '../Resources/Sale2.webp';
 import sale3 from '../Resources/Sale3.webp';
 import { useNavigate } from 'react-router-dom';
 import Faq from 'react-faq-component';
+import heroImage1 from '../Resources/Hero/Hero1.webp';
+import heroImage2 from '../Resources/Hero/Hero2.webp';
+import heroImage3 from '../Resources/Hero/Hero3.webp';
+import heroImage4 from '../Resources/Hero/Hero4.webp';
+import heroImage5 from '../Resources/Hero/Hero5.webp';
 
 function Home() {
 
   const navigate = useNavigate();
   const [message, setMessage] = useState('');
-
-
 
 
   const data = {
@@ -50,8 +53,6 @@ function Home() {
     ]
   }
 
-
-
   const handleSendMessage = () => {
     if (message.trim() !== '') {
       const whatsappNumber = '9665099096620';
@@ -64,41 +65,35 @@ function Home() {
       setMessage('');
     }
   };
-    const handleEmailClick = () => {
-      window.location.href = 'mailto:sales@dimaalouroba.com';
-    };
-  
-    const handlePhoneClick = () => {
-      window.location.href = 'tel:+966582444166';
-    };
-  
-    const handleWhatsAppClick = () => {
-      const phoneNumber = '+9665099096620';
-      const message = 'Hello'; // You can prefill a message if needed
-      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-      window.open(url, '_blank');
-    };
-  
-    const handleLocationClick = () => {
-      const ShopLocation = 'https://maps.app.goo.gl/UxwJvBMQUqZTuicx6';
-      window.open(ShopLocation, '_blank');
-    };
 
+  const images = [heroImage1,heroImage2,heroImage3,heroImage4,heroImage5];
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setCurrentImageIndex((prevIndex) =>
+          prevIndex === images.length - 1 ? 0 : prevIndex + 1
+        );
+      }, 5000); // Change image every 5 seconds
+      return () => clearInterval(interval); // Cleanup interval on component unmount
+    }, [images.length]);
+  
 
   return (
     <>
     <Header></Header>
    
-   <div className='hero'>
-    <div className='hero_text'>
-      <h1 className='hero_title'>DIMA AL <br></br> UROUBA</h1>
-      <h3>Precision Crafting for a Brighter Tomorrow | صناعة  <br></br>دقيقة لمستقبل أكثر إشراقًا</h3>
-      <br></br>
-      <button className='contact_button'>Contact</button>
+    <div className='hero'>
+      <div className='hero_text'>
+        <h1 className='hero_title'>DIMA AL <br></br> UROUBA</h1>
+        <h3>Precision Crafting for a Brighter Tomorrow | صناعة  <br></br>دقيقة لمستقبل أكثر إشراقًا</h3>
+        <br></br>
+        <button className='contact_button'>Contact</button>
+      </div>
+      <div
+        className='hero_image'
+        style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
+      ></div>
     </div>
-    <div className='hero_image'>
-    </div>
-   </div>
 
   
 
