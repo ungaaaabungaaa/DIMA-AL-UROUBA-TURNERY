@@ -11,8 +11,10 @@ import Sheet from '../Resources/Logo/Sheet Metal.svg';
 import Welding from '../Resources/Logo/weild.svg';
 import GearBox from '../Resources/Logo/Gear.svg';
 import '../Styles/Aboutus.css';
-import Image2 from '../Resources/AboutUs2.webp';
-import Image3 from '../Resources/AboutUs3.webp';
+import Image2 from '../Resources/Department1.webp';
+import Image3 from '../Resources/Department2.webp';
+import Image4 from '../Resources/Department3.webp';
+import Image5 from '../Resources/Department4.webp';
 import MetalForming from '../Resources/Metal Forming.webp';
 import GearManufacturing from '../Resources/Gear Manufacturing.webp';
 import Mould from '../Resources/Mold.webp';
@@ -137,7 +139,7 @@ function Departments() {
       <img className='metalforming' src={GearManufacturing}></img>
       <div class="container">
       <div class="Aboutus3_image">
-        <img className='image2' src={Image2}></img>
+        <img className='image2' src={Image5}></img>
       </div>
       <div class="Aboutus3_titel">
         <h1> Mold Manufacturing & Maintenance Departments Which Includes | أقسام تصنيع وصيانة القوالب والتي تشمل </h1>
@@ -155,7 +157,7 @@ function Departments() {
       <img className='metalforming' src={Mould}></img>
       <div class="container3">
         <div class="Aboutus4_image">
-          <img className='image3' src={Image3}></img>
+          <img className='image3' src={Image4}></img>
         </div>
         <div class="Aboutus4_titel">
           <h1>Maintenance Department Which Includes | قسم الصيانة والذي يضم </h1>
