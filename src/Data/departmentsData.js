@@ -11,37 +11,44 @@ export const departments = [
     {
       name: "CNC",
       description: "High-precision CNC machining solutions for all your manufacturing needs",
-      icon: Conventional
+      icon: Conventional,
+      path: "/cnc" 
     },
     {
       name: "Conventional",
       description: "Reliable conventional machining for precise and durable components",
-      icon: CNC
+      icon: CNC,
+      path: "/conventional" 
     },
     {
       name: "Electrical",
       description: "Advanced electrical machining for intricate and accurate parts",
-      icon: Electrical
+      icon: Electrical,
+      path: "/electrical"
     },
     {
       name: "Mold & Die",
       description: "Expert Mold & Die solutions for high-quality, custom manufacturing.",
-      icon: Mold
+      icon: Mold,
+      path: "/mold" 
     },
     {
       name: "Sheet Metal",
       description: "Precision sheet metal fabrication for versatile and durable products",
-      icon: Sheet
+      icon: Sheet,
+      path: "/sheetmetal" 
     },
     {
       name: "Welding",
       description: "Expert welding services for strong and reliable joints",
-      icon: Welding
+      icon: Welding,
+      path: "/welding" 
     },
     {
         name: "GearBox",
         description: "High-performance gearbox manufacturing for efficient and reliable power transmission",
-        icon: GearBox
+        icon: GearBox,
+        path: "/gearbox"
     },
     // Add more departments as needed
   ];

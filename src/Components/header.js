@@ -4,6 +4,11 @@ import '../Styles/Header.css';
 
 function Header() {
   const navigate = useNavigate();
+  const handleContactClick = () => {
+    const phoneNumber = '9665099096620';
+    const url = `https://wa.me/${phoneNumber}`;
+    window.open(url, '_blank');
+  };
   return (
     <>
     <div className='header'>
@@ -20,7 +25,7 @@ function Header() {
 
 
         <div className='contact'>
-          <button className='contact_button'>Contact</button>
+          <button onClick={handleContactClick} className='contact_button'>Contact</button>
         </div>
 
 

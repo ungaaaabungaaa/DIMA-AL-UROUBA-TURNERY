@@ -4,10 +4,38 @@ import Header from '../Components/header';
 import '../Styles/Conventional.css';
 import { useNavigate } from 'react-router-dom';
 import GridImage from '../Resources/Grids/ConventionalMachineryGrid.webp';
+import Faq from 'react-faq-component';
 
 function Conventional() {
   const navigate = useNavigate();
   const [message, setMessage] = useState('');
+  const data = {
+    title: "FAQ",
+    rows: 
+    [
+      {
+        title: "What products do you manufacture?",
+        content: "We manufacture a wide range of metal parts and components. Our seven departments specialize in various aspects of manufacturing, including CNC machining and lathe work. Additionally, we sell a selection of high-quality tools."
+      },
+      {
+        title: "How can I place an order ?",
+        content: "You can place an order by contacting our sales team via email or phone"
+      },
+      {
+        title: "Do you offer custom manufacturing services?",
+        content: "Yes, we offer custom manufacturing services to meet your specific needs. Please reach out to us with your requirements, and our team will work with you to develop a tailored solution"
+      },
+      {
+        title: "How can I get in touch with customer support?",
+        content: "You can contact our customer support team through the contact form on our website, by email, or by calling our support hotline. We are here to assist you with any questions or concerns you may have."
+      },
+      {
+        title: "What is your lead time for manufacturing and delivery?",
+        content: "Our lead time for manufacturing varies depending on the complexity of your order and our current production schedule. Typically, it ranges from 1 to 4 weeks. Once your order is processed, we will provide an estimated delivery date"
+      }
+    
+    ]
+  }
   const handleSendMessage = () => {
     if (message.trim() !== '') {
       const whatsappNumber = '9665099096620';
@@ -27,8 +55,6 @@ function Conventional() {
           <h1 className='margin_bottom_zero'>Conventional</h1>
           <h3 onClick={() => navigate('/departments')} className='margin_bottom_zero'>Departments</h3>
       </div>
-
-
 
       <div className='conventional_grid_layout'>
         <div className='grid-image-layout'>
@@ -52,6 +78,12 @@ function Conventional() {
           </p>
         </div>
 
+      </div>
+
+      <div className='faq'>
+        <div className='faq_context'>
+          <Faq data={data}/>
+        </div>
       </div>
 
       <div className='Contact_us'>

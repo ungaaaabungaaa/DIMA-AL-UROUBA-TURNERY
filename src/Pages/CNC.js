@@ -4,6 +4,7 @@ import Header from '../Components/header';
 import '../Styles/Cnc.css';
 import { useNavigate } from 'react-router-dom';
 import GridImage from '../Resources/Grids/CNCGrid.webp';
+import Faq from 'react-faq-component';
 
 function CNC() {
 
@@ -22,6 +23,34 @@ function CNC() {
     }
   };
 
+  const data = {
+    title: "FAQ",
+    rows: 
+    [
+      {
+        title: "What products do you manufacture?",
+        content: "We manufacture a wide range of metal parts and components. Our seven departments specialize in various aspects of manufacturing, including CNC machining and lathe work. Additionally, we sell a selection of high-quality tools."
+      },
+      {
+        title: "How can I place an order ?",
+        content: "You can place an order by contacting our sales team via email or phone"
+      },
+      {
+        title: "Do you offer custom manufacturing services?",
+        content: "Yes, we offer custom manufacturing services to meet your specific needs. Please reach out to us with your requirements, and our team will work with you to develop a tailored solution"
+      },
+      {
+        title: "How can I get in touch with customer support?",
+        content: "You can contact our customer support team through the contact form on our website, by email, or by calling our support hotline. We are here to assist you with any questions or concerns you may have."
+      },
+      {
+        title: "What is your lead time for manufacturing and delivery?",
+        content: "Our lead time for manufacturing varies depending on the complexity of your order and our current production schedule. Typically, it ranges from 1 to 4 weeks. Once your order is processed, we will provide an estimated delivery date"
+      }
+    
+    ]
+  }
+
 
 
     const navigate = useNavigate();
@@ -33,26 +62,34 @@ function CNC() {
           <h3 onClick={() => navigate('/departments')} className='margin_bottom_zero'>Departments</h3>
       </div>
       <div className='cnc_grid_layout'>
-        <div className='grid-image-layout'>
-           <img src={GridImage} className='grid-image'></img>
+          <div className='grid-image-layout'>
+            <img src={GridImage} className='grid-image'></img>
+          </div>
+          <div className='grid-context-layout'>
+            <h1>CNC | قسم التحكم الرقمي</h1>
+            <p>At DIMA AL UROUBA TURNERY, our CNC (Computer Numerical Control) department is at the heart of our precision manufacturing capabilities. Equipped with state-of-the-art CNC machines, we specialize in producing high-precision components that meet the exact specifications of our clients. Our skilled technicians utilize advanced software and machinery to ensure that every product meets the highest standards of quality and accuracy.
+            <br></br>
+            <br></br>
+            Our CNC department is complemented by our range of lathe machines, which allow us to perform various turning operations with exceptional precision. This combination of CNC and lathe machines enables us to handle complex manufacturing tasks and deliver products that exceed our clients' expectations.
+            </p>
+            <br></br>
+            <p>
+            في شركة ديمة العروبة للخراطة، يُعتبر قسم التحكم الرقمي CNC قلب قدراتنا التصنيعية الدقيقة. مجهز بأحدث ماكينات التحكم الرقمي، نتخصص في إنتاج المكونات عالية الدقة التي تلبي المواصفات الدقيقة لعملائنا. يستخدم فنينا المهرة البرمجيات المتقدمة والآلات لضمان أن كل منتج يلبي أعلى معايير الجودة والدقة.
+            <br></br>
+            <br></br>
+  يُكمل قسم التحكم الرقمي CNC لدينا مجموعة ماكينات الخراطة لدينا، مما يتيح لنا تنفيذ عمليات الدوران المختلفة بدقة استثنائية. هذا الجمع بين ماكينات التحكم الرقمي CNC وماكينات الخراطة يمكننا من التعامل مع المهام التصنيعية المعقدة وتقديم منتجات تتجاوز توقعات عملائنا.
+            </p>
+          </div>
+      </div>
+      
+
+      <div className='faq'>
+        <div className='faq_context'>
+          <Faq data={data}/>
         </div>
-       
-        <div className='grid-context-layout'>
-          <h1>CNC | قسم التحكم الرقمي</h1>
-          <p>At DIMA AL UROUBA TURNERY, our CNC (Computer Numerical Control) department is at the heart of our precision manufacturing capabilities. Equipped with state-of-the-art CNC machines, we specialize in producing high-precision components that meet the exact specifications of our clients. Our skilled technicians utilize advanced software and machinery to ensure that every product meets the highest standards of quality and accuracy.
-          <br></br>
-          <br></br>
-          Our CNC department is complemented by our range of lathe machines, which allow us to perform various turning operations with exceptional precision. This combination of CNC and lathe machines enables us to handle complex manufacturing tasks and deliver products that exceed our clients' expectations.
-          </p>
-          <br></br>
-          <p>
-          في شركة ديمة العروبة للخراطة، يُعتبر قسم التحكم الرقمي CNC قلب قدراتنا التصنيعية الدقيقة. مجهز بأحدث ماكينات التحكم الرقمي، نتخصص في إنتاج المكونات عالية الدقة التي تلبي المواصفات الدقيقة لعملائنا. يستخدم فنينا المهرة البرمجيات المتقدمة والآلات لضمان أن كل منتج يلبي أعلى معايير الجودة والدقة.
-          <br></br>
-          <br></br>
-يُكمل قسم التحكم الرقمي CNC لدينا مجموعة ماكينات الخراطة لدينا، مما يتيح لنا تنفيذ عمليات الدوران المختلفة بدقة استثنائية. هذا الجمع بين ماكينات التحكم الرقمي CNC وماكينات الخراطة يمكننا من التعامل مع المهام التصنيعية المعقدة وتقديم منتجات تتجاوز توقعات عملائنا.
-          </p>
-        </div>
-        
+      </div>
+
+
       <div className='Contact_us'>
         <h1>Do You Have Any Questions? <br></br>
         Get Help From Us</h1>
@@ -81,8 +118,6 @@ function CNC() {
           />
           <button className='contact_button' onClick={handleSendMessage}>Send</button>
        </div>
-       </div>
-
       </div>
       <Footer></Footer>
       </>

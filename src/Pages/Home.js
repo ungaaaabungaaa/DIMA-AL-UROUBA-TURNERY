@@ -23,6 +23,12 @@ function Home() {
 
   const navigate = useNavigate();
   const [message, setMessage] = useState('');
+  
+  const handleContactClick = () => {
+    const phoneNumber = '9665099096620';
+    const url = `https://wa.me/${phoneNumber}`;
+    window.open(url, '_blank');
+  };
 
 
   const data = {
@@ -60,7 +66,6 @@ function Home() {
       const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
       // Open WhatsApp in a new tab
       window.open(whatsappUrl, '_blank');
-
       // Clear the input field after sending
       setMessage('');
     }
@@ -87,7 +92,7 @@ function Home() {
         <h1 className='hero_title'>DIMA AL <br></br> UROUBA</h1>
         <h3>Precision Crafting for a Brighter Tomorrow | صناعة  <br></br>دقيقة لمستقبل أكثر إشراقًا</h3>
         <br></br>
-        <button className='contact_button'>Contact</button>
+        <button onClick={handleContactClick} className='contact_button'>Contact</button>
       </div>
       <div
         className='hero_image'
@@ -134,6 +139,7 @@ function Home() {
                 name={department.name} 
                 desc={department.description} 
                 icon={department.icon} 
+                path={department.path} 
               />
             ))}
       </Marquee>
@@ -185,7 +191,6 @@ function Home() {
 
     {/* 
     
-     1.Change Grid Photos
      3. Responsiveness
     
     */}
