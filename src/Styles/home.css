@@ -234,7 +234,7 @@
   {
     padding-bottom: 2.1rem;
     width: 78%;
-    height: 72%;
+    height: auto;
     display: grid;
     grid-template-columns: 32% 32% 32%;
     column-gap: 1%;

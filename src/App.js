@@ -18,7 +18,7 @@ import ScrollToTop from './Hooks/ScrollToTop';
 
 
 function App() {
-  usePreventActions();
+  //usePreventActions();
   return (
     <>
      <Router>

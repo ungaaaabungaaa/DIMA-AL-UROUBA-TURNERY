@@ -11,6 +11,9 @@ import SomethingImage from '../Resources/AboutUs4.webp'
 import sale1 from '../Resources/Sale1.webp';
 import sale2 from '../Resources/Sale2.webp';
 import sale3 from '../Resources/Sale3.webp';
+import sale4 from '../Resources/Sale4.webp';
+import sale5 from '../Resources/Sale5.webp';
+import sale6 from '../Resources/Sale6.webp';
 import { useNavigate } from 'react-router-dom';
 import Faq from 'react-faq-component';
 import heroImage1 from '../Resources/Hero/Hero1.webp';
@@ -146,22 +149,6 @@ function Home() {
      
     </div>
 
-    <div className='objectives'>
-    <h2>Objectives</h2>
-    <h3>Crafting precision-engineered components with expertise and <br></br> efficiency in our advanced department</h3>
-    <br></br>
-      <Marquee autoFill>
-          <Cards objective={objectives[0]} />
-          <Cards objective={objectives[1]} />
-          <Cards objective={objectives[2]} />
-          <Cards objective={objectives[3]} />
-          <Cards objective={objectives[4]} />
-          <Cards objective={objectives[5]} />
-      </Marquee>
-    <br></br>
-    <br></br>
-    <br></br>
-    </div>
 
     <div className='sales'>
       <h2>Machine Tools <br></br>For Sales</h2>
@@ -186,9 +173,49 @@ function Home() {
           <p>High-performance carbide end mills for superior cutting and durability.</p>
         </div>
       </div>
+      <br></br>
+      <div className='sales_grid'>
+        <div className='salesCard1'>
+         <img src={sale4} className='salesimage'></img>
+         <br></br>
+         <h3 className='margin_bottom_zero'>Vernier Caliper (Digital & Manuel)</h3>
+         <p>Accurate Measurements, Available in Both Digital & Manual versions</p>
+        </div>
+        <div className='salesCard2'>
+         <img src={sale5} className='salesimage'></img>
+         <br></br>
+         <h3 className='margin_bottom_zero'>Dial Indicator</h3>
+         <p>Accurate & Reliable Measurement of Small Linear Distances</p>
+        </div>
+        <div className='salesCard3'>
+          <img src={sale6} className='salesimage'></img>
+          <br></br>
+          <h3 className='margin_bottom_zero'>Drill Bit (Carbide & HSS)</h3>
+          <p>Available in Both Carbide & High-Speed Steel (HSS) Options</p>
+        </div>
+      </div>
+
     </div>
 
 
+    <div className='objectives'>
+    <h2>Objectives</h2>
+    <h3>Crafting precision-engineered components with expertise and <br></br> efficiency in our advanced department</h3>
+    <br></br>
+      <Marquee autoFill>
+          <Cards objective={objectives[0]} />
+          <Cards objective={objectives[1]} />
+          <Cards objective={objectives[2]} />
+          <Cards objective={objectives[3]} />
+          <Cards objective={objectives[4]} />
+          <Cards objective={objectives[5]} />
+      </Marquee>
+    <br></br>
+    <br></br>
+    <br></br>
+    </div>
+
+   
     {/* 
     
      3. Responsiveness
