@@ -15,9 +15,9 @@ import Image2 from '../Resources/Department1.webp';
 import Image3 from '../Resources/Department2.webp';
 import Image4 from '../Resources/Department3.webp';
 import Image5 from '../Resources/Department4.webp';
-import MetalForming from '../Resources/Metal Forming.webp';
+import MetalForming from '../Resources/manufacturinggrid.webp';
 import GearManufacturing from '../Resources/Gear Manufacturing.webp';
-import Mould from '../Resources/Mold.webp';
+import Mould from '../Resources/moldgrid.webp';
 import Maintenance from '../Resources/Maintaince.webp';
 import { useNavigate } from 'react-router-dom';
 
@@ -154,7 +154,7 @@ function Departments() {
           <br></br>
       </div>
       </div>  
-      <img className='metalforming' src={Mould}></img>
+     
       <div class="container3">
         <div class="Aboutus4_image">
           <img className='image3' src={Image4}></img>
