@@ -14,6 +14,7 @@ import Mold from './Pages/Mold';
 import Sheet from './Pages/Sheet';
 import Welding from './Pages/Welding';
 import Shop from './Pages/Shop';
+import ScrollToTop from './Hooks/ScrollToTop';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
   return (
     <>
      <Router>
+      <ScrollToTop /> {/* Add this line */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/departments" element={<Departments />} />
