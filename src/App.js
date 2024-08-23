@@ -14,8 +14,16 @@ import Mold from './Pages/Mold';
 import Sheet from './Pages/Sheet';
 import Welding from './Pages/Welding';
 import Shop from './Pages/Shop';
-import ProductDetails from './Pages/ProductDetails';
 import ScrollToTop from './Hooks/ScrollToTop';
+
+import ConcaveMilingCenter from '../src/ProductPages/ConcaveMilingCenter';
+import FlyCutter from '../src/ProductPages/FlyCutter';
+import BallNoseEndMill from '../src/ProductPages/BallNoseEndMill';
+import FaceMillingCutter from '../src/ProductPages/FaceMillingCutter';
+import EndMillCutter from '../src/ProductPages/EndMillCutter';
+import ThreadMillCutter from '../src/ProductPages/ThreadMillCutter';
+import RoughingEndMill from '../src/ProductPages/RoughingEndMill';
+import WoodRuffCutter from '../src/ProductPages/WoodRuffCutter';
 
 
 function App() {
@@ -37,7 +45,16 @@ function App() {
         <Route path="/sheetmetal" element={<Sheet />} />
         <Route path="/welding" element={<Welding />} />
         <Route path="/shop" element={<Shop />} />
-        <Route path="/productdetails" element={<ProductDetails />} />
+
+        <Route path="/concavemilingcenter" element={<ConcaveMilingCenter />} />
+        <Route path="/flycutter" element={<FlyCutter />} />
+        <Route path="/ballnoseendmill" element={<BallNoseEndMill />} />
+        <Route path="/facemillingcutter" element={<FaceMillingCutter />} />
+        <Route path="/endmillcutter" element={<EndMillCutter />} />
+        <Route path="/threadmillcutter" element={<ThreadMillCutter />} />
+        <Route path="/roughingendmill" element={<RoughingEndMill />} />
+        <Route path="/woodruffcutter" element={<WoodRuffCutter />} />
+
       </Routes>
     </Router>
     </>
