@@ -203,7 +203,7 @@ function Home() {
     <h2>Objectives | أهداف</h2>
     <h3>Crafting precision-engineered components with expertise and <br></br> efficiency in our advanced department <br></br> تصنيع مكونات مصممة بدقة مع الخبرة والكفاءة في قسمنا المتقدم</h3>
     <br></br>
-      <Marquee autoFill>
+      <Marquee pauseOnHover pauseOnClick autoFill>
           <Cards objective={objectives[0]} />
           <Cards objective={objectives[1]} />
           <Cards objective={objectives[2]} />
