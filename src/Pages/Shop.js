@@ -8,7 +8,6 @@ import product1 from '../Resources/Icons/cnc.svg';
 import product2 from '../Resources/Icons/drill.svg';
 import product3 from '../Resources/Icons/laser.svg';
 import product4 from '../Resources/Icons/mill.svg';
-
 import product5 from '../Resources/Icons/waves.svg';
 import product6 from '../Resources/Icons/patjhsvg.svg';
 import product7 from '../Resources/Icons/trim.svg';
@@ -56,6 +55,9 @@ function Shop() {
         
         ]
       }  
+
+    
+
   return (
     <>
     <Header></Header>

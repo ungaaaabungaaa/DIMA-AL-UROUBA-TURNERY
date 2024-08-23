@@ -14,6 +14,7 @@ import Mold from './Pages/Mold';
 import Sheet from './Pages/Sheet';
 import Welding from './Pages/Welding';
 import Shop from './Pages/Shop';
+import ProductDetails from './Pages/ProductDetails';
 import ScrollToTop from './Hooks/ScrollToTop';
 
 
@@ -36,6 +37,7 @@ function App() {
         <Route path="/sheetmetal" element={<Sheet />} />
         <Route path="/welding" element={<Welding />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/productdetails" element={<ProductDetails />} />
       </Routes>
     </Router>
     </>
