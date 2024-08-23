@@ -63,17 +63,17 @@ function WoodRuffCutter() {
           </div>
           <div className='product_details_desc'>
             <h1>Wood Ruff Cutter</h1>
-            <p>The Ball Nose End Mill is designed for intricate 3D contouring and smooth surface finishes. With a durable 3-inch tungsten carbide cutting edge and a 6-inch overall length, it excels in precision machining. Compatible with standard CNC machines, this tool is perfect for detailed work in molds and complex geometries</p>
+            <p>The Woodruff Cutter is precision-engineered for creating keyways and slots with accuracy and efficiency. With a durable 2-inch tungsten carbide cutting edge and a 3-inch overall length, this cutter is ideal for both CNC and manual milling machines. It is specifically designed to produce clean and precise keyseat slots, ensuring a perfect fit for Woodruff keys</p>
             <h3>Generalized Specs :</h3>
             <p>
-               <b>Materials :</b> Tungsten Carbide, High-Speed Steel <br></br>
-                <b>Dimensions :</b> 3-inch cutting edge, 6-inch total length  <br></br>
-                <b>Compatibility :</b> Fits all standard CNC machines  <br></br>
-                <b>Cutting Profile :</b> Ball nose design for smooth 3D contouring  <br></br>
-                <b>Durability :</b> High wear resistance for extended tool life  <br></br>
-                <b>Application :</b> Ideal for mold-making, die-casting, and complex geometries  <br></br>
-                <b>Coating :</b> TiAlN coating for enhanced heat and oxidation resistance  <br></br>
+               <b>Materials :</b> Fits all standard CNC and manual milling machines <br></br>
+                <b>Dimensions :</b> Half-moon design for cutting keyseat slots  <br></br>
+                <b>Compatibility :</b> High wear resistance for extended tool life  <br></br>
+                <b>Application :</b> Ideal for cutting Woodruff keyways, slots, and grooves  <br></br>
+                <b>Coating :</b> TiN (Titanium Nitride) coating for enhanced durability and reduced friction  <br></br>
                 <b>Shank Size :</b> 1/2-inch universal shank  <br></br>
+                <b>Cutting Diameter :</b> Available in various diameters for different key sizes <br></br>
+                <b>Helix Angle:</b> Straight flute design for clean cuts and chip removal <br></br>
             </p>
             <br></br>
             <br></br>

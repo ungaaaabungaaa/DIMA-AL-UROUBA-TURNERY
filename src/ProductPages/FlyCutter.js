@@ -63,17 +63,17 @@ function FlyCutter() {
           </div>
           <div className='product_details_desc'>
             <h1>Fly Cutter</h1>
-            <p>The Ball Nose End Mill is designed for intricate 3D contouring and smooth surface finishes. With a durable 3-inch tungsten carbide cutting edge and a 6-inch overall length, it excels in precision machining. Compatible with standard CNC machines, this tool is perfect for detailed work in molds and complex geometries</p>
+            <p>The Fly Cutter is engineered for high-precision surface finishing and facing operations. Featuring a robust 4-inch high-speed steel blade and an 8-inch total length, it delivers consistent performance across various materials. Designed to fit standard milling machines, this tool ensures efficient and smooth cuts in every application.</p>
             <h3>Generalized Specs :</h3>
             <p>
-               <b>Materials :</b> Tungsten Carbide, High-Speed Steel <br></br>
-                <b>Dimensions :</b> 3-inch cutting edge, 6-inch total length  <br></br>
-                <b>Compatibility :</b> Fits all standard CNC machines  <br></br>
-                <b>Cutting Profile :</b> Ball nose design for smooth 3D contouring  <br></br>
-                <b>Durability :</b> High wear resistance for extended tool life  <br></br>
-                <b>Application :</b> Ideal for mold-making, die-casting, and complex geometries  <br></br>
-                <b>Coating :</b> TiAlN coating for enhanced heat and oxidation resistance  <br></br>
-                <b>Shank Size :</b> 1/2-inch universal shank  <br></br>
+               <b>Materials :</b> High-Speed Steel, Tungsten Carbide <br></br>
+                <b>Dimensions :</b> 4-inch blade, 8-inch total length  <br></br>
+                <b>Compatibility :</b> Fits all standard milling machines  <br></br>
+                <b>Cutting Profile :</b> Single-point, adjustable cutting blade  <br></br>
+                <b>Durability :</b> Heat-treated for superior strength and longevity  <br></br>
+                <b>Application :</b> Ideal for flat surface finishing and large-diameter facing  <br></br>
+                <b>Coating :</b> Precision ground for reduced friction  <br></br>
+                <b>Shank Size :</b> 1-inch universal shank  <br></br>
             </p>
             <br></br>
             <br></br>

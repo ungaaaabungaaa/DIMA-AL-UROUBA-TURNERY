@@ -64,17 +64,16 @@ function RoughingEndMill() {
           </div>
           <div className='product_details_desc'>
             <h1>Roughing End Mill</h1>
-            <p>The Ball Nose End Mill is designed for intricate 3D contouring and smooth surface finishes. With a durable 3-inch tungsten carbide cutting edge and a 6-inch overall length, it excels in precision machining. Compatible with standard CNC machines, this tool is perfect for detailed work in molds and complex geometries</p>
+            <p>The Roughing End Mill is engineered for rapid and efficient material removal in heavy-duty milling operations. Featuring a robust 4-flute design with a 1-inch cutting diameter and a 4-inch overall length, it excels in tackling tough materials while minimizing vibration and chatter. Compatible with all standard milling machines, this tool is essential for optimizing productivity in high-volume machining tasks.</p>
             <h3>Generalized Specs :</h3>
             <p>
-               <b>Materials :</b> Tungsten Carbide, High-Speed Steel <br></br>
-                <b>Dimensions :</b> 3-inch cutting edge, 6-inch total length  <br></br>
-                <b>Compatibility :</b> Fits all standard CNC machines  <br></br>
-                <b>Cutting Profile :</b> Ball nose design for smooth 3D contouring  <br></br>
-                <b>Durability :</b> High wear resistance for extended tool life  <br></br>
-                <b>Application :</b> Ideal for mold-making, die-casting, and complex geometries  <br></br>
-                <b>Coating :</b> TiAlN coating for enhanced heat and oxidation resistance  <br></br>
-                <b>Shank Size :</b> 1/2-inch universal shank  <br></br>
+               <b>Materials :</b> 1-inch cutting diameter, 4-inch overall length <br></br>
+                <b>Dimensions :</b> 4-flute coarse pitch with serrated cutting edges  <br></br>
+                <b>Compatibility :</b> Fits all standard milling machines and CNC machining centers  <br></br>
+                <b>Cutting Profile :</b> Optimized for aggressive stock removal with reduced cutting forces  <br></br>
+                <b>Durability :</b> Heat-treated and precision ground for enhanced strength and longevity  <br></br>
+                <b>Coating :</b> TiAlN (Titanium Aluminum Nitride) coating for superior heat and wear resistance  <br></br>
+                <b>Helix Angle :</b> 30-degree helix for efficient chip evacuation <br></br>
             </p>
             <br></br>
             <br></br>

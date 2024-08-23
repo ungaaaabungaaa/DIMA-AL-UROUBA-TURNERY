@@ -60,21 +60,21 @@ function FaceMillingCutter() {
 
         <div className='product_details_layout'>
           <div className='product_details_image'>
-            <img className='product_image' src={FaceMillingCutter} ></img>
+            <img className='product_image' src={FaceMillingCutterImage} ></img>
           </div>
           <div className='product_details_desc'>
             <h1>Face Milling Cutter</h1>
-            <p>The Ball Nose End Mill is designed for intricate 3D contouring and smooth surface finishes. With a durable 3-inch tungsten carbide cutting edge and a 6-inch overall length, it excels in precision machining. Compatible with standard CNC machines, this tool is perfect for detailed work in molds and complex geometries</p>
+            <p>The Face Milling Cutter is engineered for efficient material removal and superior surface finishes on large, flat surfaces. Featuring a 5-inch tungsten carbide insert and a 10-inch overall diameter, it is ideal for heavy-duty milling tasks. This cutter is compatible with all standard milling machines, ensuring high performance and precision</p>
             <h3>Generalized Specs :</h3>
             <p>
-               <b>Materials :</b> Tungsten Carbide, High-Speed Steel <br></br>
-                <b>Dimensions :</b> 3-inch cutting edge, 6-inch total length  <br></br>
-                <b>Compatibility :</b> Fits all standard CNC machines  <br></br>
-                <b>Cutting Profile :</b> Ball nose design for smooth 3D contouring  <br></br>
-                <b>Durability :</b> High wear resistance for extended tool life  <br></br>
-                <b>Application :</b> Ideal for mold-making, die-casting, and complex geometries  <br></br>
-                <b>Coating :</b> TiAlN coating for enhanced heat and oxidation resistance  <br></br>
-                <b>Shank Size :</b> 1/2-inch universal shank  <br></br>
+               <b>Materials :</b> Tungsten Carbide Inserts, High-Speed Steel Body <br></br>
+                <b>Dimensions :</b> 5-inch insert, 10-inch total diameter  <br></br>
+                <b>Compatibility :</b> Fits all standard milling machines  <br></br>
+                <b>Cutting Profile :</b> Multi-insert design for enhanced cutting efficiency  <br></br>
+                <b>Durability :</b> Inserts are heat-treated for extended wear life  <br></br>
+                <b>Application :</b> Ideal for face milling, roughing, and finishing operations  <br></br>
+                <b>Coating :</b> PVD coating for improved cutting performance <br></br>
+                <b>Shank Size :</b>  1-inch arbor hole for universal fit  <br></br>
             </p>
             <br></br>
             <br></br>
