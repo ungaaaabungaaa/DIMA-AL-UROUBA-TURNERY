@@ -12,7 +12,7 @@ function WoodRuffCutter() {
   
     const handleSendMessage = () => {
       if (message.trim() !== '') {
-        const whatsappNumber = '9665099096620';
+        const whatsappNumber = '0509909620';
         const encodedMessage = encodeURIComponent(message);
         const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
         // Open WhatsApp in a new tab

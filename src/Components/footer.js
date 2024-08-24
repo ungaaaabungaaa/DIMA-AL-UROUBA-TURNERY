@@ -7,8 +7,14 @@ import WhatsApp from 'react-whatsapp';
 function Footer() {
   const navigate = useNavigate();
 
+
+  const handleLocationClick = () =>{
+    const url = 'https://maps.app.goo.gl/UxwJvBMQUqZTuicx6';
+    window.open(url, '_blank');
+  }
+
   const handlePhoneClick = () => {
-    window.location.href = 'tel:+966582444166';
+    window.location.href = 'tel:+0582444166';
   };
 
   const handleEmailClick = () => {
@@ -16,7 +22,7 @@ function Footer() {
   };
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "+9665099096620";
+    const phoneNumber = "+0509909620";
     const message = "Hello, I would like to get in touch.";
     window.location.href = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
   };
@@ -47,6 +53,7 @@ function Footer() {
           <h5 className='footer_h5' onClick={handleWhatsAppClick}>WhatsApp</h5>
           <h5 className='footer_h5' onClick={handlePhoneClick}>Phone Number</h5>
           <h5 className='footer_h5' onClick={handleEmailClick}>Email</h5>
+          <h5 className='footer_h5' onClick={handleLocationClick}>Locate Us</h5>
       </div>
 
     </div>
