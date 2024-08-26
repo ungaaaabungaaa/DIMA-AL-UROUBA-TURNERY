@@ -27,7 +27,7 @@
    grid-template-areas: 
     "Cnc Conventional Electrical"
     "Mold Sheet-Metal Welding"
-    ". GearBox ."; 
+    "Contact GearBox Location"; 
 }
 
 .Cnc 
@@ -124,6 +124,36 @@
     flex-direction: column;
 }
 
+
+.Contact 
+{ 
+    grid-area: Contact; 
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.1rem;
+    background-color: #DDC7BB;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+
+.Location 
+{ 
+    grid-area: Location; 
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.1rem;
+    background-color: #DDC7BB;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
 
 .logo_grid
 {

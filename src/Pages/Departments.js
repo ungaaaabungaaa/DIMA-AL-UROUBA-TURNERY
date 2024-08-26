@@ -10,6 +10,8 @@ import Mold from '../Resources/Logo/mold.svg';
 import Sheet from '../Resources/Logo/Sheet Metal.svg';
 import Welding from '../Resources/Logo/weild.svg';
 import GearBox from '../Resources/Logo/Gear.svg';
+import Location from '../Resources/Logo/Location.svg';
+import Contact from '../Resources/Logo/Contact.svg';
 import '../Styles/Aboutus.css';
 import Image2 from '../Resources/Department1.webp';
 import Image3 from '../Resources/Department2.webp';
@@ -81,6 +83,21 @@ function Departments() {
               <h2 className='logo_title'>GearBox</h2>
               <p className='logo_desc'>
               High-performance gearbox manufacturing for efficient and reliable power transmission
+              </p>
+          </div>
+          <div onClick={() => window.open('tel:0582444166')}  class="Contact">
+              <img className='logo_grid' src={Contact}></img>
+              <h2 className='logo_title'>Contact</h2>
+              <p className='logo_desc'>
+              Phone: 0582444166 | WhatsApp: 0509909620
+              </p>
+          </div>
+
+          <div onClick={() => window.open('https://maps.app.goo.gl/UxwJvBMQUqZTuicx6')} class="Location">
+              <img className='logo_grid' src={Location}></img>
+              <h2 className='logo_title'>Location</h2>
+              <p className='logo_desc'>
+              GVVF+G96, Al Kharj Rd, New Industrial Area, Riyadh 14331, Saudi Arabia
               </p>
           </div>
       </div>
