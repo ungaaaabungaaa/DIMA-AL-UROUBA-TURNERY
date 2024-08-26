@@ -3,6 +3,7 @@ import Footer from '../Components/footer';
 import Header from '../Components/header';
 import '../Styles/Terms.css';
 import FAQ from '../Components/faq';
+import CONTACT from '../Components/contact';
 
 function Terms() {
   return (
@@ -79,6 +80,7 @@ function Terms() {
       <p>باستخدامكم المستمر لموقعنا بعد أي تغييرات، توافقون على الشروط والأحكام المحدثة.</p>
     </div>
     <FAQ></FAQ>
+    <CONTACT></CONTACT>
     <Footer></Footer>
     </>
   );

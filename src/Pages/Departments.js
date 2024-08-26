@@ -19,10 +19,10 @@ import Image4 from '../Resources/Department3.webp';
 import Image5 from '../Resources/Department4.webp';
 import MetalForming from '../Resources/manufacturinggrid.webp';
 import GearManufacturing from '../Resources/Gear Manufacturing.webp';
-import Mould from '../Resources/moldgrid.webp';
 import Maintenance from '../Resources/Maintaince.webp';
 import { useNavigate } from 'react-router-dom';
 import FAQ from '../Components/faq';
+import CONTACT from '../Components/contact';
 
 
 
@@ -202,6 +202,7 @@ function Departments() {
     </div>
 
     <FAQ></FAQ>
+    <CONTACT></CONTACT>
     
 
     
