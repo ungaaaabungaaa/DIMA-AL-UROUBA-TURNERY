@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../Components/footer';
 import Header from '../Components/header';
 import '../Styles/Terms.css';
+import FAQ from '../Components/faq';
 
 function Terms() {
   return (
@@ -77,6 +78,7 @@ function Terms() {
       <p>By continuing to use our website after any changes, you agree to the updated terms and conditions.</p>
       <p>باستخدامكم المستمر لموقعنا بعد أي تغييرات، توافقون على الشروط والأحكام المحدثة.</p>
     </div>
+    <FAQ></FAQ>
     <Footer></Footer>
     </>
   );

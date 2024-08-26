@@ -22,6 +22,7 @@ import GearManufacturing from '../Resources/Gear Manufacturing.webp';
 import Mould from '../Resources/moldgrid.webp';
 import Maintenance from '../Resources/Maintaince.webp';
 import { useNavigate } from 'react-router-dom';
+import FAQ from '../Components/faq';
 
 
 
@@ -199,6 +200,8 @@ function Departments() {
       <br></br>
 
     </div>
+
+    <FAQ></FAQ>
     
 
     
