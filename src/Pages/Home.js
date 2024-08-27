@@ -38,9 +38,6 @@ function Home() {
 
 
 
-
- 
-
   const images = [heroImage1,heroImage2,heroImage3,heroImage4,heroImage5];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
     useEffect(() => {
@@ -59,7 +56,7 @@ function Home() {
    
     <div className='hero'>
       <div className='hero_text'>
-        <h1 className='hero_title'>DIMA AL <br></br> UROUBA</h1>
+        <h1 className='hero_title'>DIMA AL UROUBA</h1>
         <h3>Precision Crafting for a Brighter Tomorrow | صناعة  <br></br>دقيقة لمستقبل أكثر إشراقًا</h3>
         <br></br>
         <button onClick={handleContactClick} className='contact_button'>Contact</button>
@@ -182,8 +179,6 @@ function Home() {
     <br></br>
     </div>
 
-   
-   
 
     <FAQ></FAQ>
 
