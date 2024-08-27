@@ -1,14 +1,14 @@
-.Contact_us
+  .Contact_us
   {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 100vw;
-    height: 45vh;
+    height: auto;
     padding-top: 1.2rem;
-    text-align: center;
     padding-bottom: 1.2rem;
+    text-align: center;
   }
 
 
@@ -41,6 +41,7 @@
   .margin_right
   {
     margin-right: 1.2rem;
+    margin-bottom: 0;
   }
 
   .message_box
@@ -57,7 +58,6 @@
     flex-direction: row;
   }
 
-
   .contact_message {
     width: 22vw;
     color: #543E32;
@@ -71,3 +71,65 @@
     border-radius: 0.4rem;
     outline: none; /* Remove outline */
   }
+
+  /* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  
+  .h1_Contact,.h1_Contact
+  {
+    font-size: medium;
+  }
+
+  .contact_us_highlight
+  {
+    width: auto;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    color: #543E32;
+    font-size: medium;
+    font-weight: normal;
+    height: auto;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .highlight
+  {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 2.2rem;
+    margin-bottom: 0;
+  }
+
+  .message_box
+  {
+    width: 100vw;
+  }
+  
+  .contact_message {
+    width: 52vw;
+  }
+
+  .contact_us_text
+  {
+    font-size: medium;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  
+  .Contact_us
+  {
+    display: none;
+  }
+
+}
