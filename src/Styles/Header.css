@@ -80,14 +80,11 @@
 }
 
 
-/* Desktop */
-@media only screen and (min-width: 1025px) {
-    /* Your CSS styles for desktop */
-    
-  }
+
 
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
     
     .contact
     {
@@ -121,6 +118,7 @@
         height: auto;
         margin-left: 1.1rem;
         display: flex;
+        overflow: hidden;
         align-items: center;
         justify-content: center;
         flex-direction: column;
