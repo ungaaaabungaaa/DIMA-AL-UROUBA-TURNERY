@@ -15,3 +15,34 @@
   width: 65%;
   height: auto;
 }
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+   
+  
+  .faq
+  {
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+  }
+
+  .faq_context
+  {
+    width: 84%;
+    height: auto;
+  }
+
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  
+  .faq_context
+  {
+    width: 82%;
+    height: auto;
+  }
+
+}
