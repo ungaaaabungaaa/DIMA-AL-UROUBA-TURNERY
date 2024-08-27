@@ -48,11 +48,11 @@ function About() {
           "على الصعيد المحلي، تمكنا من بناء قاعدة عملاء كبيرة من خلال تقديم مجموعة مميزة من الميزات التي تجعلنا أفضلون عن الآخرين. في مخرطة ديمة العروبة، نتميز بـ..."
           </p>
           <ul>
-              <li>Our prices are competitive and unbeatable.</li>
-              <li>More than 10 years experience.</li>
-              <li>Updated state-of-the-art CNC lathe, laser machines and best work experience Guarantee on manufacturing quality and speed of implementation.</li>
-              <li>We were able to provide many services to the largest number of customers.</li>
-              <li>Provide free maintenance service within the warranty period.</li>
+            <li>Our prices are competitive and unbeatable.</li>
+            <li>More than 10 years experience.</li>
+            <li>Updated state-of-the-art CNC lathe, laser machines and best work experience Guarantee on manufacturing quality and speed of implementation.</li>
+            <li>We were able to provide many services to the largest number of customers.</li>
+            <li>Provide free maintenance service within the warranty period.</li>
           </ul>
           <ul>
               <li>أسعارنا تنافسية ولا تُقاوم.</li>
@@ -70,7 +70,7 @@ function About() {
       <div class="Aboutus4_image">
         <img className='image3' src={Image3}></img>
       </div>
-      <div class="Aboutus4_titel">
+      <div class="Aboutus4_titel Aboutus3_titel">
         <h1>Objectives | أهداف </h1>
          <p>
          At Dima Al-Orouba Turner Foundation for Maintenance, we have set a set of different goals that contribute to enriching our march with more successes, whether at the local or global level as well.
@@ -123,6 +123,7 @@ function About() {
         <br></br>
       </div>
     </div>  
+
     <br></br>
 
     <FAQ></FAQ>

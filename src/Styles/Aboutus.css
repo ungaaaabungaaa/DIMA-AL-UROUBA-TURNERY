@@ -229,6 +229,17 @@
         gap: 15px 0px; /* Add vertical spacing between title and image */
       }
 
+      .Aboutus3_titel
+      {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+        text-align: center;
+        margin: 0;
+      }
+
 
     
     
