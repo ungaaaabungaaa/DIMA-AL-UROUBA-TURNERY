@@ -32,8 +32,8 @@
 
 .Cnc 
 {
+    grid-area: Cnc;
     cursor: pointer;
-    grid-area: Cnc; 
     width: 100%;
     height: 100%;
     border-radius: 1.1rem;
@@ -41,7 +41,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 .Conventional 
@@ -197,5 +197,86 @@
 {
     width: 85%;
     image-rendering: optimizeQuality;
+}
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .departments
+    {
+        text-align: center;
+    }
+
+    .department_grid
+    {
+    width: 92%;
+    height: auto;
+    display: grid; 
+    margin-bottom: 1.2rem;
+    grid-auto-columns: 1rem; 
+    grid-template-columns: 32% 32% 32%; 
+    grid-template-rows: 32% 32% 32%; 
+    gap: 1.1rem 1.1rem; 
+    grid-template-areas: 
+        "Cnc Conventional Electrical"
+        "Mold Sheet-Metal Welding"
+        "Contact GearBox Location"; 
+    }
+    
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+
+    .departments {
+        text-align: center;
+    }
+
+    .department_grid {
+        width: 92%;
+        height: auto;
+        padding-top: 1.1rem;
+        padding-bottom: 1.1rem;
+        display: grid;
+        margin-bottom: 1.2rem;
+        grid-auto-columns: auto;
+        grid-template-columns: 100%;
+        grid-template-rows: auto; /* Adjusted to auto so rows size based on content */
+        margin-bottom: 0;
+        gap: 1.1rem 1.1rem;
+        grid-template-areas:
+            "Cnc"
+            "Conventional"
+            "Electrical"
+            "Mold"
+            "Sheet-Metal"
+            "Welding"
+            "Contact"
+            "GearBox"
+            "Location";
+    }
+
+    /* Ensure all cards have the same height */
+    .Cnc,
+    .Conventional,
+    .Electrical,
+    .Mold,
+    .Sheet-Metal,
+    .Welding,
+    .Contact,
+    .GearBox,
+    .Location {
+        height: auto;
+        min-height: 150px; /* Set a minimum height if needed for uniformity */
+    }
+
+    .logo_title {
+        font-size: medium;
+    }
+
+
+    
+  
 }
 
