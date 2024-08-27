@@ -11,7 +11,7 @@ function Terms() {
     <Header></Header>
     <div className='terms'>
 
-      <h1 className='terms'>Terms and Conditions / الشروط والأحكام</h1>
+      <h1 className='terms_center'>Terms and Conditions / الشروط والأحكام</h1>
       
       <h3 className='terms_center'>1. Introduction / المقدمة</h3>
       <p className='terms_center'>Welcome to DIMA AL UROUBA TURNERY. By accessing our website, you agree to these terms and conditions.</p>
