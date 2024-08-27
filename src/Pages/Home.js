@@ -166,8 +166,8 @@ function Home() {
 
 
     <div className='objectives'>
-    <h2>Objectives | أهداف</h2>
-    <h3>Crafting precision-engineered components with expertise and <br></br> efficiency in our advanced department <br></br> تصنيع مكونات مصممة بدقة مع الخبرة والكفاءة في قسمنا المتقدم</h3>
+    <h2 className='objectives_h1'>Objectives | أهداف</h2>
+    <h3 className='objectives_h3'>Crafting precision-engineered components with expertise and <br></br> efficiency in our advanced department <br></br> تصنيع مكونات مصممة بدقة مع الخبرة والكفاءة في قسمنا المتقدم</h3>
     <br></br>
       <Marquee pauseOnHover pauseOnClick autoFill>
           <Cards objective={objectives[0]} />

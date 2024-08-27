@@ -277,5 +277,25 @@
   }
 
  
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .objectives_h1,.objectives_h3
+  {
+    font-size: medium;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+
+  .objectives_h1,.objectives_h3
+  {
+    font-size: medium;
+    margin-bottom: 0;
+  }
+  
+  
+}
   
 
