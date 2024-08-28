@@ -22,7 +22,7 @@ function Electrical() {
            <img src={GridImage} className='grid-image'></img>
         </div>
        
-        <div className='grid-context-layout'>
+        <div id='electrical-grid-context-layout' className='grid-context-layout'>
         <h1>Electrical Department | قسم الكهرباء</h1>
         <p>
           At DIMA AL UROUBA TURNERY, our electrical department is dedicated to ensuring the highest standards of electrical engineering and installation services. We specialize in designing and implementing electrical systems that are both efficient and reliable. Our team of skilled electricians and engineers work diligently to meet the specific needs of our clients, providing solutions that are tailored to their unique requirements.

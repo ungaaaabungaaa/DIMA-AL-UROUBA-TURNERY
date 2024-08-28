@@ -8,14 +8,6 @@ import FAQ from '../Components/faq';
 import CONTACT from '../Components/contact';
 
 function CNC() {
-
-  
-
- 
-
-
-
-
     const navigate = useNavigate();
     return (
       <>
@@ -28,7 +20,7 @@ function CNC() {
           <div className='grid-image-layout'>
             <img src={GridImage} className='grid-image'></img>
           </div>
-          <div className='grid-context-layout'>
+          <div id='cnc-grid-context-layout' className='grid-context-layout'>
             <h1>CNC | قسم التحكم الرقمي</h1>
             <p>At DIMA AL UROUBA TURNERY, our CNC (Computer Numerical Control) department is at the heart of our precision manufacturing capabilities. Equipped with state-of-the-art CNC machines, we specialize in producing high-precision components that meet the exact specifications of our clients. Our skilled technicians utilize advanced software and machinery to ensure that every product meets the highest standards of quality and accuracy.
             <br></br>

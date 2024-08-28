@@ -23,7 +23,7 @@ function GearBox() {
            <img src={GridImage} className='grid-image'></img>
         </div>
        
-        <div className='grid-context-layout'>
+        <div id='gear-grid-context-layout' className='grid-context-layout'>
         <h1>Gearbox Department | قسم علب التروس</h1>
         <p>
           At DIMA AL UROUBA TURNERY, our gearbox department is dedicated to the design, manufacturing, and maintenance of high-performance gearboxes. We utilize advanced engineering techniques and precision machinery to produce gearboxes that deliver exceptional reliability and efficiency. Our team of experienced engineers and technicians ensures that every gearbox meets the specific requirements of our clients.

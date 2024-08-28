@@ -159,7 +159,7 @@ function Departments() {
         <img className='image2' src={Image5}></img>
       </div>
       <div class="Aboutus3_titel">
-        <h1 id='about_us_h1'> Mold Manufacturing & Maintenance Departments Which Includes | أقسام تصنيع وصيانة القوالب والتي تشمل </h1>
+        <h1 id='about_us_h1'>Mold Manufacturing & Maintenance Departments Which Includes | أقسام تصنيع وصيانة القوالب والتي تشمل </h1>
           <ul>
               <li>Manufacturing of plastic Mold Factories</li>
               <li>Iron Molds</li>

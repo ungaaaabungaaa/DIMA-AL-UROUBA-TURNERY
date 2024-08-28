@@ -59,3 +59,79 @@
     align-items: flex-start;
     justify-content: center;
 }
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .Weilding_hero
+    {
+        width: 100vw;
+        height: 34vh;
+    }
+
+  }
+  
+  /* Mobile */
+  @media only screen and (max-width: 767px) {
+  
+    .Weilding_hero
+    {
+        width: 100vw;
+        height: 36vh;
+        display: flex;
+        color: white;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../Resources/Departments/Weilding.webp);
+        background-position: center;
+    }
+
+
+    .welding_grid_layout
+    {
+        width: 100vw;
+        height: auto;
+        padding-top: 2.1rem;
+        padding-bottom: 2.1rem;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+    }
+
+
+    .grid-image-layout
+    {
+        margin-top: 1.1rem;
+        margin-bottom: 1.1rem;
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+
+
+    .grid-image
+    {
+        width: 75%;
+    }
+
+
+    #Weilding-grid-context-layout
+    {
+        min-width: 100vw;
+        min-height: auto;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    
+    
+  }

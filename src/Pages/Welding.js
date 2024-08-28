@@ -18,12 +18,12 @@ function Welding() {
           <h3 onClick={() => navigate('/departments')} className='margin_bottom_zero'>Departments</h3>
       </div>
 
-      <div className='mold_grid_layout'>
+      <div className='welding_grid_layout'>
         <div className='grid-image-layout'>
            <img src={GridImage} className='grid-image'></img>
         </div>
        
-        <div className='grid-context-layout'>
+        <div id='Weilding-grid-context-layout' className='grid-context-layout'>
         <h1>Welding Department | قسم اللحام</h1>
         <p>
           At DIMA AL UROUBA TURNERY, our welding department is pivotal in ensuring the structural integrity and strength of our manufactured products. We specialize in various welding techniques, including MIG, TIG, and arc welding, to join metal components with precision and durability. Our team of certified welders is committed to delivering high-quality welds that meet the stringent standards of our clients.

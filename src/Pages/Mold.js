@@ -22,7 +22,7 @@ function Mold() {
            <img src={GridImage} className='grid-image'></img>
         </div>
        
-        <div className='grid-context-layout'>
+        <div id='mold-grid-context-layout' className='grid-context-layout'>
         <h1>Mold and Die Department | قسم القوالب والموتات</h1>
         <p>
           At DIMA AL UROUBA TURNERY, our mold and die department is essential to our manufacturing process, providing high-quality molds and dies for various industries. We specialize in designing, manufacturing, and maintaining precision molds and dies that are critical for producing consistent, high-quality parts. Our team of skilled engineers and technicians use advanced CAD/CAM software and state-of-the-art machinery to ensure that every mold and die meets the exact specifications of our clients.

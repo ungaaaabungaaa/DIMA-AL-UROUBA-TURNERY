@@ -133,3 +133,26 @@
   text-align: center;
   margin-bottom: 0;
 }
+
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .sales_highligh_h3
+  {
+    text-align: center;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .sales_highligh_h3
+  {
+    text-align: center;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+  }
+
+}

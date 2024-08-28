@@ -23,7 +23,7 @@ function Conventional() {
            <img src={GridImage} className='grid-image'></img>
         </div>
        
-        <div className='grid-context-layout'>
+        <div id='conventional-grid-context-layout' className='grid-context-layout'>
           <h1>Conventional Machinery | آلات تقليدية</h1>
           <p>
             At DIMA AL UROUBA TURNERY, our conventional machinery department plays a crucial role in our manufacturing process. With a variety of traditional machining equipment, we are able to handle a wide range of manufacturing tasks with precision and efficiency. Our experienced machinists are adept at operating these machines to produce high-quality parts that meet our clients' specifications.
