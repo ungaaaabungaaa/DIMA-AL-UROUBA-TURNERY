@@ -242,11 +242,13 @@
   }
 
   .Product1, .Product2, .Product3, .Product4 {
-    width: 100%; /* Full width of the grid cell */
+    width: 85%; /* Full width of the grid cell */
     height: 100%; /* Adjust height as needed */
     border-radius: 1.2rem;
     background-color: #DDC7BB;
     display: flex;
+    font-size: medium;
+    padding: 0.1rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -257,6 +259,10 @@
     margin-bottom: 1rem;
   }
 
+  .product_title
+  {
+    font-size: medium;
+  }
   .product_des
   {
     display: none;
