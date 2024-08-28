@@ -65,7 +65,6 @@ function Home() {
       ></div>
     </div>
 
-  
 
     <div id='somethingelse' className="container">
       <div class="Something-Else-Image">
