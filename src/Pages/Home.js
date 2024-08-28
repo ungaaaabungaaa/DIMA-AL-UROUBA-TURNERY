@@ -67,11 +67,11 @@ function Home() {
 
   
 
-    <div className="container">
+    <div id='somethingelse' className="container">
       <div class="Something-Else-Image">
         <img className='something_Image' src={SomethingImage}></img>
       </div>
-      <div class="Something-else-Text">
+      <div id='Something-else-Text' class="Something-else-Text">
         <h1>Something Else | شيء آخر </h1>
         <p className='something_p'>Reaching the world in the field of industry, turning, and maintenance is not easy, but with patience and diligence we have reached what we aspire to, and for this reason we are trying to preserve the place we have reached, to always maintain our first ranking in our field, and thus we gain the trust of our customers</p>
         <br></br>

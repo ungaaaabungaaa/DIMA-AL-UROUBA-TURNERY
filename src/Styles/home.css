@@ -34,11 +34,11 @@
 .container {  
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
-    height: 60vh;
+    height: auto;
     width: 100vw;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: auto auto;
     grid-template-rows: 1fr;
     grid-auto-columns: 1fr;
     gap: 2% 2%;
@@ -334,6 +334,70 @@
     justify-content: center;
   }
   
+
+  #somethingelse {  
+    height: auto;
+    text-align: center;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  
+  .Something-Else-Image 
+  { 
+
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .highlights
+  {
+    display: none;
+  }
+  
+  .Something-else-Text 
+  { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  .sales_grid {
+    padding-bottom: 1.1rem;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.4rem; /* Add gap for consistent spacing */
+  }
+
+  .salesCard1, .salesCard2, .salesCard3 {
+    grid-column-start: 1;
+    padding-top: 2.1rem;
+    padding-bottom: 1.1rem;
+    width: 85%;
+    height: auto;
+    border-radius: 2.2rem;
+    background-color: #DDC7BB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0; /* Remove margin-bottom */
+  }
+
+
   
 }
   
