@@ -6,9 +6,7 @@ import FAQ from '../Components/faq';
 import CONTACT from '../Components/contact';
 import '../Styles/product.css';
 
-
 function WoodRuffCutter() {
-
       return (
         <>
         <Header></Header>

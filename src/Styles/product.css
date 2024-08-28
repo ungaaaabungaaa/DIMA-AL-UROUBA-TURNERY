@@ -48,3 +48,44 @@
     max-width: 96%;
     height: auto;
 }
+
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .product_details_layout
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .product_image
+    {
+        max-width: 70%;
+        height: auto;
+    }
+   
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    
+    .product_details_layout
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .product_image
+    {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+}
