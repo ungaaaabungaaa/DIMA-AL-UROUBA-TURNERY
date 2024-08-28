@@ -1,6 +1,6 @@
 
 import ThreadMillCutterImage from '../Resources/SaleTools/ThreadMillCutter.webp';
-import React from 'react';
+import React, { useState } from 'react';
 import Footer from '../Components/footer';
 import Header from '../Components/header';
 import FAQ from '../Components/faq';
@@ -10,16 +10,20 @@ import '../Styles/product.css';
 
 function ThreadMillCutter() {
 
-    
   
+      const handleSendMessage = () => {
+        const whatsappNumber = '0509909620';
+        const whatsappUrl = `https://wa.me/${whatsappNumber}`;
+        // Open WhatsApp in a new tab
+        window.open(whatsappUrl, '_blank');
+      };
+      
 
       return (
         <>
         <Header></Header>
        
-        
-
-
+      
         <div className='product_details_layout'>
           <div className='product_details_image'>
             <img className='product_image' src={ThreadMillCutterImage} ></img>
@@ -40,7 +44,7 @@ function ThreadMillCutter() {
             </p>
             <br></br>
             <br></br>
-            <button className='order_now'>Contact Us To Order</button>
+            <button onClick={handleSendMessage} className='order_now'>Contact Us To Order</button>
           </div>
 
         </div>

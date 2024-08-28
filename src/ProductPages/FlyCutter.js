@@ -1,6 +1,6 @@
 
 import FlyCutterImage from '../Resources/SaleTools/FlyCutter.webp';
-import React from 'react';
+import React, { useState } from 'react';
 import Footer from '../Components/footer';
 import Header from '../Components/header';
 import FAQ from '../Components/faq';
@@ -10,10 +10,14 @@ import '../Styles/product.css';
 
 function FlyCutter() {
 
+      const handleSendMessage = () => {
+        const whatsappNumber = '0509909620';
+        const whatsappUrl = `https://wa.me/${whatsappNumber}`;
+        // Open WhatsApp in a new tab
+        window.open(whatsappUrl, '_blank');
+      };
     
     
-  
-
       return (
         <>
         <Header></Header>
@@ -38,7 +42,7 @@ function FlyCutter() {
             </p>
             <br></br>
             <br></br>
-            <button className='order_now'>Contact Us To Order</button>
+            <button onClick={handleSendMessage} className='order_now'>Contact Us To Order</button>
           </div>
 
         </div>
