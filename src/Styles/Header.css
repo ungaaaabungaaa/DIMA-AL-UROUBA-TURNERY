@@ -13,6 +13,11 @@
     z-index: 1000; /* Added to ensure the header is above other content */
 }
 
+#mobile_menu
+{
+    display: none;
+}
+
 .header_title
 {
     width: 100%;
@@ -114,10 +119,10 @@
     /* Your CSS styles for mobile */
     .header
     {
-        width: 100%;
+        width: 100vw;
         height: auto;
-        margin-left: 1.1rem;
         display: flex;
+        margin-left: 1.1rem;
         overflow: hidden;
         align-items: center;
         justify-content: center;
@@ -135,6 +140,11 @@
     .header_nav
     {
         display: none;
+    }
+
+    #mobile_menu
+    {
+        display: block;
     }
 
    

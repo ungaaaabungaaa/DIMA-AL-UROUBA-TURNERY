@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import menu from '../Resources/Icons/Menu.svg'
 import '../Styles/Header.css';
 
 function Header() {

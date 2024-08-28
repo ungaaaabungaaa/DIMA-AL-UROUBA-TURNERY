@@ -59,6 +59,7 @@ function Home() {
         <h3 className='hero_title_h3'>Precision Crafting for a Brighter Tomorrow | صناعة  <br></br>دقيقة لمستقبل أكثر إشراقًا</h3>
         <br></br>
         <button onClick={handleContactClick} className='contact_button'>Contact</button>
+
       </div>
       <div
         className='hero_image'
@@ -72,7 +73,7 @@ function Home() {
         <img className='something_Image' src={SomethingImage}></img>
       </div>
       <div id='Something-else-Text' class="Something-else-Text">
-        <h1>Something Else | شيء آخر </h1>
+        <h1 className='something-else-h1'>Something Else | شيء آخر </h1>
         <p className='something_p'>Reaching the world in the field of industry, turning, and maintenance is not easy, but with patience and diligence we have reached what we aspire to, and for this reason we are trying to preserve the place we have reached, to always maintain our first ranking in our field, and thus we gain the trust of our customers</p>
         <br></br>
         <p className='something_p'>الوصول إلى العالمية في مجال الصناعة والخراطة والصيانة ليس بالأمر السهل، ولكن بالصبر والاجتهاد وصلنا إلى ما نطمح إليه، ولهذا السبب نحاول الحفاظ على المكانة التي وصلنا إليها، لنحافظ دائمًا على مكانتنا الأولى التصنيف في مجالنا، وبالتالي نكتسب ثقة عملائنا</p>
@@ -94,7 +95,7 @@ function Home() {
     </div>
 
     <div className='departments_layout'>
-      <h2>Departments | الأقسام</h2>
+      <h2 className='departments_h2'>Departments | الأقسام</h2>
       <h3>Precision-engineered components crafted with expertise and <br></br> efficiency in our advanced  Department’s | مكونات مصممة بدقة ومصممة بخبرة وكفاءة في قسمنا المتقدم</h3>
       <br></br>
       <Marquee pauseOnHover pauseOnClick >
