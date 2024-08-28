@@ -2,7 +2,6 @@ import React from 'react';
 import Footer from '../Components/footer';
 import Header from '../Components/header';
 import '../Styles/Departments.css';
-import '../Styles/Header.css';
 import CNC from '../Resources/Logo/cnc.svg'
 import Conventional from '../Resources/Logo/Conventional.svg';
 import Electrical from '../Resources/Logo/electrical.svg';
@@ -108,21 +107,21 @@ function Departments() {
         <img className='image2' src={Image2}></img>
       </div>
       <div class="Aboutus3_titel">
-        <h1> Manufacturing , Metal Forming & Production Line Cutting Departments, Which Includes | أقسام التصنيع وتشكيل المعادن وتقطيع خطوط الإنتاج والتي تشمل </h1>
-          <p>
+        <h1 id='about_us_h1' className='aboutus_h1'> Manufacturing , Metal Forming & Production Line Cutting Departments, Which Includes | أقسام التصنيع وتشكيل المعادن وتقطيع خطوط الإنتاج والتي تشمل </h1>
+          <p className='aboutus_p'>
            Manufacturing Spare Parts From Raw Materials From All Kinds of Iron
           </p>
-          <p>
+          <p className='aboutus_p'>
           "تصنيع قطع الغيار من المواد الخام من الحديد بجميع أنواعه"
           </p>
-          <ul>
+          <ul className='aboutus_p'>
               <li>Stainless Steel</li>
               <li>Cast Iron Copper</li>
               <li>Bronze</li>
               <li>Aluminum</li>
               <li>Teflon Plastic</li>
           </ul>
-          <ul>
+          <ul className='aboutus_p'>
           <li>الفولاذ المقاوم للصدأ</li>
           <li>الحديد الزهر والنحاس</li>
           <li>البرونز</li>
@@ -160,7 +159,7 @@ function Departments() {
         <img className='image2' src={Image5}></img>
       </div>
       <div class="Aboutus3_titel">
-        <h1> Mold Manufacturing & Maintenance Departments Which Includes | أقسام تصنيع وصيانة القوالب والتي تشمل </h1>
+        <h1 id='about_us_h1'> Mold Manufacturing & Maintenance Departments Which Includes | أقسام تصنيع وصيانة القوالب والتي تشمل </h1>
           <ul>
               <li>Manufacturing of plastic Mold Factories</li>
               <li>Iron Molds</li>
