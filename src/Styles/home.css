@@ -284,6 +284,18 @@
   {
     font-size: medium;
   }
+
+  .hero
+  {
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
+    width: 100vw;
+    height: auto;
+    display: grid;
+    z-index: 1;
+    grid-template-columns: 4% 45% 50%;
+    grid-template-rows: 100%;
+  }
 }
 
 /* Mobile */
@@ -292,6 +304,34 @@
   .objectives_h1,.objectives_h3
   {
     font-size: medium;
+  }
+
+  .hero{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    text-align: center;
+    font-size: medium;
+  }
+
+  .hero_title
+  {
+    display: none;
+  }
+
+  .hero_title_h3
+  {
+    margin: 0;
+  }
+
+  .hero_text
+  {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   

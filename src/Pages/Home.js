@@ -14,7 +14,6 @@ import sale3 from '../Resources/Sale3.webp';
 import sale4 from '../Resources/Sale4.webp';
 import sale5 from '../Resources/Sale5.webp';
 import sale6 from '../Resources/Sale6.webp';
-import { useNavigate } from 'react-router-dom';
 import FAQ from '../Components/faq';
 import CONTACT from '../Components/contact';
 import heroImage1 from '../Resources/Hero/Hero1.webp';
@@ -26,8 +25,7 @@ import heroImage5 from '../Resources/Hero/Hero5.webp';
 
 function Home() {
 
-  const navigate = useNavigate();
-  const [message, setMessage] = useState('');
+ 
   
   const handleContactClick = () => {
     const phoneNumber = '9665099096620';
@@ -57,7 +55,7 @@ function Home() {
     <div className='hero'>
       <div className='hero_text'>
         <h1 className='hero_title'>DIMA AL UROUBA</h1>
-        <h3>Precision Crafting for a Brighter Tomorrow | صناعة  <br></br>دقيقة لمستقبل أكثر إشراقًا</h3>
+        <h3 className='hero_title_h3'>Precision Crafting for a Brighter Tomorrow | صناعة  <br></br>دقيقة لمستقبل أكثر إشراقًا</h3>
         <br></br>
         <button onClick={handleContactClick} className='contact_button'>Contact</button>
       </div>
