@@ -26,6 +26,7 @@ function Shop() {
       <Marquee className='sale_marquee_layout' autoFill>
         <h3 className='sale_marquee'>Tools Available For Sale | الأدوات المتاحة للبيع</h3>
       </Marquee>
+      
       <div  className='container_shop'>
         <div onClick={() => navigate('/concavemilingcenter')}  className='Product1'>
           <img className='logo_grid_2' src={product1} alt="Concave Milling Center" />
