@@ -229,4 +229,39 @@
     margin-right: 0.4rem;
   }
 
+  .container_shop {
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "Product1 Product2"
+      "Product3 Product4";
+    gap: 1rem; /* Equal gap between grid items */
+    margin: 1rem; /* Equal margin around the grid */
+  }
+
+  .Product1, .Product2, .Product3, .Product4 {
+    width: 100%; /* Full width of the grid cell */
+    height: 100%; /* Adjust height as needed */
+    border-radius: 1.2rem;
+    background-color: #DDC7BB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .sale_highlight_layout {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .product_des
+  {
+    display: none;
+  }
+
+
+
 }
