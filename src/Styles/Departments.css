@@ -157,6 +157,8 @@
 
 .logo_grid
 {
+    max-width: 2.7rem;
+    max-height: 2.7rem;
     margin-left: 8%;
     margin-top: 8%;
     padding: 1.2rem;
@@ -167,6 +169,8 @@
 
 .logo_grid_2
 {
+    max-width: 2.7rem;
+    max-height: 2.7rem;
     margin-top: 8%;
     padding: 1.2rem;
     border-radius: 0.6rem;
