@@ -8,12 +8,13 @@ import { objectives } from '../Data/objectivesData';
 import { departments } from '../Data/departmentsData';
 import DepartmentCards from '../Components/departmentCards';
 import SomethingImage from '../Resources/AboutUs4.webp'
-import sale1 from '../Resources/Sale1.webp';
-import sale2 from '../Resources/Sale2.webp';
-import sale3 from '../Resources/Sale3.webp';
-import sale4 from '../Resources/Sale4.webp';
-import sale5 from '../Resources/Sale5.webp';
-import sale6 from '../Resources/Sale6.webp';
+import sale1 from '../Resources/SaleTools/ConcaveMillingCenter.webp';
+import sale2 from '../Resources/SaleTools/FlyCutter.webp';
+import sale3 from '../Resources/SaleTools/BallNoseEndMill.webp';
+import sale4 from '../Resources/SaleTools/FaceMillingCenter.webp';
+import sale5 from '../Resources/SaleTools/EndMillCutter.webp';
+import sale6 from '../Resources/SaleTools/ThreadMillCutter.webp';
+import { useNavigate } from 'react-router-dom';
 import FAQ from '../Components/faq';
 import CONTACT from '../Components/contact';
 import heroImage1 from '../Resources/Hero/Hero1.webp';
@@ -34,7 +35,7 @@ function Home() {
   };
 
 
-
+  const navigate = useNavigate();
 
   const images = [heroImage1,heroImage2,heroImage3,heroImage4,heroImage5];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -115,44 +116,46 @@ function Home() {
       <h2>Machine Tools <br></br>For Sales | أدوات آلية للبيع</h2>
       <br></br>
       <div className='sales_grid'>
-        <div className='salesCard1'>
-         <img src={sale2} className='salesimage'></img>
-         <br></br>
-         <h3 className='margin_bottom_zero'>CNC Milling | Turning Tools</h3>
-         <p>Precision-engineered CNC milling and turning tools for unparalleled accuracy and efficiency</p>
-        </div>
-        <div className='salesCard2'>
+        <div onClick={() => navigate('/concavemilingcenter')}  className='salesCard1'>
          <img src={sale1} className='salesimage'></img>
          <br></br>
-         <h3 className='margin_bottom_zero'>CNC Holder</h3>
-         <p>Reliable CNC holders for secure and precise tool mounting.</p>
+         <h3 className='margin_bottom_zero'>Concave Miling Center</h3>
+         <p>delivers precision and efficiency for industrial cutting</p>
         </div>
-        <div className='salesCard3'>
+        <div onClick={() => navigate('/flycutter')} className='salesCard2'>
+         <img src={sale2} className='salesimage'></img>
+         <br></br>
+         <h3 className='margin_bottom_zero'>Fly Cutter</h3>
+         <p>engineered for high-precision surface finishing and facing operations</p>
+        </div>
+        <div onClick={() => navigate('/ballnoseendmill')} className='salesCard3'>
           <img src={sale3} className='salesimage'></img>
           <br></br>
-          <h3 className='margin_bottom_zero'>Carbide End Mill</h3>
-          <p>High-performance carbide end mills for superior cutting and durability.</p>
+          <h3 className='margin_bottom_zero'>Ball Nose End Mill</h3>
+          <p>3D contouring and smooth surface finishes. With a durable 3-inch tungsten carbide</p>
         </div>
       </div>
       <br></br>
       <div className='sales_grid'>
-        <div className='salesCard1'>
+        <div onClick={() => navigate('/facemillingcutter')} className='salesCard1'>
          <img src={sale4} className='salesimage'></img>
          <br></br>
-         <h3 className='margin_bottom_zero'>Vernier Caliper (Digital & Manuel)</h3>
-         <p>Accurate Measurements, Available in Both Digital & Manual versions</p>
+         <h3 className='margin_bottom_zero'>Face Milling Cutter</h3>
+         <p>engineered for efficient material removal and superior surface finishes on large</p>
         </div>
-        <div className='salesCard2'>
+
+        <div onClick={() => navigate('/endmillcutter')} className='salesCard2'>
          <img src={sale5} className='salesimage'></img>
          <br></br>
-         <h3 className='margin_bottom_zero'>Dial Indicator</h3>
-         <p>Accurate & Reliable Measurement of Small Linear Distances</p>
+         <h3 className='margin_bottom_zero'>End Mill Cutter</h3>
+         <p>versatility for a wide range of milling tasks, from slotting to contouring</p>
         </div>
-        <div className='salesCard3'>
+
+        <div onClick={() => navigate('/threadmillcutter')} className='salesCard3'>
           <img src={sale6} className='salesimage'></img>
           <br></br>
-          <h3 className='margin_bottom_zero'>Drill Bit (Carbide & HSS)</h3>
-          <p>Available in Both Carbide & High-Speed Steel (HSS) Options</p>
+          <h3 className='margin_bottom_zero'>Thread Mill Cutter</h3>
+          <p>designed for precise and efficient threading operations across a range of materials</p>
         </div>
       </div>
 
