@@ -7,6 +7,11 @@ import WhatsApp from 'react-whatsapp';
 function Footer() {
   const navigate = useNavigate();
 
+  const handleContactClick2 = () => {
+    const url = 'https://majlisdev.com';
+    window.open(url, '_blank');
+  };
+
 
   const handleLocationClick = () =>{
     const url = 'https://maps.app.goo.gl/UxwJvBMQUqZTuicx6';
@@ -56,6 +61,9 @@ function Footer() {
           <h5 className='footer_h5' onClick={handleLocationClick}>Locate Us</h5>
       </div>
 
+    </div>
+    <div onClick={handleContactClick2} className='copyrights'>
+      <p>Developed by Majlisdev © 2024</p>
     </div>
     </>
   );

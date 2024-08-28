@@ -85,6 +85,20 @@
     flex-direction: column;
 }
 
+.copyrights
+{
+    width: 100vw;
+    height: auto;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     
