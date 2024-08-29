@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import menu from '../Resources/Icons/Menu.svg'
+import icon from '../Resources/Logo.webp'
 import '../Styles/Header.css';
 
 function Header() {
@@ -13,7 +13,7 @@ function Header() {
     <>
     <div className='header'>
        <div className='header_title'>
-          <h2  onClick={() => navigate('/')} className='header_h1'>DIMA AL UROUBA</h2>
+         <img className='logo' onClick={() => navigate('/')} src={icon}></img>
        </div>
       
         <div className='header_nav'>

@@ -2,8 +2,8 @@
 {
     width: 100%;
     height: 6vh;
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
     display: grid; /* Corrected from 'gird' to 'grid' */
     grid-template-columns: 5% 45% 30% 15% 5%;
     position: relative; /* Changed from 'absolute' to 'fixed' */
@@ -11,6 +11,11 @@
     left: 0;
     background-color: white; /* Added to avoid content underneath showing through */
     z-index: 1000; /* Added to ensure the header is above other content */
+}
+
+.logo
+{
+    width: 18%;
 }
 
 #mobile_menu
@@ -146,6 +151,12 @@
     {
         display: block;
     }
+
+    .logo
+    {
+        width: 22%;
+    }
+
 
    
  }
