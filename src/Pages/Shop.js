@@ -43,7 +43,7 @@ function Shop() {
         </div>
         <div onClick={() => navigate('/ballnoseendmill')} className='Product3'>
           <img  className='logo_grid_2' src={product3} alt="Ball Nose End Mill" />
-          <h3 className='product_title'>Ball Nose End Mil  <br></br> مخرطة ذات رأس كروي </h3>
+          <h3 className='product_title'>Ball Nose End Mill  <br></br> مطحنة ذات نهاية كروية </h3>
           <p className='product_des'>Perfect for 3D contouring and smooth finishes, our Ball Nose End Mill delivers precision in complex metalworking tasks. <br></br> <br></br> مثالية للتشكيل ثلاثي الأبعاد واللمسات النهائية الناعمة، توفر مطحنة نهاية الأنف الكروية الدقة في مهام تشغيل المعادن المعقدة </p>
         </div>
         <div onClick={() => navigate('/facemillingcutter')}  className='Product4'>
@@ -75,12 +75,12 @@ function Shop() {
         </div>
         <div onClick={() => navigate('/roughingendmill')} className='Product3'>
           <img className='logo_grid_2' src={product7} alt="Roughing End Mill" />
-          <h3 className='product_title'>Roughing End Mill  <br></br> مُطحنة النهاية الخشنة </h3>
+          <h3 className='product_title'>Roughing End Mill  <br></br> مطحنة النهايات الخشنة </h3>
           <p className='product_des'>Maximize material removal with our Roughing End Mill, perfect for heavy-duty cutting and rapid stock removal in tough materials. <br></br> <br></br> قم بزيادة إزالة المواد باستخدام مطحنة النهاية الخشنة لدينا، وهي مثالية للقطع الشاق والإزالة السريعة للمخزون في المواد الصلبة </p>
         </div>
         <div  onClick={() => navigate('/woodruffcutter')} className='Product4'>
           <img className='logo_grid_2' src={product8} alt="Woodruff Cutter" />
-          <h3 className='product_title'>Woodruff Cutter  <br></br> قاطع وودروف  </h3>
+          <h3 className='product_title'>Woodruff Cutter  <br></br> أداة قطع الخشب (راف) </h3>
           <p className='product_des'>Create accurate keyways and slots with ease using our Woodruff Cutter, ideal for precise and efficient machining in metalworking. <br></br> <br></br> أنشئ فتحات ومفاتيح دقيقة بسهولة باستخدام قاطعة Woodruff الخاصة بنا، وهي مثالية للتصنيع الدقيق والفعال في تشغيل المعادن </p>
         </div>
       </div>

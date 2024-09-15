@@ -27,7 +27,7 @@ function BallNoseEndMill() {
             <img className='product_image' src={BallNoseEndMillImage} ></img>
           </div>
           <div className='product_details_desc'>
-            <h1>Ball Nose End Mill | مطحنة نهاية الأنف الكروي </h1>
+            <h1>Ball Nose End Mill | مطحنة ذات نهاية كروية  </h1>
             <p>The Ball Nose End Mill is designed for intricate 3D contouring and smooth surface finishes. With a durable 3-inch tungsten carbide cutting edge and a 6-inch overall length, it excels in precision machining. Compatible with standard CNC machines, this tool is perfect for detailed work in molds and complex geometries</p>
             <p className='arabic-text' >تم تصميم مطحنة نهاية الكرة لخطوط ثلاثية الأبعاد معقدة وتشطيبات سطحية ناعمة. مع حافة قطع متينة من كربيد التنغستن مقاس 3 بوصات وطول إجمالي 6 بوصات، فهي تتفوق في التصنيع الدقيق. متوافقة مع آلات CNC القياسية، هذه الأداة مثالية للعمل التفصيلي في القوالب والأشكال الهندسية المعقدة</p>
            

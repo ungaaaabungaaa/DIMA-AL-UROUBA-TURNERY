@@ -25,9 +25,9 @@ function WoodRuffCutter() {
             <img className='product_image' src={WoodRuffCutterImage} ></img>
           </div>
           <div className='product_details_desc'>
-            <h1>Wood Ruff Cutter | قاطعة الخشب</h1>
+            <h1>Wood Ruff Cutter | أداة قطع الخشب (راف)</h1>
             <p>The Woodruff Cutter is precision-engineered for creating keyways and slots with accuracy and efficiency. With a durable 2-inch tungsten carbide cutting edge and a 3-inch overall length, this cutter is ideal for both CNC and manual milling machines. It is specifically designed to produce clean and precise keyseat slots, ensuring a perfect fit for Woodruff keys</p>
-            <p className='arabic-text'>تم تصميم قاطعة Woodruff بدقة لإنشاء فتحات ومفاتيح بدقة وكفاءة. مع حافة قطع متينة من كربيد التنغستن مقاس 2 بوصة وطول إجمالي 3 بوصات، تعد هذه القاطعة مثالية لكل من ماكينات الطحن CNC واليدوية. تم تصميمها خصيصًا لإنتاج فتحات مقاعد المفاتيح النظيفة والدقيقة، مما يضمن ملاءمة مثالية لمفاتيح Woodruff</p>
+            <p className='arabic-text'>تم تصميم أداة قطع الخشب (راف) بدقة لإنشاء فتحات ومفاتيح بدقة وكفاءة. مع حافة قطع متينة من كربيد التنغستن مقاس 2 بوصة وطول إجمالي 3 بوصات، تعد هذه القاطعة مثالية لكل من ماكينات الطحن CNC واليدوية. تم تصميمها خصيصًا لإنتاج فتحات مقاعد المفاتيح النظيفة والدقيقة، مما يضمن ملاءمة مثالية لمفاتيح أداة قطع الخشب (راف)</p>
       
             <div className='spilt_layout'>
 
@@ -49,7 +49,7 @@ function WoodRuffCutter() {
               <div className='spilt_layout_2'>
                     <h3>المواصفات العامة</h3>
                     <p>
-                      <b>المواد:</b> يتناسب مع جميع آلات الطحن CNC واليدوية القياسية <br></br>
+                      <b>المواد:</b> يتناسب مع جميع آلات الطحن واليدوية القياسية  <br></br>
                       <b>الأبعاد:</b> تصميم نصف دائري لقطع فتحات المفاتيح <br></br>
                       <b>التوافق:</b> مقاومة عالية للتآكل لعمر أداة ممتد <br></br>
                       <b>التطبيق:</b> مثالي لقطع فتحات مفاتيح وودروف، والفجوات، والأخاديد <br></br>

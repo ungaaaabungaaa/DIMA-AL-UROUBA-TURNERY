@@ -27,7 +27,7 @@ function FlyCutter() {
             <img className='product_image' src={FlyCutterImage} ></img>
           </div>
           <div className='product_details_desc'>
-            <h1>Fly Cutter | قاطع الذباب </h1>
+            <h1>Fly Cutter | قاطع طيّار </h1>
             <p>The Fly Cutter is engineered for high-precision surface finishing and facing operations. Featuring a robust 4-inch high-speed steel blade and an 8-inch total length, it delivers consistent performance across various materials. Designed to fit standard milling machines, this tool ensures efficient and smooth cuts in every application.</p>
             <p className='arabic-text'>تم تصميم أداة القطع الذبابية لعمليات التشطيب والتغطية السطحية عالية الدقة. تتميز بشفرة فولاذية عالية السرعة مقاس 4 بوصات وطول إجمالي 8 بوصات، وتوفر أداءً ثابتًا عبر مواد مختلفة. تم تصميم هذه الأداة لتناسب ماكينات الطحن القياسية، وتضمن قطعًا فعّالة وسلسة في كل تطبيق.</p>
             
