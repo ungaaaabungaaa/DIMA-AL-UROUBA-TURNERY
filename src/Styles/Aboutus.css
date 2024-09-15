@@ -93,7 +93,6 @@
   
   .Aboutus3_titel 
 { 
-    text-align: end;
     width: 90%;
     display: flex;
     align-items: end;
@@ -134,8 +133,6 @@
   
   .Aboutus4_titel 
 { 
-
-    text-align: end;
     margin-left: 2.1rem;
     width: 100%;
     display: flex;
