@@ -38,66 +38,75 @@ function Departments() {
       <div className='department_grid'>
           <div onClick={() => navigate('/cnc')} class="Cnc">
             <img className='logo_grid' src={CNC}></img>
-            <h2 className='logo_title'>CNC</h2>
+            <h2 className='logo_title'>CNC | لتحكم الرقمي بالحاسوب </h2>
             <p className='logo_desc'>
-            High-precision CNC machining solutions for all your manufacturing needs
+            High-precision CNC machining solutions for all your manufacturing needs <br></br>
+            حلول التشغيل الرقمي بالحاسوب عالية الدقة لجميع احتياجاتك التصنيعية
             </p>
+
           </div>
           <div onClick={() => navigate('/conventional')} class="Conventional">
             <img className='logo_grid' src={Conventional}></img>
-            <h2 className='logo_title'>Conventional</h2>
+            <h2 className='logo_title'>Conventiona | تقليدي </h2>
             <p className='logo_desc'>
-            Reliable conventional machining for precise and durable components
+            Reliable conventional machining for precise and durable components <br></br>
+            تشغيل تقليدي موثوق للحصول على مكونات دقيقة ومتينة
             </p>
           </div>
           <div onClick={() => navigate('/electrical')} class="Electrical">
             <img className='logo_grid' src={Electrical}></img>
-            <h2 className='logo_title'>Electrical</h2>
+            <h2 className='logo_title'>Electrical | الكهربائي </h2>
             <p className='logo_desc'>
-            Advanced electrical machining for intricate and accurate parts
+            Advanced electrical machining for intricate and accurate parts <br></br>
+            تشغيل كهربائي متقدم لقطع معقدة ودقيقة
             </p>
           </div>
           <div onClick={() => navigate('/mold')} class="Mold">
             <img className='logo_grid' src={Mold}></img>
-            <h2 className='logo_title'>Mold & Die</h2>
+            <h2 className='logo_title'>Mold & Die | القوالب والمكابس </h2>
             <p className='logo_desc'>
-            Expert Mold & Die solutions for high-quality, custom manufacturing.
+            Expert Mold & Die solutions for high-quality, custom manufacturing. <br></br>
+            حلول قوالب ومكابس متخصصة لتصنيع مخصص وعالي الجودة
             </p>
           </div>
           <div onClick={() => navigate('/sheetmetal')} class="Sheet-Metal">
             <img className='logo_grid' src={Sheet}></img>
-            <h2 className='logo_title'>Sheet Metal</h2>
+            <h2 className='logo_title'>Sheet Metal | الصفائح المعدنية </h2>
             <p className='logo_desc'>
-            Precision sheet metal fabrication for versatile and durable products
+            Precision sheet metal fabrication for versatile & durable products  <br></br>
+            تصنيع الصفائح المعدنية بدقة لمنتجات متعددة الاستخدامات ومتينة
             </p>
           </div>
           <div onClick={() => navigate('/welding')} class="Welding">
             <img className='logo_grid' src={Welding}></img>
-            <h2 className='logo_title'>Welding</h2>
+            <h2 className='logo_title'>Welding  | اللحام </h2>
             <p className='logo_desc'>
-            Expert welding services for strong and reliable joints
+            Expert welding services for strong and reliable joints <br></br>
+            خدمات لحام متخصصة لوصلات قوية وموثوقة
             </p>
           </div>
           <div onClick={() => navigate('/gearbox')} class="GearBox">
               <img className='logo_grid' src={GearBox}></img>
-              <h2 className='logo_title'>GearBox</h2>
+              <h2 className='logo_title'>GearBox  |  علبة التروس  </h2>
               <p className='logo_desc'>
-              High-performance gearbox manufacturing for efficient and reliable power transmission
+              High-performance gearbox manufacturing for efficient and reliable power transmission <br></br>
+              تصنيع علب تروس عالية الأداء لنقل الطاقة بكفاءة وموثوقية
               </p>
           </div>
           <div onClick={() => window.open('tel:966582444166')}  class="Contact">
               <img className='logo_grid' src={Contact}></img>
-              <h2 className='logo_title'>Contact</h2>
+              <h2 className='logo_title'>Contact | اتصال </h2>
               <p className='logo_desc'>
-              Phone: +966582444166
+              Phone: +966582444166 <br></br> الهاتف: +966582444166
               </p>
           </div>
 
           <div onClick={() => window.open('https://maps.app.goo.gl/UxwJvBMQUqZTuicx6')} class="Location">
               <img className='logo_grid' src={Location}></img>
-              <h2 className='logo_title'>Location</h2>
+              <h2 className='logo_title'>Location | موقع </h2>
               <p className='logo_desc'>
-              GVVF+G96, Al Kharj Rd, New Industrial Area, Riyadh 14331, Saudi Arabia
+              GVVF+G96, Al Kharj Rd, New Industrial Area, Riyadh 14331, Saudi Arabia <br></br>
+              GVVF+G96، طريق الخرج، المنطقة الصناعية الجديدة، الرياض 14331، المملكة العربية السعودية
               </p>
           </div>
       </div>
@@ -108,26 +117,36 @@ function Departments() {
       </div>
       <div class="Aboutus3_titel">
         <h1 id='about_us_h1' className='aboutus_h1'> Manufacturing , Metal Forming & Production Line Cutting Departments, Which Includes <br></br> أقسام التصنيع وتشكيل المعادن وتقطيع خطوط الإنتاج والتي تشمل </h1>
-          <p className='aboutus_p'>
+          <p className='aboutus_p_english'>
            Manufacturing Spare Parts From Raw Materials From All Kinds of Iron
           </p>
-          <p className='aboutus_p'>
+          <p className='arabic-text'>
           "تصنيع قطع الغيار من المواد الخام من الحديد بجميع أنواعه"
           </p>
-          <ul className='aboutus_p'>
-              <li>Stainless Steel</li>
-              <li>Cast Iron Copper</li>
-              <li>Bronze</li>
-              <li>Aluminum</li>
-              <li>Teflon Plastic</li>
-          </ul>
-          <ul className='aboutus_p'>
-          <li>الفولاذ المقاوم للصدأ</li>
-          <li>الحديد الزهر والنحاس</li>
-          <li>البرونز</li>
-          <li>الألومنيوم</li>
-          <li>البلاستيك التفلون</li>
-          </ul>
+
+          <div className='spilt_layout'>
+              <div className='spilt_layout_1'>
+                <ul className='aboutus_p'>
+                  <li>Stainless Steel</li>
+                  <li>Cast Iron Copper</li>
+                  <li>Bronze</li>
+                  <li>Aluminum</li>
+                  <li>Teflon Plastic</li>
+                </ul>
+              </div>
+
+              <div className='spilt_layout_2'>
+                <ul className='aboutus_p'>
+                  <li>الفولاذ المقاوم للصدأ</li>
+                  <li>الحديد الزهر والنحاس</li>
+                  <li>البرونز</li>
+                  <li>الألومنيوم</li>
+                  <li>البلاستيك التفلون</li>
+                </ul>
+              </div>
+
+            </div>
+          
           <br></br>
       </div>
       </div>  
@@ -140,16 +159,24 @@ function Departments() {
         </div>
         <div class="Aboutus4_titel">
           <h1>Gears Manufacturing & Sorting Section Which Includes <br></br> قسم تصنيع وفرز التروس والذي يشمل </h1>
-          <ul>
-              <li>Manufacturing & Sorting of Helical Gears</li>
-              <li>Mechnical Movement Systems in all Materials</li>
-              
-            </ul>
-            <br></br>
-            <ul>
-            <li>تصنيع وفرز التروس الحلزونية</li>
-            <li>أنظمة الحركة الميكانيكية بجميع المواد</li>
-            </ul>
+          
+           <div className='spilt_layout'>
+              <div className='spilt_layout_1'>
+                <ul>
+                  <li>Manufacturing & Sorting of Helical Gears</li>
+                  <li>Mechnical Movement Systems in all Materials</li>  
+                </ul>
+              </div>
+
+              <div className='spilt_layout_2'>
+                <ul>
+                  <li>تصنيع وفرز التروس الحلزونية</li>
+                  <li>أنظمة الحركة الميكانيكية بجميع المواد</li>
+                </ul>
+              </div>
+
+           </div>
+
             <br></br>
         </div>
       </div> 
@@ -160,14 +187,24 @@ function Departments() {
       </div>
       <div class="Aboutus3_titel">
         <h1 id='about_us_h1'>Mold Manufacturing & Maintenance Departments Which Includes <br></br> أقسام تصنيع وصيانة القوالب والتي تشمل </h1>
-          <ul>
-              <li>Manufacturing of plastic Mold Factories</li>
-              <li>Iron Molds</li>
-          </ul>
-          <ul>
-            <li>تصنيع قوالب البلاستيك</li>
-            <li>قوالب الحديد</li>
-          </ul>
+          
+          
+          <div className='spilt_layout'>
+              <div className='spilt_layout_1'>
+                <ul>
+                  <li>Manufacturing of plastic Mold</li>
+                  <li>Iron Molds</li>
+                </ul>
+              </div>
+
+              <div className='spilt_layout_2'>
+                <ul>
+                  <li>تصنيع قوالب البلاستيك</li>
+                  <li>قوالب الحديد</li>
+                </ul>
+              </div>
+           </div>
+
           <br></br>
       </div>
       </div>  
@@ -178,21 +215,27 @@ function Departments() {
         </div>
         <div class="Aboutus4_titel">
           <h1>Maintenance Department Which Includes <br></br> قسم الصيانة والذي يضم </h1>
-          <ul>
-              <li>Heavy Machinery & Equipment</li>
-              <li>Electric Motor Winding</li>
-              <li>Genrator</li>
-              <li>Mechnical Maintenance & Pumps</li>
+            <br></br>
+            <div className='spilt_layout'>
+              <div className='spilt_layout_1'>
+                <ul>
+                  <li>Heavy Machinery & Equipment</li>
+                  <li>Electric Motor Winding</li>
+                  <li>Genrator</li>
+                  <li>Mechnical Maintenance & Pumps</li>
+                </ul>
+              </div>
 
-            </ul>
-            <br></br>
-            <ul>
-            <li>الآلات والمعدات الثقيلة</li>
-            <li>لف المحركات الكهربائية</li>
-            <li>مولد</li>
-            <li>الصيانة الميكانيكية والمضخات</li>
-            </ul>
-            <br></br>
+              <div className='spilt_layout_2'>
+                <ul>
+                  <li>الآلات والمعدات الثقيلة</li>
+                  <li>لف المحركات الكهربائية</li>
+                  <li>مولد</li>
+                  <li>الصيانة الميكانيكية والمضخات</li>
+                </ul>
+              </div>
+           </div>
+           <br></br>
         </div>
       </div> 
       <img className='metalforming' src={Maintenance}></img>

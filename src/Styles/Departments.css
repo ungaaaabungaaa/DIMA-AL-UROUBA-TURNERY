@@ -22,7 +22,7 @@
    margin-bottom: 2.2rem;
    grid-auto-columns: 1rem; 
    grid-template-columns: 32% 32% 32%; 
-   grid-template-rows: 32% 32% 32%; 
+   grid-template-rows: auto auto auto; 
    gap: 1.2rem 1.2rem; 
    grid-template-areas: 
     "Cnc Conventional Electrical"
@@ -191,7 +191,7 @@
 .logo_desc
 {
     width: 85%;
-
+    text-align: center;
     color: #2B1B12;
     margin-left: 8%;
     margin-bottom: 2.2rem;
