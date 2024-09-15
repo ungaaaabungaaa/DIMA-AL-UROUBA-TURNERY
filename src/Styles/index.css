@@ -68,3 +68,40 @@ ul {
     text-align: right;
 }
 
+
+
+
+  /* Mobile */
+  @media only screen and (max-width: 767px) {
+
+
+    .spilt_layout
+    {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+    }
+
+    .spilt_layout_1
+    {
+        width: 100%;
+        height: auto;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        text-align: left;
+    }
+
+
+    .spilt_layout_2
+    {
+        width: 100%;
+        height: auto;
+        grid-column-start: 1;
+        grid-row-start: 2;
+        text-align: right;
+    }
+
+  }
+
