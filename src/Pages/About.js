@@ -53,7 +53,7 @@ function About() {
            On a local scale, we have successfully built a large customer base by offering a distinctive set of features that prioritize us over others. At Dima Al-Orouba Turnery, we stand out for
           </p>
           <p className='arabic-text' >
-          "على الصعيد المحلي، تمكنا من بناء قاعدة عملاء كبيرة من خلال تقديم مجموعة مميزة من الميزات التي تجعلنا أفضلون عن الآخرين. في مخرطة ديمة العروبة، نتميز بـ..."
+          "على الصعيد المحلي، تمكنا من بناء قاعدة عملاء كبيرة من خلال تقديم مجموعة مميزة من الميزات التي تجعلنا الأفضل عن الآخرين. في مخرطة ديما العروبة، نتميز بـ..."
           </p>
           <ul>
             <li>Our prices are competitive and unbeatable.</li>

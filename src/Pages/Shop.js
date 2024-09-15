@@ -57,7 +57,7 @@ function Shop() {
         <div className='sales_highligh_box'>
           <h3 className='sales_highligh_h3'>Industrial Machine Tools Available For Sale | أدوات الآلات الصناعية المتاحة للبيع</h3>
           <div className='highlight_points'>
-            <p>CNC Milling | Turning Tools الطحن باستخدام الحاسب الآلي | أدوات تحول <br /> CNC Holder | CNC حامل <br /> Carbide End Mill (Flat & Round) | قاطعة نهاية من الكربيد (مسطحة ومستديرة)  <br /> Carbide Insert (For CNC Milling | Turning) | مطحنة نهاية الكربيد (مسطحة ومستديرة) <br /> Micro Meter | ميكرومتر <br /> Vernier Caliper (Digital & Manual) | الورنية الفرجار (الرقمية ومانويل) <br /> Dial Indicator | اطلب مؤشر <br /> Drill Bit (Carbide & HSS) | لقمة الحفر ( HSS كربيد و )</p>
+            <p>CNC Milling | Turning Tools الطحن باستخدام الحاسب الآلي | أدوات تحول <br /> CNC Holder | CNC حامل <br /> Carbide End Mill (Flat & Round) | قاطعة نهاية من الكربيد (مسطحة ومستديرة)  <br /> Carbide Insert (For CNC Milling | Turning) | مطحنة نهاية الكربيد (مسطحة ومستديرة) <br /> Micro Meter | ميكرومتر <br /> Vernier Caliper (digitally & Manually) | الورنية الفرجار (رقميًا و يدويًا) <br /> Dial Indicator | اطلب مؤشر <br /> Drill Bit (Carbide & HSS) | لقمة الحفر ( HSS كربيد و )</p>
           </div>
         </div>
       </div>
