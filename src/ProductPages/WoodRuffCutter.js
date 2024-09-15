@@ -28,20 +28,42 @@ function WoodRuffCutter() {
             <h1>Wood Ruff Cutter | قاطعة الخشب</h1>
             <p>The Woodruff Cutter is precision-engineered for creating keyways and slots with accuracy and efficiency. With a durable 2-inch tungsten carbide cutting edge and a 3-inch overall length, this cutter is ideal for both CNC and manual milling machines. It is specifically designed to produce clean and precise keyseat slots, ensuring a perfect fit for Woodruff keys</p>
             <p className='arabic-text'>تم تصميم قاطعة Woodruff بدقة لإنشاء فتحات ومفاتيح بدقة وكفاءة. مع حافة قطع متينة من كربيد التنغستن مقاس 2 بوصة وطول إجمالي 3 بوصات، تعد هذه القاطعة مثالية لكل من ماكينات الطحن CNC واليدوية. تم تصميمها خصيصًا لإنتاج فتحات مقاعد المفاتيح النظيفة والدقيقة، مما يضمن ملاءمة مثالية لمفاتيح Woodruff</p>
-            <h3>Generalized Specs | المواصفات العامة</h3>
-            <p>
-               <b>Materials :</b> Fits all standard CNC and manual milling machines <br></br>
-                <b>Dimensions :</b> Half-moon design for cutting keyseat slots  <br></br>
-                <b>Compatibility :</b> High wear resistance for extended tool life  <br></br>
-                <b>Application :</b> Ideal for cutting Woodruff keyways, slots, and grooves  <br></br>
-                <b>Coating :</b> TiN (Titanium Nitride) coating for enhanced durability and reduced friction  <br></br>
-                <b>Shank Size :</b> 1/2-inch universal shank  <br></br>
-                <b>Cutting Diameter :</b> Available in various diameters for different key sizes <br></br>
-                <b>Helix Angle:</b> Straight flute design for clean cuts and chip removal <br></br>
-            </p>
+      
+            <div className='spilt_layout'>
+
+              <div className='spilt_layout_1'>
+                <h3>Generalized Specs</h3>
+                <p>
+                    <b>Materials :</b> Fits all standard CNC and manual milling machines <br></br>
+                    <b>Dimensions :</b> Half-moon design for cutting keyseat slots  <br></br>
+                    <b>Compatibility :</b> High wear resistance for extended tool life  <br></br>
+                    <b>Application :</b> Ideal for cutting Woodruff keyways, slots, and grooves  <br></br>
+                    <b>Coating :</b> TiN (Titanium Nitride) coating for enhanced durability and reduced friction  <br></br>
+                    <b>Shank Size :</b> 1/2-inch universal shank  <br></br>
+                    <b>Cutting Diameter :</b> Available in various diameters for different key sizes <br></br>
+                    <b>Helix Angle:</b> Straight flute design for clean cuts and chip removal <br></br>
+                </p>
+              
+              </div>
+
+              <div className='spilt_layout_2'>
+                    <h3>المواصفات العامة</h3>
+                    <p>
+                      <b>المواد:</b> يتناسب مع جميع آلات الطحن CNC واليدوية القياسية <br></br>
+                      <b>الأبعاد:</b> تصميم نصف دائري لقطع فتحات المفاتيح <br></br>
+                      <b>التوافق:</b> مقاومة عالية للتآكل لعمر أداة ممتد <br></br>
+                      <b>التطبيق:</b> مثالي لقطع فتحات مفاتيح وودروف، والفجوات، والأخاديد <br></br>
+                      <b>الطلاء:</b> طلاء TiN (نيتريد التيتانيوم) لتحسين المتانة وتقليل الاحتكاك <br></br>
+                      <b>حجم الساق:</b> ساق عالمي بقياس 1/2 بوصة <br></br>
+                      <b>قطر القطع:</b> متوفر بأقطار مختلفة لأحجام المفاتيح المختلفة <br></br>
+                      <b>زاوية الحلزون:</b> تصميم بشفرة مستقيمة لقطع نظيف وإزالة الرقائق <br></br>
+                    </p> 
+              </div>
+            </div>
+
             <br></br>
             <br></br>
-            <button onClick={handleSendMessage} className='order_now'>Contact Us To Order</button>
+            <button onClick={handleSendMessage} className='order_now'>Contact Us To Order | اتصل بنا للطلب</button>
           </div>
 
         </div>

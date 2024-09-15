@@ -40,3 +40,31 @@ ul {
     text-align: center;
 }
 
+
+
+.spilt_layout
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr;
+}
+
+.spilt_layout_1
+{
+    width: 100%;
+    height: auto;
+    grid-column-start: 1;
+    text-align: left;
+}
+
+
+.spilt_layout_2
+{
+    width: 100%;
+    height: auto;
+    grid-column-start: 2;
+    text-align: right;
+}
+
