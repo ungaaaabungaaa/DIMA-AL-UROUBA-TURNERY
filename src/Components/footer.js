@@ -37,8 +37,11 @@ function Footer() {
       <div className='footer_titles'>
           <h1 className='footer_h1'>DIMA AL UROUBA</h1>
           <h3 className='footer_h3'>Precision Crafting for a Brighter Tomorrow</h3>
-          <h1 className='footer_h1'>ديما العروبة</h1>
-          <h3 className='footer_h3'>صناعة دقيقة لمستقبل أكثر إشراقا</h3>
+          <div className='footer_titles_2'>
+              <h1 className='footer_h1'>ديما العروبة</h1>
+              <h3 className='footer_h3'>صناعة دقيقة لمستقبل أكثر إشراقا</h3>
+          </div>
+          
       </div>
 
      

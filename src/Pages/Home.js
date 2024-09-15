@@ -56,7 +56,7 @@ function Home() {
     <div className='hero'>
       <div className='hero_text'>
         <h1 className='hero_title'>DIMA AL UROUBA</h1>
-        <h3 className='hero_title_h3'>Precision Crafting for a Brighter Tomorrow | صناعة  <br></br>دقيقة لمستقبل أكثر إشراقًا</h3>
+        <h3 className='hero_title_h3 arabic-text'>Precision Crafting for a Brighter Tomorrow <br></br> صناعة  دقيقة لمستقبل أكثر إشراقًا</h3>
         <br></br>
         <button onClick={handleContactClick} className='contact_button'>Contact</button>
 
@@ -76,17 +76,17 @@ function Home() {
         <h1 className='something-else-h1'>Something Else | شيء آخر </h1>
         <p className='something_p'>Reaching the world in the field of industry, turning, and maintenance is not easy, but with patience and diligence we have reached what we aspire to, and for this reason we are trying to preserve the place we have reached, to always maintain our first ranking in our field, and thus we gain the trust of our customers</p>
         <br></br>
-        <p className='something_p'>الوصول إلى العالمية في مجال الصناعة والخراطة والصيانة ليس بالأمر السهل، ولكن بالصبر والاجتهاد وصلنا إلى ما نطمح إليه، ولهذا السبب نحاول الحفاظ على المكانة التي وصلنا إليها، لنحافظ دائمًا على مكانتنا الأولى التصنيف في مجالنا، وبالتالي نكتسب ثقة عملائنا</p>
+        <p className='something_p arabic-text'>الوصول إلى العالمية في مجال الصناعة والخراطة والصيانة ليس بالأمر السهل، ولكن بالصبر والاجتهاد وصلنا إلى ما نطمح إليه، ولهذا السبب نحاول الحفاظ على المكانة التي وصلنا إليها، لنحافظ دائمًا على مكانتنا الأولى التصنيف في مجالنا، وبالتالي نكتسب ثقة عملائنا</p>
         <div className='highlights'>
-          <div className='highlights_text'>
+          <div className='highlights_text text_center'>
             <h1>8K+</h1>
             <p>Products Shipped</p>
           </div>
-          <div className='highlights_text'>
+          <div className='highlights_text text_center'>
             <h1>6K+</h1>
             <p>Happy Customer</p>
           </div>
-          <div className='highlights_text'>
+          <div className='highlights_text text_center'>
             <h1>2K+</h1>
             <p>Staff Support</p>
           </div>
@@ -96,7 +96,7 @@ function Home() {
 
     <div className='departments_layout'>
       <h2 className='departments_h2'>Departments | الأقسام</h2>
-      <h3>Precision-engineered components crafted with expertise and <br></br> efficiency in our advanced  Department’s | مكونات مصممة بدقة ومصممة بخبرة وكفاءة في قسمنا المتقدم</h3>
+      <h3>Precision-engineered components crafted with expertise and <br></br> efficiency in our advanced  Department’s <br></br> مكونات مصممة بدقة ومصممة بخبرة وكفاءة في قسمنا المتقدم</h3>
       <br></br>
       <Marquee pauseOnHover pauseOnClick >
             {departments.map((department, index) => (
@@ -120,20 +120,20 @@ function Home() {
         <div onClick={() => navigate('/concavemilingcenter')}  className='salesCard1'>
          <img src={sale1} className='salesimage'></img>
          <br></br>
-         <h3 className='margin_bottom_zero'>Concave Miling Center</h3>
-         <p>delivers precision and efficiency for industrial cutting</p>
+         <h3 className='margin_bottom_zero'>Concave Miling Center <br></br>مركز الطحن المقعّر</h3>
+         <p>delivers precision and efficiency for industrial cutting <br></br> يقدم الدقة والكفاءة لعمليات القطع الصناعية </p>
         </div>
         <div onClick={() => navigate('/flycutter')} className='salesCard2'>
          <img src={sale2} className='salesimage'></img>
          <br></br>
-         <h3 className='margin_bottom_zero'>Fly Cutter</h3>
-         <p>engineered for high-precision surface finishing and facing operations</p>
+         <h3 className='margin_bottom_zero'>Fly Cutter <br></br> قاطع طيّار </h3>
+         <p>engineered for high-precision surface finishing and facing operations <br></br> مصمم لإنهاء الأسطح بدقة عالية وعمليات التوجيه </p>
         </div>
         <div onClick={() => navigate('/ballnoseendmill')} className='salesCard3'>
           <img src={sale3} className='salesimage'></img>
           <br></br>
-          <h3 className='margin_bottom_zero'>Ball Nose End Mill</h3>
-          <p>3D contouring and smooth surface finishes. With a durable 3-inch tungsten carbide</p>
+          <h3 className='margin_bottom_zero'>Ball Nose End Mill <br></br> مخرطة ذات رأس كروي </h3>
+          <p>3D contouring and smooth surface finishes. With a durable 3-inch tungsten carbide <br></br> تصميم ثلاثي الأبعاد وتشطيبات سطحية ناعمة. مع  التنغستن كاربايد مقاس 3 بوصات </p>
         </div>
       </div>
       <br></br>
@@ -141,22 +141,22 @@ function Home() {
         <div onClick={() => navigate('/facemillingcutter')} className='salesCard1'>
          <img src={sale4} className='salesimage'></img>
          <br></br>
-         <h3 className='margin_bottom_zero'>Face Milling Cutter</h3>
-         <p>engineered for efficient material removal and superior surface finishes on large</p>
+         <h3 className='margin_bottom_zero'>Face Milling Cutter <br></br> قاطع الطحن الوجهي </h3>
+         <p>engineered for efficient material removal and superior surface finishes on large <br></br>  </p>
         </div>
 
         <div onClick={() => navigate('/endmillcutter')} className='salesCard2'>
          <img src={sale5} className='salesimage'></img>
          <br></br>
-         <h3 className='margin_bottom_zero'>End Mill Cutter</h3>
-         <p>versatility for a wide range of milling tasks, from slotting to contouring</p>
+         <h3 className='margin_bottom_zero'>End Mill Cutter <br></br> مخرطة نهايات </h3>
+         <p> versatility for a wide range of milling tasks, from slotting to contouring <br></br> تعدد الاستخدامات لمجموعة واسعة من مهام الطحن، من التقطيع إلى التشكيل </p>
         </div>
 
         <div onClick={() => navigate('/threadmillcutter')} className='salesCard3'>
           <img src={sale6} className='salesimage'></img>
           <br></br>
-          <h3 className='margin_bottom_zero'>Thread Mill Cutter</h3>
-          <p>designed for precise and efficient threading operations across a range of materials</p>
+          <h3 className='margin_bottom_zero'>Thread Mill Cutter <br></br> قاطعة الخيوط </h3>
+          <p>designed for precise and efficient threading operations across a range of materials <br></br> مصممة لعمليات الترابط الدقيقة والفعالة عبر مجموعة من المواد </p>
         </div>
       </div>
 

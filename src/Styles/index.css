@@ -24,9 +24,10 @@ ul {
     list-style-type: none; /* Removes default bullet points */
 }
 
-.text_right
-{
+/* Add these styles to your faq.css */
+.arabic-text {
     text-align: right;
+    direction: rtl; /* Sets text direction to right-to-left */
 }
 
 .text_left
