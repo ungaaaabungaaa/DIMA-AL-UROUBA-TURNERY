@@ -29,7 +29,7 @@ function RoughingEndMill() {
             <img className='product_image' src={RoughingEndMillImage} ></img>
           </div>
           <div className='product_details_desc'>
-            <h1>Roughing End Mill</h1>
+            <h1>Roughing End Mill | مطحنة نهاية الخشونة </h1>
             <p>The Roughing End Mill is engineered for rapid and efficient material removal in heavy-duty milling operations. Featuring a robust 4-flute design with a 1-inch cutting diameter and a 4-inch overall length, it excels in tackling tough materials while minimizing vibration and chatter. Compatible with all standard milling machines, this tool is essential for optimizing productivity in high-volume machining tasks.</p>
             <p className='arabic-text'>تم تصميم أداة الطحن الخشنة لإزالة المواد بسرعة وكفاءة في عمليات الطحن الشاقة. تتميز بتصميم قوي بأربعة أخاديد بقطر قطع 1 بوصة وطول إجمالي 4 بوصات، وهي تتفوق في التعامل مع المواد الصلبة مع تقليل الاهتزاز والثرثرة. متوافقة مع جميع ماكينات الطحن القياسية، هذه الأداة ضرورية لتحسين الإنتاجية في مهام التصنيع عالية الحجم.</p>
             <h3>Generalized Specs | المواصفات العامة</h3>

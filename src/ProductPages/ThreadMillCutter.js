@@ -29,7 +29,7 @@ function ThreadMillCutter() {
             <img className='product_image' src={ThreadMillCutterImage} ></img>
           </div>
           <div className='product_details_desc'>
-            <h1>Thread Mill Cutter</h1>
+            <h1>Thread Mill Cutter | قاطعة الخيوط </h1>
             <p>The Thread Mill Cutter is designed for precise and efficient threading operations across a range of materials. With a durable 3-inch tungsten carbide cutting edge and a 4-inch total length, it ensures clean and accurate threads every time. This cutter is compatible with standard CNC and manual milling machines, making it a versatile tool for threading tasks</p>
             <p className='arabic-text'>تم تصميم قاطعة الخيط لعمليات الخيط الدقيقة والفعّالة عبر مجموعة من المواد. بفضل حافة القطع المتينة المصنوعة من كربيد التنجستن مقاس 3 بوصات والطول الإجمالي 4 بوصات، تضمن خيوطًا نظيفة ودقيقة في كل مرة. هذه القاطعة متوافقة مع ماكينات الطحن اليدوية والرقمية القياسية، مما يجعلها أداة متعددة الاستخدامات لمهام الخيط</p>
             <h3>Generalized Specs | المواصفات العامة</h3>
