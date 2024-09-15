@@ -26,7 +26,7 @@ function Footer() {
   };
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "+0509909620";
+    const phoneNumber = "+966509909620";
     const message = "Hello, I would like to get in touch.";
     window.location.href = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
   };
