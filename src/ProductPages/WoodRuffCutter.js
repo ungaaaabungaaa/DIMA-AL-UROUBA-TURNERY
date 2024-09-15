@@ -27,7 +27,8 @@ function WoodRuffCutter() {
           <div className='product_details_desc'>
             <h1>Wood Ruff Cutter</h1>
             <p>The Woodruff Cutter is precision-engineered for creating keyways and slots with accuracy and efficiency. With a durable 2-inch tungsten carbide cutting edge and a 3-inch overall length, this cutter is ideal for both CNC and manual milling machines. It is specifically designed to produce clean and precise keyseat slots, ensuring a perfect fit for Woodruff keys</p>
-            <h3>Generalized Specs :</h3>
+            <p className='arabic-text'>تم تصميم قاطعة Woodruff بدقة لإنشاء فتحات ومفاتيح بدقة وكفاءة. مع حافة قطع متينة من كربيد التنغستن مقاس 2 بوصة وطول إجمالي 3 بوصات، تعد هذه القاطعة مثالية لكل من ماكينات الطحن CNC واليدوية. تم تصميمها خصيصًا لإنتاج فتحات مقاعد المفاتيح النظيفة والدقيقة، مما يضمن ملاءمة مثالية لمفاتيح Woodruff</p>
+            <h3>Generalized Specs | المواصفات العامة</h3>
             <p>
                <b>Materials :</b> Fits all standard CNC and manual milling machines <br></br>
                 <b>Dimensions :</b> Half-moon design for cutting keyseat slots  <br></br>

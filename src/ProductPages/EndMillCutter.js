@@ -31,7 +31,8 @@ function EndMillCutter() {
           <div className='product_details_desc'>
             <h1>End Mill Cutter</h1>
             <p>The End Mill Cutter offers exceptional versatility for a wide range of milling tasks, from slotting to contouring. With a 4-flute tungsten carbide cutting edge and a 5-inch overall length, it delivers precision and durability in every cut. Compatible with standard milling machines, this tool is essential for both roughing and finishing operations.</p>
-            <h3>Generalized Specs :</h3>
+            <p className='arabic-text'>توفر قاطعة الطحن الطرفية تنوعًا استثنائيًا لمجموعة واسعة من مهام الطحن، من التشقق إلى تحديد الخطوط. بفضل حافة القطع المصنوعة من كربيد التنغستن ذات الأربعة أخاديد وطولها الإجمالي الذي يبلغ 5 بوصات، فإنها توفر الدقة والمتانة في كل قطع. متوافقة مع ماكينات الطحن القياسية، تعد هذه الأداة ضرورية لكل من عمليات التشطيب والتشطيب.</p>
+            <h3>Generalized Specs | المواصفات العامة</h3>
             <p>
                <b>Materials :</b> Tungsten Carbide, High-Speed Steel <br></br>
                 <b>Dimensions :</b>  4-flute design, 5-inch total length  <br></br>

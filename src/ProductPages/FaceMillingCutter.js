@@ -29,7 +29,8 @@ function FaceMillingCutter() {
           <div className='product_details_desc'>
             <h1>Face Milling Cutter</h1>
             <p>The Face Milling Cutter is engineered for efficient material removal and superior surface finishes on large, flat surfaces. Featuring a 5-inch tungsten carbide insert and a 10-inch overall diameter, it is ideal for heavy-duty milling tasks. This cutter is compatible with all standard milling machines, ensuring high performance and precision</p>
-            <h3>Generalized Specs :</h3>
+            <p className='arabic-text'>تم تصميم قاطع الطحن الوجهي لإزالة المواد بكفاءة وتشطيبات سطحية فائقة على الأسطح الكبيرة والمسطحة. يتميز بقطعة كربيد التنجستن مقاس 5 بوصات وقطر إجمالي 10 بوصات، وهو مثالي لمهام الطحن الشاقة. يتوافق هذا القاطع مع جميع ماكينات الطحن القياسية، مما يضمن الأداء العالي والدقة</p>
+            <h3>Generalized Specs | المواصفات العامة</h3>
             <p>
                <b>Materials :</b> Tungsten Carbide Inserts, High-Speed Steel Body <br></br>
                 <b>Dimensions :</b> 5-inch insert, 10-inch total diameter  <br></br>

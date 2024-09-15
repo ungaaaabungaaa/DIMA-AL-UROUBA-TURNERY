@@ -29,9 +29,10 @@ function ConcaveMilingCenter() {
             <img className='product_image' src={ConcaveMilingCenterImage} ></img>
           </div>
           <div className='product_details_desc'>
-            <h1>Concave Miling Center</h1>
+            <h1>Concave Miling Center | مركز ميلينغ المقعر </h1>
             <p>Our Concave Milling Center delivers precision and efficiency for industrial cutting applications. Designed with a 6-inch tungsten carbide blade and a 12-inch total length, it ensures smooth and accurate material removal. Compatible with all standard industrial cutting machines, this tool is ideal for demanding manufacturing environments.</p>
-            <h3>Generalized Specs :</h3>
+            <p className='arabic-text'>يوفر مركز الطحن المقعر لدينا الدقة والكفاءة لتطبيقات القطع الصناعية. تم تصميمه بشفرة من كربيد التنجستن مقاس 6 بوصات وطول إجمالي 12 بوصة، مما يضمن إزالة المواد بسلاسة ودقة. متوافق مع جميع آلات القطع الصناعية القياسية، هذه الأداة مثالية لبيئات التصنيع الصعبة.</p>
+            <h3>Generalized Specs | المواصفات العامة</h3>
             <p>
                <b>Materials :</b> Tungsten Carbide, High-Speed Steel <br></br>
                 <b>Dimensions :</b> 6-inch blade, 12-inch total length  <br></br>

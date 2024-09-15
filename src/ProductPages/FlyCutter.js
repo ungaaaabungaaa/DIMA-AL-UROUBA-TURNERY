@@ -29,7 +29,8 @@ function FlyCutter() {
           <div className='product_details_desc'>
             <h1>Fly Cutter</h1>
             <p>The Fly Cutter is engineered for high-precision surface finishing and facing operations. Featuring a robust 4-inch high-speed steel blade and an 8-inch total length, it delivers consistent performance across various materials. Designed to fit standard milling machines, this tool ensures efficient and smooth cuts in every application.</p>
-            <h3>Generalized Specs :</h3>
+            <p className='arabic-text'>تم تصميم أداة القطع الذبابية لعمليات التشطيب والتغطية السطحية عالية الدقة. تتميز بشفرة فولاذية عالية السرعة مقاس 4 بوصات وطول إجمالي 8 بوصات، وتوفر أداءً ثابتًا عبر مواد مختلفة. تم تصميم هذه الأداة لتناسب ماكينات الطحن القياسية، وتضمن قطعًا فعّالة وسلسة في كل تطبيق.</p>
+            <h3>Generalized Specs | المواصفات العامة</h3>
             <p>
                <b>Materials :</b> High-Speed Steel, Tungsten Carbide <br></br>
                 <b>Dimensions :</b> 4-inch blade, 8-inch total length  <br></br>
