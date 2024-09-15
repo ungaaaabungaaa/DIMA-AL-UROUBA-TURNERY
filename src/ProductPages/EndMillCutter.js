@@ -1,5 +1,5 @@
 import EndMillCutterImage from '../Resources/SaleTools/EndMillCutter.webp';
-import React, { useState } from 'react';
+import React from 'react';
 import Footer from '../Components/footer';
 import Header from '../Components/header';
 import FAQ from 'react-faq-component';
@@ -12,7 +12,7 @@ function EndMillCutter() {
     
 
       const handleSendMessage = () => {
-        const whatsappNumber = '0509909620';
+        const whatsappNumber = '+966509909620';
         const whatsappUrl = `https://wa.me/${whatsappNumber}`;
         // Open WhatsApp in a new tab
         window.open(whatsappUrl, '_blank');

@@ -1,6 +1,6 @@
 
 import BallNoseEndMillImage from '../Resources/SaleTools/BallNoseEndMill.webp';
-import React, { useState } from 'react';
+import React from 'react';
 import Footer from '../Components/footer';
 import Header from '../Components/header';
 import FAQ from '../Components/faq';
@@ -12,7 +12,7 @@ function BallNoseEndMill() {
    
 
     const handleSendMessage = () => {
-      const whatsappNumber = '0509909620';
+      const whatsappNumber = '+966509909620';
         const whatsappUrl = `https://wa.me/${whatsappNumber}`;
         // Open WhatsApp in a new tab
         window.open(whatsappUrl, '_blank');

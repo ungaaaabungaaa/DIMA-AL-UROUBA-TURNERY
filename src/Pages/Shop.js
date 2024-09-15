@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import Footer from '../Components/footer';
 import Header from '../Components/header';
@@ -55,7 +55,7 @@ function Shop() {
         <div className='sales_highligh_box'>
           <h3 className='sales_highligh_h3'>Industrial Machine Tools Available For Sale | أدوات الآلات الصناعية المتاحة للبيع</h3>
           <div className='highlight_points'>
-            <p>CNC Milling | Turning Tools الطحن باستخدام الحاسب الآلي | أدوات تحول <br /> CNC Holder | حامل CNC <br /> Carbide End Mill (Flat & Round) <br /> Carbide Insert (For CNC Milling | Turning) | مطحنة نهاية الكربيد (مسطحة ومستديرة) <br /> Micro Meter | ميكرومتر <br /> Vernier Caliper (Digital & Manual) | الورنية الفرجار (الرقمية ومانويل) <br /> Dial Indicator | اطلب مؤشر <br /> Drill Bit (Carbide & HSS) | لقمة الحفر (كربيد وHSS)</p>
+            <p>CNC Milling | Turning Tools الطحن باستخدام الحاسب الآلي | أدوات تحول <br /> CNC Holder | CNC حامل <br /> Carbide End Mill (Flat & Round) | قاطعة نهاية من الكربيد (مسطحة ومستديرة)  <br /> Carbide Insert (For CNC Milling | Turning) | مطحنة نهاية الكربيد (مسطحة ومستديرة) <br /> Micro Meter | ميكرومتر <br /> Vernier Caliper (Digital & Manual) | الورنية الفرجار (الرقمية ومانويل) <br /> Dial Indicator | اطلب مؤشر <br /> Drill Bit (Carbide & HSS) | لقمة الحفر ( HSS كربيد و )</p>
           </div>
         </div>
       </div>

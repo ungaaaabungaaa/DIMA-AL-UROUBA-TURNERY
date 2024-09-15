@@ -10,6 +10,14 @@
   flex-direction: column;
 }
 
+
+/* Add these styles to your faq.css */
+.arabic-text {
+  text-align: right;
+  direction: rtl; /* Sets text direction to right-to-left */
+}
+
+
 .faq_context
 {
   width: 65%;

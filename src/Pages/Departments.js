@@ -32,8 +32,8 @@ function Departments() {
     <>
     <Header></Header>
     <div className='departments'>
-      <h1 className='margin_zero'>Our Departments | قسمنا </h1>
-      <h3>Explore the specialized capabilities of our Departments | اكتشف القدرات المتخصصة لأقسامنا</h3>
+      <h1 className='margin_zero'>Our Departments | أقسامنا </h1>
+      <h3 className='text_center'>Explore the specialized capabilities of our Departments <br></br> <span className='text_right'> اكتشف القدرات المتخصصة لأقسامنا </span> </h3>
       <br></br>
       <div className='department_grid'>
           <div onClick={() => navigate('/cnc')} class="Cnc">
@@ -85,11 +85,11 @@ function Departments() {
               High-performance gearbox manufacturing for efficient and reliable power transmission
               </p>
           </div>
-          <div onClick={() => window.open('tel:0582444166')}  class="Contact">
+          <div onClick={() => window.open('tel:966582444166')}  class="Contact">
               <img className='logo_grid' src={Contact}></img>
               <h2 className='logo_title'>Contact</h2>
               <p className='logo_desc'>
-              Phone: 0582444166 | WhatsApp: 0509909620
+              Phone: +966582444166
               </p>
           </div>
 
@@ -107,7 +107,7 @@ function Departments() {
         <img className='image2' src={Image2}></img>
       </div>
       <div class="Aboutus3_titel">
-        <h1 id='about_us_h1' className='aboutus_h1'> Manufacturing , Metal Forming & Production Line Cutting Departments, Which Includes | أقسام التصنيع وتشكيل المعادن وتقطيع خطوط الإنتاج والتي تشمل </h1>
+        <h1 id='about_us_h1' className='aboutus_h1'> Manufacturing , Metal Forming & Production Line Cutting Departments, Which Includes <br></br> أقسام التصنيع وتشكيل المعادن وتقطيع خطوط الإنتاج والتي تشمل </h1>
           <p className='aboutus_p'>
            Manufacturing Spare Parts From Raw Materials From All Kinds of Iron
           </p>
@@ -139,7 +139,7 @@ function Departments() {
           <img className='image3' src={Image3}></img>
         </div>
         <div class="Aboutus4_titel">
-          <h1>Gears Manufacturing & Sorting Section Which Includes | قسم تصنيع وفرز التروس والذي يشمل </h1>
+          <h1>Gears Manufacturing & Sorting Section Which Includes <br></br> قسم تصنيع وفرز التروس والذي يشمل </h1>
           <ul>
               <li>Manufacturing & Sorting of Helical Gears</li>
               <li>Mechnical Movement Systems in all Materials</li>
@@ -159,7 +159,7 @@ function Departments() {
         <img className='image2' src={Image5}></img>
       </div>
       <div class="Aboutus3_titel">
-        <h1 id='about_us_h1'>Mold Manufacturing & Maintenance Departments Which Includes | أقسام تصنيع وصيانة القوالب والتي تشمل </h1>
+        <h1 id='about_us_h1'>Mold Manufacturing & Maintenance Departments Which Includes <br></br> أقسام تصنيع وصيانة القوالب والتي تشمل </h1>
           <ul>
               <li>Manufacturing of plastic Mold Factories</li>
               <li>Iron Molds</li>
@@ -177,7 +177,7 @@ function Departments() {
           <img className='image3' src={Image4}></img>
         </div>
         <div class="Aboutus4_titel">
-          <h1>Maintenance Department Which Includes | قسم الصيانة والذي يضم </h1>
+          <h1>Maintenance Department Which Includes <br></br> قسم الصيانة والذي يضم </h1>
           <ul>
               <li>Heavy Machinery & Equipment</li>
               <li>Electric Motor Winding</li>

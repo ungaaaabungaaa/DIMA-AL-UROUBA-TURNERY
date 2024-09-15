@@ -23,3 +23,19 @@ html,body
 ul {
     list-style-type: none; /* Removes default bullet points */
 }
+
+.text_right
+{
+    text-align: right;
+}
+
+.text_left
+{
+    text-align: right;
+}
+
+.text_center
+{
+    text-align: center;
+}
+

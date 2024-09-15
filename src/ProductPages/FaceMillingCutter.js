@@ -1,6 +1,6 @@
 
 import FaceMillingCutterImage from '../Resources/SaleTools/FaceMillingCenter.webp';
-import React, { useState } from 'react';
+import React from 'react';
 import Footer from '../Components/footer';
 import Header from '../Components/header';
 import { useNavigate } from 'react-router-dom';
@@ -12,7 +12,7 @@ import '../Styles/product.css';
 function FaceMillingCutter() {
 
   const handleSendMessage = () => {
-    const whatsappNumber = '0509909620';
+    const whatsappNumber = '+966509909620';
     const whatsappUrl = `https://wa.me/${whatsappNumber}`;
     // Open WhatsApp in a new tab
     window.open(whatsappUrl, '_blank');

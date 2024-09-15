@@ -1,7 +1,6 @@
 import React from 'react';
 import '../Styles/Footer.css';
 import { useNavigate } from 'react-router-dom';
-import WhatsApp from 'react-whatsapp';
 
 
 function Footer() {
@@ -37,7 +36,9 @@ function Footer() {
     <div className='footer'>
       <div className='footer_titles'>
           <h1 className='footer_h1'>DIMA AL UROUBA</h1>
-          <h3 className='footer_h3'>Precision Crafting for a Brighter Tomorrow | صناعة دقيقة لمستقبل أكثر إشراقًا</h3>
+          <h3 className='footer_h3'>Precision Crafting for a Brighter Tomorrow</h3>
+          <h1 className='footer_h1'>ديما العروبة</h1>
+          <h3 className='footer_h3'>صناعة دقيقة لمستقبل أكثر إشراقا</h3>
       </div>
 
      
@@ -54,7 +55,6 @@ function Footer() {
       <div className='Our_Social'>
           <h3 className='footer_h3'>Our Social</h3>
           <br></br>
-          <h5 className='footer_h5' onClick={() => window.location.href = 'https://www.instagram.com'}>Instagram</h5>
           <h5 className='footer_h5' onClick={handleWhatsAppClick}>WhatsApp</h5>
           <h5 className='footer_h5' onClick={handlePhoneClick}>Phone Number</h5>
           <h5 className='footer_h5' onClick={handleEmailClick}>Email</h5>
@@ -63,7 +63,7 @@ function Footer() {
 
     </div>
     <div onClick={handleContactClick2} className='copyrights'>
-      <p>Developed by Majlisdev © 2024</p>
+      <p>Majlisdev © 2024  تم التطوير بواسطة </p>
     </div>
     </>
   );

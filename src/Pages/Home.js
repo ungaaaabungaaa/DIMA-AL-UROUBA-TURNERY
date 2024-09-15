@@ -29,8 +29,8 @@ function Home() {
  
   
   const handleContactClick = () => {
-    const phoneNumber = '9665099096620';
-    const url = `https://wa.me/${phoneNumber}`;
+    const whatsappNumber = '+966509909620';
+    const url = `https://wa.me/${whatsappNumber}`;
     window.open(url, '_blank');
   };
 
