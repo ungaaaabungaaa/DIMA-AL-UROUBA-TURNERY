@@ -345,9 +345,10 @@
 
   .hero_text
   {
-    width: 100%;
+    width: 86%;
     height: auto;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
   }
@@ -418,6 +419,7 @@
   {
     font-size: medium;
   }
+
 
 
   
