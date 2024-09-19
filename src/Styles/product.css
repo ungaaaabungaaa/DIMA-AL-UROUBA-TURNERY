@@ -3,8 +3,6 @@
     width: 100vw;
     height: auto;
     overflow: hidden;
-    padding-top: 2.4rem;
-    padding-bottom: 2.4rem;
     display: grid;
     grid-template-columns: 40% 60%;
 }
