@@ -40,11 +40,8 @@ function Footer() {
           <div className='footer_titles_2'>
               <h1 className='footer_h1'>ديما العروبة</h1>
               <h3 className='footer_h3'>صناعة دقيقة لمستقبل أكثر إشراقا</h3>
-          </div>
-          
+          </div>         
       </div>
-
-     
 
       <div className='Pages'>
           <h3 className='footer_h3'>Pages</h3>
