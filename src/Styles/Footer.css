@@ -149,16 +149,42 @@
         background-color: #DDC7BB;
         display: flex;
         align-items: center;
+        flex-direction: column;
         justify-content: center;
         padding-top: 2.2rem;
         padding-bottom: 2.2rem;
         bottom: 0;
     }
 
-    .Pages,.Our_Social
+
+    .Pages
     {
-        display: none;
+
+        width: 100%;
+        height: 100%;
+        padding-top: 1.1rem;
+        padding-bottom: 1.1rem;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
+
+    .Our_Social
+    {
+
+        width: 100%;
+        height: 100%;
+        padding-top: 1.1rem;
+        padding-bottom: 1.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+   
 
 
     .footer_h1
@@ -168,7 +194,7 @@
 
     .footer_h1,.footer_h3,.footer_h5
     {
-        font-size: medium;
+        font-size: large;
         margin: 0;
     }
 
