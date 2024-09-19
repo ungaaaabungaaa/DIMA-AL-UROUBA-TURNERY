@@ -1,7 +1,9 @@
 .aboutus_1
 {
     width: 100%;
-    height: 35vh;
+    height: auto;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
     display: grid;
     overflow: hidden;
     grid-template-columns: 40% 60%;
