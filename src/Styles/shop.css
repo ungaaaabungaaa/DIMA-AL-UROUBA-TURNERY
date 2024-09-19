@@ -17,7 +17,9 @@
 .sale_highlight_layout
 {
   width: 100vw;
-  height: 72vh;
+  height: auto;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
