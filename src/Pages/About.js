@@ -14,14 +14,11 @@ import AboutImage2 from '../Resources/Aboutus/about2.webp';
 
 function About() {
   
-      
-    
   return (
     <>
     <Header></Header>
     <div className='aboutus_1'>
       <h1 className='aboutus_1_title'>Vision | رؤية </h1>
-      <br></br>
       <p className='aboutus_1_p'>
          Reaching the world i n the field of industry, turning, and maintenance i s not easy, but with patience and diligence we have
          reached what we aspire to, and for this reason we are trying to preserve the place we have reached, to always maintain our first ranking in our field, and thus we gain the trust of our customers
@@ -32,12 +29,8 @@ function About() {
 وصلنا إلى ما نطمح إليه، ولهذا السبب نحاول الحفاظ على المكانة التي وصلنا إليها، لنحافظ دائمًا على تصنيفنا الأول في مجالنا، وبالتالي نكتسب ثقة   عملائنا   
       </span>
       </p>
-
       <p></p>
     </div>
-
-
-
 
     <br></br>
     <div className='aboutus_2'>
