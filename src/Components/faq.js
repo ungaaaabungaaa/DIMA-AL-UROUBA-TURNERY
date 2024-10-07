@@ -2,6 +2,15 @@ import Faq from 'react-faq-component';
 import '../Styles/faq.css';
 
 function FAQ() {
+
+  const handleContactClick = () => {
+    const whatsappNumber = '+966509909620';
+    const url = `https://wa.me/${whatsappNumber}`;
+    window.open(url, '_blank');
+  };
+
+
+
   const data = {
     title: "FAQ",
     rows: [
@@ -41,6 +50,10 @@ function FAQ() {
             <p className='arabic-text'>
               نعم، نحن نقدم خدمات التصنيع المخصصة لتلبية احتياجاتك المحددة. يرجى التواصل معنا بمتطلباتك، وسيعمل فريقنا معك لتطوير حل مخصص.
             </p>
+            <div className='faq_button_layout'>
+              <button onClick={handleContactClick} className='contact_button'>Contact Us here | تواصل معنا هنا </button>
+            </div>
+            
           </>
         ),
       },
@@ -54,6 +67,7 @@ function FAQ() {
             <p className='arabic-text'>
               يمكنك التواصل مع فريق دعم العملاء لدينا من خلال نموذج الاتصال الموجود على موقعنا الإلكتروني، أو عبر البريد الإلكتروني، أو عن طريق الاتصال بخط الدعم الساخن الخاص بنا. نحن هنا لمساعدتك في أي أسئلة أو مخاوف قد تكون لديك.
             </p>
+            
           </>
         ),
       },

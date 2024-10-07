@@ -54,3 +54,19 @@
   }
 
 }
+
+#contact_faq_button:hover
+{
+  scale: 1;
+}
+
+.faq_button_layout
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
