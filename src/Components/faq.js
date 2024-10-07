@@ -57,19 +57,6 @@ function FAQ() {
           </>
         ),
       },
-      {
-        title: "What is your lead time for manufacturing and delivery? | ما هي المهلة الزمنية اللازمة للتصنيع والتسليم؟",
-        content: (
-          <>
-            <p>
-              Our lead time for manufacturing varies depending on the complexity of your order and our current production schedule. Typically, it ranges from 1 to 4 weeks. Once your order is processed, we will provide an estimated delivery date.
-            </p>
-            <p className='arabic-text'>
-              يختلف وقت التسليم لدينا حسب تعقيد طلبك وجدول الإنتاج الحالي لدينا. وعادةً ما يتراوح من أسبوع إلى أربعة أسابيع. بمجرد معالجة طلبك، سنزودك بتاريخ تسليم تقديري.
-            </p>
-          </>
-        ),
-      },
     ],
   };
 
