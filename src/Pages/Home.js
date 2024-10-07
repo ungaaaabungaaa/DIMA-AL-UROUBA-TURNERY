@@ -120,21 +120,21 @@ function Home() {
       <h2>Machining | التصنيع بالآلات</h2>
       <br></br>
       <div className='sales_grid'>
-      <div onClick={() => navigate('/cncmachine')} className='salesCard1'>
+      <div onClick={() => navigate('/CNCMachning')} className='salesCard1'>
         <img src={M1} className='salesimage'></img>
         <br></br>
         <h3 className='margin_bottom_zero'>CNC Machine <br></br> ماكينة CNC </h3>
         <p>Combines precision turning and milling for complex part production. <br></br> تجمع بين الدقة في الخراطة والتفريز لإنتاج أجزاء معقدة.</p>
       </div>
 
-  <div  className='salesCard2'>
+  <div  onClick={() => navigate('/WireCutMachning')}  className='salesCard2'>
     <img src={M2} className='salesimage'></img>
     <br></br>
     <h3 className='margin_bottom_zero'>Wire Cut <br></br> ماكينة قص بالسلك</h3>
     <p>For precise and intricate cutting of hard metals and alloys. <br></br> تستخدم للقطع الدقيق والمعقد للمعادن الصلبة والسبائك.</p>
   </div>
 
-  <div  className='salesCard3'>
+  <div  onClick={() => navigate('/BendingMachning')}  className='salesCard3'>
     <img src={M3} className='salesimage'></img>
     <br></br>
     <h3 className='margin_bottom_zero'>Bending Machine <br></br> طعّاجة</h3>
@@ -144,21 +144,21 @@ function Home() {
 <br></br>
 
 <div className='sales_grid'>
-  <div  className='salesCard1'>
+  <div  onClick={() => navigate('/LaserMachning')}  className='salesCard1'>
     <img src={M4} className='salesimage'></img>
     <br></br>
     <h3 className='margin_bottom_zero'>Laser Cutting Machine <br></br> ماكينة قص بالليزر</h3>
     <p>Offers precision laser cutting for various materials with minimal waste. <br></br> تقدم قص الليزر بدقة عالية للعديد من المواد مع الحد الأدنى من الهدر.</p>
   </div>
 
-  <div className='salesCard2'>
+  <div  onClick={() => navigate('/GenralMachning')} className='salesCard2'>
     <img src={M5} className='salesimage'></img>
     <br></br>
     <h3 className='margin_bottom_zero'>Motors <br></br> دينموات</h3>
     <p>High-performance motors designed for heavy-duty machining operations. <br></br> دينموات عالية الأداء مصممة لعمليات التصنيع الثقيلة.</p>
   </div>
 
-  <div className='salesCard3'>
+  <div  onClick={() => navigate('/CNCMachning')} className='salesCard3'>
     <img src={M6} className='salesimage'></img>
     <br></br>
     <h3 className='margin_bottom_zero'>General Machining <br></br> خراطة عامة</h3>

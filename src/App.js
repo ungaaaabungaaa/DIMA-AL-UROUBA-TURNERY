@@ -26,6 +26,19 @@ import RoughingEndMill from '../src/ProductPages/RoughingEndMill';
 import WoodRuffCutter from '../src/ProductPages/WoodRuffCutter';
 
 
+
+import CNCMachning from '../src/MachningPages/CNCMachning';
+import BendingMachning from '../src/MachningPages/BendingMachning';
+import GenralMachning from '../src/MachningPages/GenralMachning';
+import LaserMachning from '../src/MachningPages/LaserMachning';
+import MotorMachning from '../src/MachningPages/motorsMachning';
+import WireCutMachning from '../src/MachningPages/WireCutMachning';
+
+
+
+
+
+
 function App() {
   //usePreventActions();
   return (
@@ -54,6 +67,18 @@ function App() {
         <Route path="/threadmillcutter" element={<ThreadMillCutter />} />
         <Route path="/roughingendmill" element={<RoughingEndMill />} />
         <Route path="/woodruffcutter" element={<WoodRuffCutter />} />
+
+
+
+        <Route path="/CNCMachning" element={<CNCMachning />} />
+        <Route path="/BendingMachning" element={<BendingMachning />} />
+        <Route path="/GenralMachning" element={<GenralMachning />} />
+        <Route path="/LaserMachning" element={<LaserMachning />} />
+        <Route path="/MotorMachning" element={<MotorMachning />} />
+        <Route path="/WireCutMachning" element={<WireCutMachning />} />
+
+
+
 
       </Routes>
     </Router>
