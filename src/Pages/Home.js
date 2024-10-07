@@ -8,12 +8,6 @@ import { objectives } from '../Data/objectivesData';
 import { departments } from '../Data/departmentsData';
 import DepartmentCards from '../Components/departmentCards';
 import SomethingImage from '../Resources/AboutUs4.webp'
-import sale1 from '../Resources/SaleTools/ConcaveMillingCenter.webp';
-import sale2 from '../Resources/SaleTools/FlyCutter.webp';
-import sale3 from '../Resources/SaleTools/BallNoseEndMill.webp';
-import sale4 from '../Resources/SaleTools/FaceMillingCenter.webp';
-import sale5 from '../Resources/SaleTools/EndMillCutter.webp';
-import sale6 from '../Resources/SaleTools/ThreadMillCutter.webp';
 import { useNavigate } from 'react-router-dom';
 import FAQ from '../Components/faq';
 import CONTACT from '../Components/contact';
@@ -22,6 +16,15 @@ import heroImage2 from '../Resources/Hero/Hero2.webp';
 import heroImage3 from '../Resources/Hero/Hero3.webp';
 import heroImage4 from '../Resources/Hero/Hero4.webp';
 import heroImage5 from '../Resources/Hero/Hero5.webp';
+
+
+import M1 from '../Resources/machining/cnc.webp';
+import M2 from '../Resources/machining/wirecutting.webp';
+import M3 from '../Resources/machining/bending.webp';
+import M4 from '../Resources/machining/lasercutting.webp';
+import M5 from '../Resources/machining/motors.webp';
+import M6 from '../Resources/machining/machining.webp';
+
 
 
 function Home() {
@@ -114,51 +117,55 @@ function Home() {
 
 
     <div className='sales'>
-      <h2>Machine Tools <br></br>For Sales | أدوات آلية للبيع</h2>
+      <h2>Machining | التصنيع بالآلات</h2>
       <br></br>
       <div className='sales_grid'>
-        <div onClick={() => navigate('/concavemilingcenter')}  className='salesCard1'>
-         <img src={sale1} className='salesimage'></img>
-         <br></br>
-         <h3 className='margin_bottom_zero'>Concave Miling Center <br></br>مركز الطحن المقعّر</h3>
-         <p>delivers precision and efficiency for industrial cutting <br></br> يقدم الدقة والكفاءة لعمليات القطع الصناعية </p>
-        </div>
-        <div onClick={() => navigate('/flycutter')} className='salesCard2'>
-         <img src={sale2} className='salesimage'></img>
-         <br></br>
-         <h3 className='margin_bottom_zero'>Fly Cutter <br></br> قاطع طيّار </h3>
-         <p>engineered for high-precision surface finishing and facing operations <br></br> مصمم لإنهاء الأسطح بدقة عالية وعمليات التوجيه </p>
-        </div>
-        <div onClick={() => navigate('/ballnoseendmill')} className='salesCard3'>
-          <img src={sale3} className='salesimage'></img>
-          <br></br>
-          <h3 className='margin_bottom_zero'>Ball Nose End Mill <br></br> مخرطة ذات رأس كروي </h3>
-          <p>3D contouring and smooth surface finishes. With a durable 3-inch tungsten carbide <br></br> تصميم ثلاثي الأبعاد وتشطيبات سطحية ناعمة. مع  التنغستن كاربايد مقاس 3 بوصات </p>
-        </div>
+      <div onClick={() => navigate('/cncmachine')} className='salesCard1'>
+        <img src={M1} className='salesimage'></img>
+        <br></br>
+        <h3 className='margin_bottom_zero'>CNC Machine <br></br> ماكينة CNC </h3>
+        <p>Combines precision turning and milling for complex part production. <br></br> تجمع بين الدقة في الخراطة والتفريز لإنتاج أجزاء معقدة.</p>
       </div>
-      <br></br>
-      <div className='sales_grid'>
-        <div onClick={() => navigate('/facemillingcutter')} className='salesCard1'>
-         <img src={sale4} className='salesimage'></img>
-         <br></br>
-         <h3 className='margin_bottom_zero'>Face Milling Cutter <br></br> قاطع الطحن الوجهي </h3>
-         <p>engineered for efficient material removal and superior surface finishes on large <br></br>  </p>
-        </div>
 
-        <div onClick={() => navigate('/endmillcutter')} className='salesCard2'>
-         <img src={sale5} className='salesimage'></img>
-         <br></br>
-         <h3 className='margin_bottom_zero'>End Mill Cutter <br></br> مخرطة نهايات </h3>
-         <p> versatility for a wide range of milling tasks, from slotting to contouring <br></br> تعدد الاستخدامات لمجموعة واسعة من مهام الطحن، من التقطيع إلى التشكيل </p>
-        </div>
+  <div  className='salesCard2'>
+    <img src={M2} className='salesimage'></img>
+    <br></br>
+    <h3 className='margin_bottom_zero'>Wire Cut <br></br> ماكينة قص بالسلك</h3>
+    <p>For precise and intricate cutting of hard metals and alloys. <br></br> تستخدم للقطع الدقيق والمعقد للمعادن الصلبة والسبائك.</p>
+  </div>
 
-        <div onClick={() => navigate('/threadmillcutter')} className='salesCard3'>
-          <img src={sale6} className='salesimage'></img>
-          <br></br>
-          <h3 className='margin_bottom_zero'>Thread Mill Cutter <br></br> قاطعة الخيوط </h3>
-          <p>designed for precise and efficient threading operations across a range of materials <br></br> مصممة لعمليات الترابط الدقيقة والفعالة عبر مجموعة من المواد </p>
-        </div>
-      </div>
+  <div  className='salesCard3'>
+    <img src={M3} className='salesimage'></img>
+    <br></br>
+    <h3 className='margin_bottom_zero'>Bending Machine <br></br> طعّاجة</h3>
+    <p>Efficiently bends metal sheets into various shapes for industrial use. <br></br> تقوم بثني الصفائح المعدنية بشكل فعال للاستخدام الصناعي.</p>
+  </div>
+</div>
+<br></br>
+
+<div className='sales_grid'>
+  <div  className='salesCard1'>
+    <img src={M4} className='salesimage'></img>
+    <br></br>
+    <h3 className='margin_bottom_zero'>Laser Cutting Machine <br></br> ماكينة قص بالليزر</h3>
+    <p>Offers precision laser cutting for various materials with minimal waste. <br></br> تقدم قص الليزر بدقة عالية للعديد من المواد مع الحد الأدنى من الهدر.</p>
+  </div>
+
+  <div className='salesCard2'>
+    <img src={M5} className='salesimage'></img>
+    <br></br>
+    <h3 className='margin_bottom_zero'>Motors <br></br> دينموات</h3>
+    <p>High-performance motors designed for heavy-duty machining operations. <br></br> دينموات عالية الأداء مصممة لعمليات التصنيع الثقيلة.</p>
+  </div>
+
+  <div className='salesCard3'>
+    <img src={M6} className='salesimage'></img>
+    <br></br>
+    <h3 className='margin_bottom_zero'>General Machining <br></br> خراطة عامة</h3>
+    <p>Comprehensive machining services including gears, shafts, welding, and custom modifications. <br></br> خدمات خراطة شاملة تشمل التروس والعمدان واللحام والتعديلات المخصصة.</p>
+  </div>
+</div>
+
 
     </div>
 

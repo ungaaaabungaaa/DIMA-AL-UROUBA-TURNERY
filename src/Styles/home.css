@@ -271,9 +271,10 @@
   {
     border-radius: 1.1rem;
     width: 85%;
-    height: auto;
+    background-color: white;
+    height: 310px;
     border: none;
-    object-fit: cover; /* Options: contain, cover, fill, scale-down, none */
+    object-fit: contain; /* Options: contain, cover, fill, scale-down, none */
   }
 
  
