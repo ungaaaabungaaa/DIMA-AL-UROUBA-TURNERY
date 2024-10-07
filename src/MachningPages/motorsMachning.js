@@ -19,21 +19,22 @@ function MotorMachning() {
           <div className='grid-image-layout'>
             <img src={GridImage} className='grid-image'></img>
           </div>
-          <div id='cnc-grid-context-layout' className='grid-context-layout'>
-            <h1>CNC | قسم التحكم الرقمي</h1>
-            <p>At DIMA AL UROUBA TURNERY, our CNC (Computer Numerical Control) department is at the heart of our precision manufacturing capabilities. Equipped with state-of-the-art CNC machines, we specialize in producing high-precision components that meet the exact specifications of our clients. Our skilled technicians utilize advanced software and machinery to ensure that every product meets the highest standards of quality and accuracy.
-            <br></br>
-            <br></br>
-            Our CNC department is complemented by our range of lathe machines, which allow us to perform various turning operations with exceptional precision. This combination of CNC and lathe machines enables us to handle complex manufacturing tasks and deliver products that exceed our clients' expectations.
-            </p>
-            <br></br>
-            <p>
-            في شركة ديمة العروبة للخراطة، يُعتبر قسم التحكم الرقمي CNC قلب قدراتنا التصنيعية الدقيقة. مجهز بأحدث ماكينات التحكم الرقمي، نتخصص في إنتاج المكونات عالية الدقة التي تلبي المواصفات الدقيقة لعملائنا. يستخدم فنينا المهرة البرمجيات المتقدمة والآلات لضمان أن كل منتج يلبي أعلى معايير الجودة والدقة.
-            <br></br>
-            <br></br>
-  يُكمل قسم التحكم الرقمي CNC لدينا مجموعة ماكينات الخراطة لدينا، مما يتيح لنا تنفيذ عمليات الدوران المختلفة بدقة استثنائية. هذا الجمع بين ماكينات التحكم الرقمي CNC وماكينات الخراطة يمكننا من التعامل مع المهام التصنيعية المعقدة وتقديم منتجات تتجاوز توقعات عملائنا.
-            </p>
+          <div id='motors-grid-context-layout' className='grid-context-layout'>
+              <h1>Motors | قسم المحركات</h1>
+              <p>At DIMA AL UROUBA TURNERY, our Motors department is equipped with specialized tools and machinery designed for the repair, maintenance, and customization of electric motors. Whether it's motor rewinding, troubleshooting, or complete overhauls, our expert technicians ensure that every motor is serviced to meet the highest standards of performance and reliability. We handle motors of various sizes and applications, providing solutions that enhance durability and efficiency.
+              <br></br>
+              <br></br>
+              Our comprehensive motor services are tailored to meet the unique requirements of our clients, from industrial to commercial applications. We take pride in delivering results that help keep machinery running smoothly, minimizing downtime and maximizing productivity.
+              </p>
+              <br></br>
+              <p>
+              في شركة ديمة العروبة للخراطة، يختص قسم المحركات لدينا بتقديم خدمات إصلاح وصيانة وتخصيص المحركات الكهربائية باستخدام معدات وآلات متخصصة. سواء كانت إعادة لف المحركات، أو اكتشاف الأعطال، أو إعادة التأهيل الكاملة، يضمن فنينا الخبراء أن يتم تقديم كل خدمة بما يحقق أعلى معايير الأداء والموثوقية. نتعامل مع محركات بمختلف الأحجام والاستخدامات، مما يوفر حلولًا تعزز المتانة والكفاءة.
+              <br></br>
+              <br></br>
+              خدماتنا الشاملة للمحركات مصممة لتلبية المتطلبات الفريدة لعملائنا، سواء في التطبيقات الصناعية أو التجارية. نحن نفخر بتقديم نتائج تساعد في الحفاظ على الآلات تعمل بسلاسة، وتقليل وقت التوقف إلى الحد الأدنى وزيادة الإنتاجية إلى أقصى حد.
+              </p>
           </div>
+
       </div>
       
 

@@ -19,21 +19,23 @@ function LaserMachning() {
           <div className='grid-image-layout'>
             <img src={GridImage} className='grid-image'></img>
           </div>
-          <div id='cnc-grid-context-layout' className='grid-context-layout'>
-            <h1>CNC | قسم التحكم الرقمي</h1>
-            <p>At DIMA AL UROUBA TURNERY, our CNC (Computer Numerical Control) department is at the heart of our precision manufacturing capabilities. Equipped with state-of-the-art CNC machines, we specialize in producing high-precision components that meet the exact specifications of our clients. Our skilled technicians utilize advanced software and machinery to ensure that every product meets the highest standards of quality and accuracy.
-            <br></br>
-            <br></br>
-            Our CNC department is complemented by our range of lathe machines, which allow us to perform various turning operations with exceptional precision. This combination of CNC and lathe machines enables us to handle complex manufacturing tasks and deliver products that exceed our clients' expectations.
-            </p>
-            <br></br>
-            <p>
-            في شركة ديمة العروبة للخراطة، يُعتبر قسم التحكم الرقمي CNC قلب قدراتنا التصنيعية الدقيقة. مجهز بأحدث ماكينات التحكم الرقمي، نتخصص في إنتاج المكونات عالية الدقة التي تلبي المواصفات الدقيقة لعملائنا. يستخدم فنينا المهرة البرمجيات المتقدمة والآلات لضمان أن كل منتج يلبي أعلى معايير الجودة والدقة.
-            <br></br>
-            <br></br>
-  يُكمل قسم التحكم الرقمي CNC لدينا مجموعة ماكينات الخراطة لدينا، مما يتيح لنا تنفيذ عمليات الدوران المختلفة بدقة استثنائية. هذا الجمع بين ماكينات التحكم الرقمي CNC وماكينات الخراطة يمكننا من التعامل مع المهام التصنيعية المعقدة وتقديم منتجات تتجاوز توقعات عملائنا.
-            </p>
+          <div id='laser-cutting-grid-context-layout' className='grid-context-layout'>
+              <h1>Laser Cutting | قسم القطع بالليزر</h1>
+              <p>At DIMA AL UROUBA TURNERY, our Laser Cutting department is equipped with the latest laser technology, enabling us to perform precise and efficient cutting operations on a variety of materials. Whether working with metals, plastics, or other materials, our advanced laser machines ensure clean, accurate cuts that meet the most stringent specifications. 
+              <br></br>
+              <br></br>
+              The precision of our laser cutting process allows us to create intricate shapes and patterns with minimal material waste, delivering high-quality products that are both functional and aesthetically pleasing. Our skilled operators ensure that every cut is performed to perfection, consistently exceeding our clients' expectations.
+              </p>
+              <br></br>
+              <p> 
+              في شركة ديمة العروبة للخراطة، يضم قسم القطع بالليزر أحدث تقنيات الليزر التي تتيح لنا تنفيذ عمليات قطع دقيقة وفعالة على مجموعة متنوعة من المواد. سواء كان العمل مع المعادن أو البلاستيك أو غيرها من المواد، تضمن ماكينات الليزر المتقدمة لدينا تحقيق قصات نظيفة ودقيقة تلبي أدق المواصفات.
+              <br></br>
+              <br></br>
+              تتيح لنا دقة عملية القطع بالليزر إنشاء أشكال وأنماط معقدة مع الحد الأدنى من الهدر في المواد، مما يضمن تسليم منتجات عالية الجودة تكون عملية وجميلة في آن واحد. يضمن مشغلونا المهرة أن يتم تنفيذ كل عملية قطع بدقة متناهية، متجاوزين باستمرار توقعات عملائنا.
+              </p>
           </div>
+
+          
       </div>
       
 

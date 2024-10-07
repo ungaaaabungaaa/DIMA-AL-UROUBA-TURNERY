@@ -151,14 +151,14 @@ function Home() {
     <p>Offers precision laser cutting for various materials with minimal waste. <br></br> تقدم قص الليزر بدقة عالية للعديد من المواد مع الحد الأدنى من الهدر.</p>
   </div>
 
-  <div  onClick={() => navigate('/GenralMachning')} className='salesCard2'>
+  <div  onClick={() => navigate('/MotorMachning')} className='salesCard2'>
     <img src={M5} className='salesimage'></img>
     <br></br>
     <h3 className='margin_bottom_zero'>Motors <br></br> دينموات</h3>
     <p>High-performance motors designed for heavy-duty machining operations. <br></br> دينموات عالية الأداء مصممة لعمليات التصنيع الثقيلة.</p>
   </div>
 
-  <div  onClick={() => navigate('/CNCMachning')} className='salesCard3'>
+  <div  onClick={() => navigate('/GenralMachning')} className='salesCard3'>
     <img src={M6} className='salesimage'></img>
     <br></br>
     <h3 className='margin_bottom_zero'>General Machining <br></br> خراطة عامة</h3>

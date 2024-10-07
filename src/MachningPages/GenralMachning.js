@@ -19,21 +19,21 @@ function GenralMachning() {
           <div className='grid-image-layout'>
             <img src={GridImage} className='grid-image'></img>
           </div>
-          <div id='cnc-grid-context-layout' className='grid-context-layout'>
-            <h1>CNC | قسم التحكم الرقمي</h1>
-            <p>At DIMA AL UROUBA TURNERY, our CNC (Computer Numerical Control) department is at the heart of our precision manufacturing capabilities. Equipped with state-of-the-art CNC machines, we specialize in producing high-precision components that meet the exact specifications of our clients. Our skilled technicians utilize advanced software and machinery to ensure that every product meets the highest standards of quality and accuracy.
-            <br></br>
-            <br></br>
-            Our CNC department is complemented by our range of lathe machines, which allow us to perform various turning operations with exceptional precision. This combination of CNC and lathe machines enables us to handle complex manufacturing tasks and deliver products that exceed our clients' expectations.
-            </p>
-            <br></br>
-            <p>
-            في شركة ديمة العروبة للخراطة، يُعتبر قسم التحكم الرقمي CNC قلب قدراتنا التصنيعية الدقيقة. مجهز بأحدث ماكينات التحكم الرقمي، نتخصص في إنتاج المكونات عالية الدقة التي تلبي المواصفات الدقيقة لعملائنا. يستخدم فنينا المهرة البرمجيات المتقدمة والآلات لضمان أن كل منتج يلبي أعلى معايير الجودة والدقة.
-            <br></br>
-            <br></br>
-  يُكمل قسم التحكم الرقمي CNC لدينا مجموعة ماكينات الخراطة لدينا، مما يتيح لنا تنفيذ عمليات الدوران المختلفة بدقة استثنائية. هذا الجمع بين ماكينات التحكم الرقمي CNC وماكينات الخراطة يمكننا من التعامل مع المهام التصنيعية المعقدة وتقديم منتجات تتجاوز توقعات عملائنا.
-            </p>
-          </div>
+          <div id='general-machining-grid-context-layout' className='grid-context-layout'>
+                <h1>General Machining | قسم التشغيل العام</h1>
+                <p>At DIMA AL UROUBA TURNERY, our General Machining department is dedicated to delivering a wide array of machining services with precision and efficiency. With a variety of conventional and advanced machines, we can handle all kinds of general machining tasks, from drilling and milling to cutting and shaping. Our team of skilled machinists ensures that every component is crafted to meet exact specifications and deliver optimal performance.
+                <br></br>
+                <br></br>
+                Our general machining capabilities allow us to handle both small-scale and large-scale projects, catering to the diverse needs of our clients. Whether it's a custom part or a high-volume production run, we are committed to maintaining high standards of quality and precision.
+                </p>
+                <br></br>
+                <p>
+                في شركة ديمة العروبة للخراطة، يختص قسم التشغيل العام بتقديم مجموعة واسعة من خدمات التشغيل الدقيقة والفعالة. بفضل مجموعة متنوعة من الماكينات التقليدية والمتقدمة، يمكننا التعامل مع جميع أنواع مهام التشغيل العام، بدءًا من الحفر والقطع إلى التشكيل والتدوير. يضمن فريقنا من الفنيين المهرة أن يتم تصنيع كل مكون بدقة عالية ليتوافق مع المواصفات المطلوبة ويؤدي بكفاءة.
+                <br></br>
+                <br></br>
+                تمكننا قدراتنا في التشغيل العام من التعامل مع مشاريع صغيرة وكبيرة على حد سواء، لتلبية احتياجات عملائنا المتنوعة. سواء كانت قطعة مخصصة أو عملية إنتاج كبيرة الحجم، نلتزم بالحفاظ على أعلى معايير الجودة والدقة.
+                </p>
+            </div>
       </div>
       
 

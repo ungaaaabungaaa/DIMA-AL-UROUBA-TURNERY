@@ -19,21 +19,22 @@ function BendingMachning() {
           <div className='grid-image-layout'>
             <img src={GridImage} className='grid-image'></img>
           </div>
-          <div id='cnc-grid-context-layout' className='grid-context-layout'>
-            <h1>CNC | قسم التحكم الرقمي</h1>
-            <p>At DIMA AL UROUBA TURNERY, our CNC (Computer Numerical Control) department is at the heart of our precision manufacturing capabilities. Equipped with state-of-the-art CNC machines, we specialize in producing high-precision components that meet the exact specifications of our clients. Our skilled technicians utilize advanced software and machinery to ensure that every product meets the highest standards of quality and accuracy.
+          <div id='bending-machine-context-layout' className='grid-context-layout'>
+            <h1>Bending Machine | قسم ماكينات الثني</h1>
+            <p>At DIMA AL UROUBA TURNERY, our Bending Machine department plays a crucial role in shaping and forming materials with precision and consistency. Utilizing cutting-edge bending machinery, we can handle a wide range of materials, including metals, to create custom parts and components that meet the exact dimensions and requirements of our clients. Our experienced technicians work meticulously to ensure each bend is performed with the highest level of accuracy, ensuring the integrity and quality of the final product.
             <br></br>
             <br></br>
-            Our CNC department is complemented by our range of lathe machines, which allow us to perform various turning operations with exceptional precision. This combination of CNC and lathe machines enables us to handle complex manufacturing tasks and deliver products that exceed our clients' expectations.
+            Whether it's sheet metal or other materials, our bending machines allow us to execute complex shapes and angles with ease. This flexibility and capability enable us to deliver products that are both highly functional and tailored to our clients' needs.
             </p>
             <br></br>
-            <p>
-            في شركة ديمة العروبة للخراطة، يُعتبر قسم التحكم الرقمي CNC قلب قدراتنا التصنيعية الدقيقة. مجهز بأحدث ماكينات التحكم الرقمي، نتخصص في إنتاج المكونات عالية الدقة التي تلبي المواصفات الدقيقة لعملائنا. يستخدم فنينا المهرة البرمجيات المتقدمة والآلات لضمان أن كل منتج يلبي أعلى معايير الجودة والدقة.
+            <p> 
+            في شركة ديمة العروبة للخراطة، يلعب قسم ماكينات الثني دورًا أساسيًا في تشكيل المواد بدقة وثبات. باستخدام ماكينات ثني متطورة، يمكننا التعامل مع مجموعة واسعة من المواد، بما في ذلك المعادن، لإنشاء أجزاء ومكونات مخصصة تلبي الأبعاد والمتطلبات الدقيقة لعملائنا. يعمل فنينا المتمرسون بعناية لضمان تنفيذ كل انحناءة بأعلى مستوى من الدقة، مما يضمن سلامة وجودة المنتج النهائي.
             <br></br>
             <br></br>
-  يُكمل قسم التحكم الرقمي CNC لدينا مجموعة ماكينات الخراطة لدينا، مما يتيح لنا تنفيذ عمليات الدوران المختلفة بدقة استثنائية. هذا الجمع بين ماكينات التحكم الرقمي CNC وماكينات الخراطة يمكننا من التعامل مع المهام التصنيعية المعقدة وتقديم منتجات تتجاوز توقعات عملائنا.
+            سواء كانت صفائح معدنية أو مواد أخرى، تتيح لنا ماكينات الثني تنفيذ أشكال وزوايا معقدة بسهولة. تمنحنا هذه المرونة والقدرة على تقديم منتجات وظيفية للغاية ومصممة خصيصًا لتلبية احتياجات عملائنا.
             </p>
           </div>
+
       </div>
       
 
