@@ -65,7 +65,7 @@ function RoughingEndMill() {
 
             <br></br>
             <br></br>
-            <button onClick={handleSendMessage} className='order_now'>Contact Us To Order | اتصل بنا للطلب</button>
+            <button onClick={handleSendMessage} className='order_now'>Contact Us | اتصل بنا </button>
           </div>
 
         </div>

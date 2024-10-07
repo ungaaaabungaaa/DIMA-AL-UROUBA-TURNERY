@@ -25,7 +25,7 @@ function Shop() {
       <Header />
       <br></br>
       <Marquee className='sale_marquee_layout' autoFill>
-        <h3 className='sale_marquee'>Tools Available For Sale | الأدوات المتاحة للبيع</h3>
+        <h3 className='sale_marquee'>Tools | الأدوات </h3>
       </Marquee>
       <br></br>
       <br></br>
