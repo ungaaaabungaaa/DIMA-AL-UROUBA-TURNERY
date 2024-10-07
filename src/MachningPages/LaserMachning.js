@@ -27,7 +27,7 @@ function LaserMachning() {
               The precision of our laser cutting process allows us to create intricate shapes and patterns with minimal material waste, delivering high-quality products that are both functional and aesthetically pleasing. Our skilled operators ensure that every cut is performed to perfection, consistently exceeding our clients' expectations.
               </p>
               <br></br>
-              <p> 
+              <p className='arabic-text'> 
               في شركة ديمة العروبة للخراطة، يضم قسم القطع بالليزر أحدث تقنيات الليزر التي تتيح لنا تنفيذ عمليات قطع دقيقة وفعالة على مجموعة متنوعة من المواد. سواء كان العمل مع المعادن أو البلاستيك أو غيرها من المواد، تضمن ماكينات الليزر المتقدمة لدينا تحقيق قصات نظيفة ودقيقة تلبي أدق المواصفات.
               <br></br>
               <br></br>

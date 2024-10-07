@@ -27,7 +27,7 @@ function BendingMachning() {
             Whether it's sheet metal or other materials, our bending machines allow us to execute complex shapes and angles with ease. This flexibility and capability enable us to deliver products that are both highly functional and tailored to our clients' needs.
             </p>
             <br></br>
-            <p> 
+            <p className='arabic-text'> 
             في شركة ديمة العروبة للخراطة، يلعب قسم ماكينات الثني دورًا أساسيًا في تشكيل المواد بدقة وثبات. باستخدام ماكينات ثني متطورة، يمكننا التعامل مع مجموعة واسعة من المواد، بما في ذلك المعادن، لإنشاء أجزاء ومكونات مخصصة تلبي الأبعاد والمتطلبات الدقيقة لعملائنا. يعمل فنينا المتمرسون بعناية لضمان تنفيذ كل انحناءة بأعلى مستوى من الدقة، مما يضمن سلامة وجودة المنتج النهائي.
             <br></br>
             <br></br>

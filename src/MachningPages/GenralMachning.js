@@ -27,7 +27,7 @@ function GenralMachning() {
                 Our general machining capabilities allow us to handle both small-scale and large-scale projects, catering to the diverse needs of our clients. Whether it's a custom part or a high-volume production run, we are committed to maintaining high standards of quality and precision.
                 </p>
                 <br></br>
-                <p>
+                <p className='arabic-text'>
                 في شركة ديمة العروبة للخراطة، يختص قسم التشغيل العام بتقديم مجموعة واسعة من خدمات التشغيل الدقيقة والفعالة. بفضل مجموعة متنوعة من الماكينات التقليدية والمتقدمة، يمكننا التعامل مع جميع أنواع مهام التشغيل العام، بدءًا من الحفر والقطع إلى التشكيل والتدوير. يضمن فريقنا من الفنيين المهرة أن يتم تصنيع كل مكون بدقة عالية ليتوافق مع المواصفات المطلوبة ويؤدي بكفاءة.
                 <br></br>
                 <br></br>

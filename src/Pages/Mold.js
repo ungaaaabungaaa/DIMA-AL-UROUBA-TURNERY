@@ -31,7 +31,7 @@ function Mold() {
           Our mold and die department works closely with other departments to integrate seamlessly into the overall production process. This collaboration ensures that our clients receive comprehensive manufacturing solutions that meet their specific needs and requirements.
         </p>
         <br />
-        <p>
+        <p className='arabic-text'>
           في شركة ديمة العروبة للخراطة، يُعتبر قسم القوالب والموتات جزءًا أساسيًا من عملية التصنيع لدينا، حيث يوفر قوالب وموتات عالية الجودة لمختلف الصناعات. نتخصص في تصميم وتصنيع وصيانة القوالب والموتات الدقيقة التي تعتبر حيوية لإنتاج قطع متسقة وعالية الجودة. يستخدم فريقنا من المهندسين والفنيين المهرة برمجيات CAD/CAM المتقدمة وآلات حديثة لضمان أن كل قالب وموت يلبى المواصفات الدقيقة لعملائنا.
           <br />
           <br />

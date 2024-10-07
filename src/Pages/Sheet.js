@@ -36,7 +36,7 @@ function Sheet() {
             Our sheet metal department works closely with other departments to ensure seamless integration and coordination throughout the manufacturing process. This collaboration enables us to deliver comprehensive solutions that fulfill the unique requirements of our clients.
           </p>
           <br />
-          <p>
+          <p className='arabic-text'>
             في شركة ديمة العروبة للخراطة، يتميز قسم تشكيل الصفائح المعدنية لدينا في تصنيع مكونات الصفائح المعدنية عالية الجودة لمجموعة متنوعة من التطبيقات. نستخدم تقنيات متقدمة ومعدات حديثة لقص وثني وتشكيل الصفائح المعدنية بدقة وكفاءة. يكرس فريقنا من الحرفيين المهرة لإنتاج أجزاء تلبي أعلى معايير الجودة والدقة.
             <br />
             <br />

@@ -27,7 +27,7 @@ function MotorMachning() {
               Our comprehensive motor services are tailored to meet the unique requirements of our clients, from industrial to commercial applications. We take pride in delivering results that help keep machinery running smoothly, minimizing downtime and maximizing productivity.
               </p>
               <br></br>
-              <p>
+              <p className='arabic-text'>
               في شركة ديمة العروبة للخراطة، يختص قسم المحركات لدينا بتقديم خدمات إصلاح وصيانة وتخصيص المحركات الكهربائية باستخدام معدات وآلات متخصصة. سواء كانت إعادة لف المحركات، أو اكتشاف الأعطال، أو إعادة التأهيل الكاملة، يضمن فنينا الخبراء أن يتم تقديم كل خدمة بما يحقق أعلى معايير الأداء والموثوقية. نتعامل مع محركات بمختلف الأحجام والاستخدامات، مما يوفر حلولًا تعزز المتانة والكفاءة.
               <br></br>
               <br></br>

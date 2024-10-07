@@ -32,7 +32,7 @@ function Welding() {
           Our welding department collaborates closely with other departments to ensure that all welded components fit seamlessly into the overall manufacturing process. This coordination allows us to provide comprehensive solutions that enhance the performance and reliability of our clients' products.
         </p>
         <br />
-        <p>
+        <p className='arabic-text'>
           في شركة ديمة العروبة للخراطة، يُعتبر قسم اللحام جزءًا أساسيًا في ضمان السلامة الهيكلية وقوة المنتجات التي نصنعها. نتخصص في تقنيات اللحام المختلفة، بما في ذلك لحام MIG و TIG ولحام القوس الكهربائي، لربط المكونات المعدنية بدقة ومتانة. يلتزم فريقنا من اللحامين المعتمدين بتقديم لحامات عالية الجودة تلبي المعايير الصارمة لعملائنا.
           <br />
           <br />

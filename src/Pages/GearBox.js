@@ -32,7 +32,7 @@ function GearBox() {
           Our gearbox department integrates closely with other departments to ensure a seamless manufacturing process, from initial design to final assembly. This collaboration enables us to provide comprehensive solutions that enhance the performance and longevity of our clients' machinery.
         </p>
         <br />
-        <p>
+        <p className='arabic-text' >
           في شركة ديمة العروبة للخراطة، يُكرس قسم علب التروس لتصميم وتصنيع وصيانة علب التروس عالية الأداء. نستخدم تقنيات هندسية متقدمة وآلات دقيقة لإنتاج علب التروس التي توفر موثوقية وكفاءة استثنائية. يضمن فريقنا من المهندسين والفنيين ذوي الخبرة أن كل علبة تروس تلبي المتطلبات المحددة لعملائنا.
           <br />
           <br />

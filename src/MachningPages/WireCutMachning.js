@@ -27,7 +27,7 @@ function WireCutMachning() {
             Our wire cutting capabilities enable us to meet the demanding needs of various industries, delivering components that are both reliable and cost-effective. Our skilled technicians ensure that each job is performed with meticulous attention to detail, resulting in products that meet the highest quality standards.
             </p>
             <br></br>
-            <p>
+            <p className='arabic-text'>
             في شركة ديمة العروبة للخراطة، يضم قسم القطع بالسلك ماكينات قطع عالية الدقة تمكننا من تنفيذ قصات معقدة ودقيقة على مجموعة متنوعة من المواد. باستخدام تقنية القطع بالتفريغ الكهربائي (EDM) المتقدمة، نتخصص في إنتاج أشكال معقدة وتفاصيل دقيقة مع الحد الأدنى من الهدر في المواد. هذه العملية الدقيقة مثالية لإنتاج مكونات تتطلب أبعادًا ضيقة وتشطيبات سطحية ممتازة.
             <br></br>
             <br></br>

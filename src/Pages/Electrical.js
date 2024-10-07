@@ -31,7 +31,7 @@ function Electrical() {
           Our electrical department is equipped with the latest tools and technology to handle a wide range of projects, from small-scale installations to large industrial systems. We are committed to delivering top-notch services that enhance the safety and performance of our clients' operations.
         </p>
         <br />
-        <p>
+        <p className='arabic-text' >
           في شركة ديمة العروبة للخراطة، يكرس قسم الكهرباء لضمان أعلى معايير خدمات الهندسة والتركيب الكهربائي. نتخصص في تصميم وتنفيذ الأنظمة الكهربائية التي تتميز بالكفاءة والاعتمادية. يعمل فريقنا من الكهربائيين والمهندسين المهرة بجد لتلبية احتياجات عملائنا الخاصة، وتقديم حلول مصممة خصيصًا لتلبية متطلباتهم الفريدة.
           <br />
           <br />

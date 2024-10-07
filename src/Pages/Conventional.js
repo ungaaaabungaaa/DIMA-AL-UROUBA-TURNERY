@@ -32,7 +32,7 @@ function Conventional() {
             The combination of conventional machinery with our advanced CNC and lathe machines allows us to offer a comprehensive suite of manufacturing services. This integration ensures that we can tackle complex projects while maintaining the flexibility to accommodate various production needs.
           </p>
           <br />
-          <p>
+          <p className='arabic-text'>
             في شركة ديمة العروبة للخراطة، يلعب قسم الآلات التقليدية دورًا حيويًا في عملية التصنيع لدينا. مع مجموعة متنوعة من معدات التشغيل التقليدية، نحن قادرون على التعامل مع مجموعة واسعة من مهام التصنيع بدقة وكفاءة. يتقن فنيو التشغيل لدينا تشغيل هذه الآلات لإنتاج قطع عالية الجودة تلبي مواصفات عملائنا.
             <br />
             <br />
