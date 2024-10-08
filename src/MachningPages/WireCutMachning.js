@@ -12,7 +12,7 @@ function WireCutMachning() {
     return (
       <>
       <Header></Header>
-      <div className='cnc_hero'>
+      <div id='wire_Machine'>
           <h1 className='margin_bottom_zero'>WireCutting</h1>
       </div>
       <div className='cnc_grid_layout'>

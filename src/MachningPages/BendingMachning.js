@@ -12,7 +12,7 @@ function BendingMachning() {
     return (
       <>
       <Header></Header>
-      <div className='cnc_hero'>
+      <div id='bending_Machine'>
           <h1 className='margin_bottom_zero'>Bending Machine</h1>
       </div>
       <div className='cnc_grid_layout'>

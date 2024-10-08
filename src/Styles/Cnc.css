@@ -14,6 +14,90 @@
     background-position: center;
 }
 
+#bending_Machine
+{
+    background-image: url(../Resources/machining/machining_heros/MetalBending.webp);
+    width: 100vw;
+    height: 82vh;
+    display: flex;
+    color: white;
+    margin-bottom: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#genral_Machine
+{
+    background-image: url(../Resources/machining/machining_heros/GenralMachning.webp);
+    width: 100vw;
+    height: 82vh;
+    display: flex;
+    color: white;
+    margin-bottom: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#laser_Machine
+{
+    background-image: url(../Resources/machining/machining_heros/LaserCutting.webp);
+    width: 100vw;
+    height: 82vh;
+    display: flex;
+    color: white;
+    margin-bottom: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#motors_Machine
+{
+    background-image: url(../Resources/machining/machining_heros/pumps.webp);
+    width: 100vw;
+    height: 82vh;
+    display: flex;
+    color: white;
+    margin-bottom: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#wire_Machine
+{
+    background-image: url(../Resources/machining/machining_heros/WirecuttingBackground.webp);
+    width: 100vw;
+    height: 82vh;
+    display: flex;
+    color: white;
+    margin-bottom: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .margin_bottom_zero
 {
     margin-top: 0;
@@ -130,8 +214,4 @@
         align-items: center;
         justify-content: center;
     }
-
-    
-    
-    
-  }
+}

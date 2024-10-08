@@ -12,7 +12,7 @@ function GenralMachning() {
     return (
       <>
       <Header></Header>
-      <div className='cnc_hero'>
+      <div id='genral_Machine'>
           <h1 className='margin_bottom_zero'>Genral Machning</h1>
       </div>
       <div className='cnc_grid_layout'>

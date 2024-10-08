@@ -12,7 +12,7 @@ function LaserMachning() {
     return (
       <>
       <Header></Header>
-      <div className='cnc_hero'>
+      <div id='laser_Machine'>
           <h1 className='margin_bottom_zero'>Laser Cutting</h1>
       </div>
       <div className='cnc_grid_layout'>
