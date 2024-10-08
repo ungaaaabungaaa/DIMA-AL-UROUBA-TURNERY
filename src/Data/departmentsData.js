@@ -60,7 +60,7 @@ export const departments = [
 
 
     {
-      name: "Mold & Die",
+      name: "Mold & Presses",
       description: "Expert Mold & Die solutions for high-quality, custom manufacturing",
       icon: Mold,
       path: "/mold" 
@@ -68,7 +68,7 @@ export const departments = [
 
 
     {
-      name: "قوالب وقوالب",
+      name: "قوالب و مكابس",
       description: "حلول متخصصة للقوالب والنماذج لتصنيع عالي الجودة ومخصص",
       icon: Mold,
       path: "/mold" 
@@ -93,7 +93,7 @@ export const departments = [
 
 
     {
-      name: "Welding",
+      name: "Laser Welding",
       description: "Expert welding services for strong and reliable joints",
       icon: Welding,
       path: "/welding" 
@@ -101,8 +101,8 @@ export const departments = [
 
 
     {
-      name: "اللحام",
-      description: "خدمات اللحام المتخصصة للمفاصل القوية والموثوقة",
+      name: "اللحام بالليزر",
+      description: "خدمات اللحام بالليزر المتخصصة للمفاصل القوية والموثوقة",
       icon: Welding,
       path: "/welding" 
     },
@@ -112,19 +112,18 @@ export const departments = [
 
     {
         name: "GearBox",
-        description: "High-performance gearbox manufacturing for efficient and reliable power transmission",
+        description: "High-performance gearbox manufacturing for efficient & reliable power transmission",
         icon: GearBox,
         path: "/gearbox"
     },
 
 
     {
-      name: "علبة التروس",
-      description: "تصنيع علب التروس عالية الأداء لنقل الطاقة بكفاءة وموثوقية",
+      name: "صندوق التروس",
+      description: "تصنيع التروس عالية الأداء لنقل الطاقة بكفاءة وموثوقية",
       icon: GearBox,
       path: "/gearbox"
     },
-
 
 
 
