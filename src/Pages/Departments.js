@@ -47,7 +47,7 @@ function Departments() {
           </div>
           <div onClick={() => navigate('/conventional')} class="Conventional">
             <img className='logo_grid' src={Conventional}></img>
-            <h2 className='logo_title'>Conventiona | تقليدي </h2>
+            <h2 className='logo_title'>Conventional | تقليدي </h2>
             <p className='logo_desc'>
             Reliable conventional machining for precise and durable components <br></br>
             تشغيل تقليدي موثوق للحصول على مكونات دقيقة ومتينة
@@ -63,7 +63,7 @@ function Departments() {
           </div>
           <div onClick={() => navigate('/mold')} class="Mold">
             <img className='logo_grid' src={Mold}></img>
-            <h2 className='logo_title'>Mold & Die | القوالب والمكابس </h2>
+            <h2 className='logo_title'>Mold & Pressese | القوالب والمكابس </h2>
             <p className='logo_desc'>
             Expert Mold & Die solutions for high-quality, custom manufacturing. <br></br>
             حلول قوالب ومكابس متخصصة لتصنيع مخصص وعالي الجودة
@@ -74,12 +74,12 @@ function Departments() {
             <h2 className='logo_title'>Sheet Metal | الصفائح المعدنية </h2>
             <p className='logo_desc'>
             Precision sheet metal fabrication for versatile & durable products  <br></br>
-            تصنيع الصفائح المعدنية بدقة لمنتجات متعددة الاستخدامات ومتينة
+            تصنيع مكونات الصفائح المعدنية عالية الجودة لمجموعة متنوعة من التطبيقات       
             </p>
           </div>
           <div onClick={() => navigate('/welding')} class="Welding">
             <img className='logo_grid' src={Welding}></img>
-            <h2 className='logo_title'>Welding  | اللحام </h2>
+            <h2 className='logo_title'>Laser Welding  | اللحام بالليزر </h2>
             <p className='logo_desc'>
             Expert welding services for strong and reliable joints <br></br>
             خدمات لحام متخصصة لوصلات قوية وموثوقة
@@ -87,10 +87,10 @@ function Departments() {
           </div>
           <div onClick={() => navigate('/gearbox')} class="GearBox">
               <img className='logo_grid' src={GearBox}></img>
-              <h2 className='logo_title'>GearBox  |  علبة التروس  </h2>
+              <h2 className='logo_title'>GearBox  |  صندوق التروس  </h2>
               <p className='logo_desc'>
               High-performance gearbox manufacturing for efficient and reliable power transmission <br></br>
-              تصنيع علب تروس عالية الأداء لنقل الطاقة بكفاءة وموثوقية
+              تصنيع صندوق تروس عالية الأداء لنقل الطاقة بكفاءة وموثوقية
               </p>
           </div>
           <div onClick={() => window.open('tel:966582444166')}  class="Contact">

@@ -137,7 +137,7 @@ function Home() {
   <div  onClick={() => navigate('/BendingMachning')}  className='salesCard3'>
     <img src={M3} className='salesimage'></img>
     <br></br>
-    <h3 className='margin_bottom_zero'>Bending Machine <br></br> طعّاجة</h3>
+    <h3 className='margin_bottom_zero'>Bending & Cutting Machine <br></br> آلة الثني والقطع </h3>
     <p>Efficiently bends metal sheets into various shapes for industrial use. <br></br> تقوم بثني الصفائح المعدنية بشكل فعال للاستخدام الصناعي.</p>
   </div>
 </div>
@@ -154,7 +154,7 @@ function Home() {
   <div  onClick={() => navigate('/MotorMachning')} className='salesCard2'>
     <img src={M5} className='salesimage'></img>
     <br></br>
-    <h3 className='margin_bottom_zero'>Motors <br></br> دينموات</h3>
+    <h3 className='margin_bottom_zero'>Water Pumps & Motors <br></br> مضخات المياه </h3>
     <p>High-performance motors designed for heavy-duty machining operations. <br></br> دينموات عالية الأداء مصممة لعمليات التصنيع الثقيلة.</p>
   </div>
 

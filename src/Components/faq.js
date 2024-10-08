@@ -28,19 +28,6 @@ function FAQ() {
         ),
       },
       {
-        title: "How can I place an order? | كيف يمكنني تقديم الطلب؟",
-        content: (
-          <>
-            <p>
-              You can place an order by contacting our sales team via email or phone.
-            </p>
-            <p className='arabic-text'>
-              يمكنك تقديم الطلب عن طريق التواصل مع فريق المبيعات لدينا عبر البريد الإلكتروني أو الهاتف.
-            </p>
-          </>
-        ),
-      },
-      {
         title: "Do you offer custom manufacturing services? | هل تقدمون خدمات التصنيع المخصصة؟",
         content: (
           <>
@@ -50,9 +37,7 @@ function FAQ() {
             <p className='arabic-text'>
               نعم، نحن نقدم خدمات التصنيع المخصصة لتلبية احتياجاتك المحددة. يرجى التواصل معنا بمتطلباتك، وسيعمل فريقنا معك لتطوير حل مخصص.
             </p>
-            <div className='faq_button_layout'>
-              <button onClick={handleContactClick} className='contact_button'>Contact Us here | تواصل معنا هنا </button>
-            </div>
+            
             
           </>
         ),
@@ -67,7 +52,9 @@ function FAQ() {
             <p className='arabic-text'>
               يمكنك التواصل مع فريق دعم العملاء لدينا من خلال نموذج الاتصال الموجود على موقعنا الإلكتروني، أو عبر البريد الإلكتروني، أو عن طريق الاتصال بخط الدعم الساخن الخاص بنا. نحن هنا لمساعدتك في أي أسئلة أو مخاوف قد تكون لديك.
             </p>
-            
+            <div className='faq_button_layout'>
+              <button onClick={handleContactClick} className='contact_button'>Contact Us here | تواصل معنا هنا </button>
+            </div>
           </>
         ),
       },

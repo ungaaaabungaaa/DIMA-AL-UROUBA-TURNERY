@@ -24,7 +24,7 @@ function GearBox() {
         </div>
        
         <div id='gear-grid-context-layout' className='grid-context-layout'>
-        <h1>Gearbox Department | قسم علب التروس</h1>
+        <h1>Gearbox Department | قسم صندوق التروس</h1>
         <p>
           At DIMA AL UROUBA TURNERY, our gearbox department is dedicated to the design, manufacturing, and maintenance of high-performance gearboxes. We utilize advanced engineering techniques and precision machinery to produce gearboxes that deliver exceptional reliability and efficiency. Our team of experienced engineers and technicians ensures that every gearbox meets the specific requirements of our clients.
           <br />
@@ -33,10 +33,10 @@ function GearBox() {
         </p>
         <br />
         <p className='arabic-text' >
-          في شركة ديمة العروبة للخراطة، يُكرس قسم علب التروس لتصميم وتصنيع وصيانة علب التروس عالية الأداء. نستخدم تقنيات هندسية متقدمة وآلات دقيقة لإنتاج علب التروس التي توفر موثوقية وكفاءة استثنائية. يضمن فريقنا من المهندسين والفنيين ذوي الخبرة أن كل علبة تروس تلبي المتطلبات المحددة لعملائنا.
+          في شركة ديمة العروبة للخراطة، يُكرس قسم التروس لتصميم وتصنيع وصيانة التروس عالية الأداء. نستخدم تقنيات هندسية متقدمة وآلات دقيقة لإنتاج التروس التي توفر موثوقية وكفاءة استثنائية. يضمن فريقنا من المهندسين والفنيين ذوي الخبرة أن كل صندوق تروس تلبي المتطلبات المحددة لعملائنا.
           <br />
           <br />
-          يتكامل قسم علب التروس لدينا بشكل وثيق مع الأقسام الأخرى لضمان عملية تصنيع سلسة، بدءًا من التصميم الأولي حتى التجميع النهائي. يتيح لنا هذا التعاون تقديم حلول شاملة تعزز من أداء وطول عمر آلات عملائنا.
+          يتكامل قسم التروس لدينا بشكل وثيق مع الأقسام الأخرى لضمان عملية تصنيع سلسة، بدءًا من التصميم الأولي حتى التجميع النهائي. يتيح لنا هذا التعاون تقديم حلول شاملة تعزز من أداء وطول عمر آلات عملائنا.
         </p>
         </div>
       </div>

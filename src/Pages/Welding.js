@@ -24,20 +24,21 @@ function Welding() {
         </div>
        
         <div id='Weilding-grid-context-layout' className='grid-context-layout'>
-        <h1>Welding Department | قسم اللحام</h1>
+        <h1>Laser Welding Department | قسم اللحام بالليزر</h1>
         <p>
-          At DIMA AL UROUBA TURNERY, our welding department is pivotal in ensuring the structural integrity and strength of our manufactured products. We specialize in various welding techniques, including MIG, TIG, and arc welding, to join metal components with precision and durability. Our team of certified welders is committed to delivering high-quality welds that meet the stringent standards of our clients.
+          At DIMA AL UROUBA TURNERY, our Laser Welding Department provides cutting-edge technology for precision welding. Utilizing advanced laser systems, we ensure minimal distortion and superior weld quality, making it ideal for intricate or delicate components. Our laser welding solutions are designed to meet the exact specifications of our clients, providing high strength and accuracy in every weld.
           <br />
           <br />
-          Our welding department collaborates closely with other departments to ensure that all welded components fit seamlessly into the overall manufacturing process. This coordination allows us to provide comprehensive solutions that enhance the performance and reliability of our clients' products.
+          Our team of skilled laser welders works closely with engineering and design teams to ensure that each component is meticulously welded, contributing to the overall durability and efficiency of our manufactured products. Whether for small-scale projects or large industrial applications, our laser welding department delivers unmatched precision and reliability.
         </p>
         <br />
         <p className='arabic-text'>
-          في شركة ديمة العروبة للخراطة، يُعتبر قسم اللحام جزءًا أساسيًا في ضمان السلامة الهيكلية وقوة المنتجات التي نصنعها. نتخصص في تقنيات اللحام المختلفة، بما في ذلك لحام MIG و TIG ولحام القوس الكهربائي، لربط المكونات المعدنية بدقة ومتانة. يلتزم فريقنا من اللحامين المعتمدين بتقديم لحامات عالية الجودة تلبي المعايير الصارمة لعملائنا.
+          في شركة ديمة العروبة للخراطة، يوفر قسم اللحام بالليزر تكنولوجيا متقدمة للحام الدقيق. باستخدام أنظمة الليزر المتطورة، نضمن أقل قدر من التشوه وجودة عالية للحام، مما يجعله مثاليًا للمكونات المعقدة أو الحساسة. تم تصميم حلول اللحام بالليزر لدينا لتلبية المواصفات الدقيقة لعملائنا، مما يوفر قوة ودقة عالية في كل لحام.
           <br />
           <br />
-          يتعاون قسم اللحام لدينا بشكل وثيق مع الأقسام الأخرى لضمان أن تتكامل جميع المكونات الملحومة بسلاسة في عملية التصنيع الشاملة. يتيح لنا هذا التنسيق تقديم حلول شاملة تعزز من أداء وموثوقية منتجات عملائنا.
+          يعمل فريقنا الماهر في اللحام بالليزر عن كثب مع فرق الهندسة والتصميم لضمان أن يتم لحام كل مكون بدقة، مما يساهم في تعزيز المتانة والكفاءة لمنتجاتنا المصنعة. سواء للمشاريع الصغيرة أو التطبيقات الصناعية الكبيرة، يقدم قسم اللحام بالليزر لدينا دقة وموثوقية لا مثيل لهما.
         </p>
+
         </div>
       </div>
 

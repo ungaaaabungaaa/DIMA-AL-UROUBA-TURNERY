@@ -16,7 +16,7 @@ function Sheet() {
       <>
       <Header></Header>
       <div className='Sheets_hero'>
-          <h1 className='margin_bottom_zero'>Sheet Metal</h1>
+          <h1 className='margin_bottom_zero'>Sheet Metal Bending & Forming</h1>
           <h3 onClick={() => navigate('/departments')} className='margin_bottom_zero'>Departments</h3>
       </div>
 
@@ -28,7 +28,7 @@ function Sheet() {
         </div>
        
         <div id='Sheets-grid-context-layout' className='grid-context-layout'>
-          <h1>Sheet Metal Department | قسم تشكيل الصفائح المعدنية</h1>
+          <h1>Sheet metal bending & forming department | قسم ثني و تشكيل الصفائح المعدنية   </h1>
           <p>
             At DIMA AL UROUBA TURNERY, our sheet metal department excels in fabricating high-quality sheet metal components for a variety of applications. We employ advanced techniques and state-of-the-art equipment to cut, bend, and shape metal sheets with precision and efficiency. Our team of skilled craftsmen is dedicated to producing parts that meet the highest standards of quality and accuracy.
             <br />
