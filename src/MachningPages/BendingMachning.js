@@ -3,7 +3,7 @@ import Footer from '../Components/footer';
 import Header from '../Components/header';
 import '../Styles/Cnc.css';
 import { useNavigate } from 'react-router-dom';
-import GridImage from '../Resources/Grids/CNCGrid.webp';
+import GridImage from '../Resources/machining/machining_grid/bending-grid.webp';
 import FAQ from '../Components/faq';
 import CONTACT from '../Components/contact';
 
@@ -17,7 +17,7 @@ function BendingMachning() {
       </div>
       <div className='cnc_grid_layout'>
           <div className='grid-image-layout'>
-            <img src={GridImage} className='grid-image'></img>
+            <img id='grid-machining-image' src={GridImage} className='grid-image'></img>
           </div>
           <div id='bending-machine-context-layout' className='grid-context-layout'>
             <h1>Bending Machine | قسم ماكينات الثني</h1>

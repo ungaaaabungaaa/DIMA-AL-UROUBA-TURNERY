@@ -143,6 +143,14 @@
     justify-content: center;
 }
 
+#grid-machining-image
+{
+    width: 76%;
+    border-radius: 1.2rem;
+    background-color: black;
+    height: auto;
+    object-fit: contain;
+}
 
 
 /* Tablet */
