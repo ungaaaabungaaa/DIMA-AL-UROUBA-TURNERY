@@ -22,9 +22,9 @@ function CONTACT() {
       <>
       <div className='Contact_us'>
       <h1 className='h1_Contact'>Do You Have Any Questions? <br></br>
-        Get Help From Us</h1>
+        Get Help From Our Team</h1>
         <h1 className='h1_Contact'>هل لديك أي أسئلة؟ <br></br>
-        احصل على المساعدة مننا</h1>
+        احصل على المساعدة من فريقنا</h1>
 
 
         <div className='message_box'>
