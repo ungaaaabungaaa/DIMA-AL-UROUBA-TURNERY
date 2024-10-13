@@ -79,7 +79,7 @@ function Departments() {
           </div>
           <div onClick={() => navigate('/welding')} class="Welding">
             <img className='logo_grid' src={Welding}></img>
-            <h2 className='logo_title'>Laser Welding  | اللحام بالليزر </h2>
+            <h2 className='logo_title'>Laser Cutting  | القطع بالليزر </h2>
             <p className='logo_desc'>
             Expert welding services for strong and reliable joints <br></br>
             خدمات لحام متخصصة لوصلات قوية وموثوقة
