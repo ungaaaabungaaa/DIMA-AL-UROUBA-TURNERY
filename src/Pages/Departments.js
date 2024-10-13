@@ -71,7 +71,7 @@ function Departments() {
           </div>
           <div onClick={() => navigate('/sheetmetal')} class="Sheet-Metal">
             <img className='logo_grid' src={Sheet}></img>
-            <h2 className='logo_title'>Sheet Metal | الصفائح المعدنية </h2>
+            <h2 className='logo_title'>Sheet Metal | ثني و تشكيل  </h2>
             <p className='logo_desc'>
             Precision sheet metal fabrication for versatile & durable products  <br></br>
             تصنيع مكونات الصفائح المعدنية عالية الجودة لمجموعة متنوعة من التطبيقات       
@@ -194,7 +194,9 @@ function Departments() {
           <div className='spilt_layout'>
               <div className='spilt_layout_1'>
                 <ul>
-                  <li>We manufacture plastic molds Iron mold manufacturing Manufacture <br></br> of molds from various materials As per customer's request</li>
+                    <li> Manufacturing plastic molds </li>
+                    <li>   Manufacturing iron molds  </li>
+                    <li>   Manufacturing molds from various materials according to the customer's request</li>
                 </ul>
               </div>
 
