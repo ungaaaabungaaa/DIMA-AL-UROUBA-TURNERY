@@ -116,7 +116,8 @@ function Departments() {
         <img className='image2' src={Image2}></img>
       </div>
       <div class="Aboutus3_titel">
-        <h1 id='about_us_h1' className='aboutus_h1'> Manufacturing , Metal Forming & Production Line Cutting Departments, Which Includes <br></br> أقسام التصنيع وتشكيل المعادن وتقطيع خطوط الإنتاج والتي تشمل </h1>
+        <h1 id='about_us_h1' className='aboutus_h1'> Manufacturing, metal forming & cutting departments, which include production lines</h1>
+        <h1 className='arabic-text'>أقسام التصنيع و تشكيل & قطع المعادن و اللي تشمل خطوط الإنتاج</h1>  
           <p className='aboutus_p_english'>
            Manufacturing Spare Parts From Raw Materials From All Kinds of Iron
           </p>
