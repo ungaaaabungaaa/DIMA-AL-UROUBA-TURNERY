@@ -38,7 +38,7 @@ function Departments() {
       <div className='department_grid'>
           <div onClick={() => navigate('/cnc')} class="Cnc">
             <img className='logo_grid' src={CNC}></img>
-            <h2 className='logo_title'>CNC | لتحكم الرقمي بالحاسوب </h2>
+            <h2 className='logo_title'>CNC | التحكم الرقمي بالحاسوب </h2>
             <p className='logo_desc'>
             High-precision CNC machining solutions for all your manufacturing needs <br></br>
             حلول التشغيل الرقمي بالحاسوب عالية الدقة لجميع احتياجاتك التصنيعية
@@ -119,10 +119,10 @@ function Departments() {
         <h1 id='about_us_h1' className='aboutus_h1'> Manufacturing, metal forming & cutting departments, which include production lines</h1>
         <h1 className='arabic-text'>أقسام التصنيع و تشكيل و قطع المعادن و اللي تشمل خطوط الإنتاج</h1>  
           <p className='aboutus_p_english'>
-           Manufacturing Spare Parts From Raw Materials From All Kinds of Iron
+            Manufacture of Spare Parts Of All Types Of Iron Or Other Raw Materials
           </p>
           <p className='arabic-text'>
-          "تصنيع قطع الغيار من المواد الخام من الحديد بجميع أنواعه"
+          تصنيع قطع الغيار من الحديد بجميع أنواعه أو غيرها من المواد الخام
           </p>
 
           <div className='spilt_layout'>

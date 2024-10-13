@@ -85,7 +85,7 @@ export const departments = [
 
 
     {
-      name: "صفائح معدنية",
+      name: "ثني و تشكيل",
       description: "تصنيع صفائح معدنية دقيقة لمنتجات متعددة الاستخدامات ومتينة",
       icon: Sheet,
       path: "/sheetmetal" 
@@ -93,16 +93,16 @@ export const departments = [
 
 
     {
-      name: "Laser Welding",
-      description: "Expert welding services for strong and reliable joints",
+      name: "Laser Cutting",
+      description: "Expert Cutting services for strong and reliable joints",
       icon: Welding,
       path: "/welding" 
     },
 
 
     {
-      name: "اللحام بالليزر",
-      description: "خدمات اللحام بالليزر المتخصصة للمفاصل القوية والموثوقة",
+      name: "القطع بالليزر",
+      description: "خدمات القطع بالليزر  المتخصصة للمفاصل القوية والموثوقة",
       icon: Welding,
       path: "/welding" 
     },
