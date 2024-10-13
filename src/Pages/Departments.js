@@ -117,7 +117,7 @@ function Departments() {
       </div>
       <div class="Aboutus3_titel">
         <h1 id='about_us_h1' className='aboutus_h1'> Manufacturing, metal forming & cutting departments, which include production lines</h1>
-        <h1 className='arabic-text'>أقسام التصنيع و تشكيل & قطع المعادن و اللي تشمل خطوط الإنتاج</h1>  
+        <h1 className='arabic-text'>أقسام التصنيع و تشكيل و قطع المعادن و اللي تشمل خطوط الإنتاج</h1>  
           <p className='aboutus_p_english'>
            Manufacturing Spare Parts From Raw Materials From All Kinds of Iron
           </p>
@@ -159,7 +159,8 @@ function Departments() {
           <img className='image3' src={Image3}></img>
         </div>
         <div class="Aboutus4_titel">
-          <h1>Gears Manufacturing & Sorting Section Which Includes <br></br> قسم تصنيع وفرز التروس والذي يشمل </h1>
+          <h1>Gears Manufacturing & Sorting Section Which Includes</h1>
+          <h1 className='arabic-text'> قسم تصنيع وفرز التروس والذي يشمل</h1>  
           
            <div className='spilt_layout'>
               <div className='spilt_layout_1'>
@@ -187,21 +188,23 @@ function Departments() {
         <img className='image2' src={Image5}></img>
       </div>
       <div class="Aboutus3_titel">
-        <h1 id='about_us_h1'>Mold Manufacturing & Maintenance Departments Which Includes <br></br> أقسام تصنيع وصيانة القوالب والتي تشمل </h1>
-          
+        <h1 id='about_us_h1'>Mold Manufacturing & Maintenance Departments Which Includes</h1>
+        <h1 className='arabic-text'>أقسام تصنيع وصيانة القوالب والتي تشمل </h1>  
           
           <div className='spilt_layout'>
               <div className='spilt_layout_1'>
                 <ul>
-                  <li>Manufacturing of plastic Mold</li>
-                  <li>Iron Molds</li>
+                  <li>We manufacture plastic molds Iron mold manufacturing Manufacture <br></br> of molds from various materials As per customer's request</li>
                 </ul>
               </div>
 
               <div className='spilt_layout_2'>
                 <ul>
-                  <li>تصنيع قوالب البلاستيك</li>
-                  <li>قوالب الحديد</li>
+                  <li>نصنيع قوالب البلاستيك</li>
+                  <li>تصنيع قوالب الحديد</li>
+                  <li>و تصنيع القوالب من مختلف المواد
+                  حسب طلب العميل</li>
+
                 </ul>
               </div>
            </div>
@@ -215,14 +218,14 @@ function Departments() {
           <img className='image3' src={Image4}></img>
         </div>
         <div class="Aboutus4_titel">
-          <h1>Maintenance Department Which Includes <br></br> قسم الصيانة والذي يضم </h1>
+          <h1>Maintenance Department Which Includes</h1>
+          <h1 className='arabic-text'>قسم الصيانة والذي يضم </h1> 
             <br></br>
             <div className='spilt_layout'>
               <div className='spilt_layout_1'>
                 <ul>
                   <li>Heavy Machinery & Equipment</li>
-                  <li>Electric Motor Winding</li>
-                  <li>Genrator</li>
+                  <li>Winding generators & electric motors</li>
                   <li>Mechnical Maintenance & Pumps</li>
                 </ul>
               </div>
@@ -230,8 +233,7 @@ function Departments() {
               <div className='spilt_layout_2'>
                 <ul>
                   <li>الآلات والمعدات الثقيلة</li>
-                  <li>لف المحركات الكهربائية</li>
-                  <li>مولد</li>
+                  <li>لف المولدات و المحركات الكهربائية</li>
                   <li>الصيانة الميكانيكية والمضخات</li>
                 </ul>
               </div>
