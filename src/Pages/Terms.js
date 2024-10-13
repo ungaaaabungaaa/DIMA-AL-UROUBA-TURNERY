@@ -15,7 +15,7 @@ function Terms() {
       
       <h3 className='terms_center'>1. Introduction / المقدمة</h3>
       <p className='terms_center'>Welcome to DIMA AL UROUBA TURNERY. By accessing our website, you agree to these terms and conditions.</p>
-      <p className='terms_center'>مرحباً بكم في ديمة العروبة للخراطة. باستخدامكم لموقعنا الإلكتروني، توافقون على هذه الشروط والأحكام.</p>
+      <p className='terms_center'>مرحباً بكم في ديما العروبة للخراطة. باستخدامكم لموقعنا الإلكتروني، توافقون على هذه الشروط والأحكام.</p>
 
       <h3 className='terms_center'>2. Use of Website / استخدام الموقع الإلكتروني</h3>
       <p className='terms_center'>You agree to use our website for lawful purposes and in a way that does not infringe on the rights of others.</p>
@@ -25,7 +25,7 @@ function Terms() {
 
       <h3 className='terms_center'>3. Products and Services / المنتجات والخدمات</h3>
       <p className='terms_center'>All products and services provided by DIMA AL UROUBA TURNERY are subject to availability and may be withdrawn at any time.</p>
-      <p className='terms_center'>جميع المنتجات والخدمات المقدمة من ديمة العروبة للخراطة تخضع للتوافر ويمكن سحبها في أي وقت.</p>
+      <p className='terms_center'>جميع المنتجات والخدمات المقدمة من ديما العروبة للخراطة تخضع للتوافر ويمكن سحبها في أي وقت.</p>
       <p className='terms_center'>We reserve the right to modify the prices of our products and services at any time without prior notice.</p>
       <p className='terms_center'>نحتفظ بالحق في تعديل أسعار منتجاتنا وخدماتنا في أي وقت دون إشعار مسبق.</p>
 
@@ -55,7 +55,7 @@ function Terms() {
 
       <h3 className='terms_center'>7. Intellectual Property / الملكية الفكرية</h3>
       <p className='terms_center'>All content on our website, including images and text, is the property of DIMA AL UROUBA TURNERY and may not be used without permission.</p>
-      <p className='terms_center'>جميع المحتويات الموجودة على موقعنا، بما في ذلك الصور والنصوص، هي ملك لديمة العروبة للخراطة ولا يجوز استخدامها بدون إذن.</p>
+      <p className='terms_center'>جميع المحتويات الموجودة على موقعنا، بما في ذلك الصور والنصوص، هي ملك لديما العروبة للخراطة ولا يجوز استخدامها بدون إذن.</p>
       <p className='terms_center'>You may not reproduce, distribute, or create derivative works from any content on our website without our explicit consent.</p>
       <p className='terms_center'>لا يجوز لكم إعادة إنتاج أو توزيع أو إنشاء أعمال مشتقة من أي محتوى على موقعنا دون موافقتنا الصريحة.</p>
 
@@ -65,7 +65,7 @@ function Terms() {
 
       <h3 className='terms_center'>9. Limitation of Liability / تحديد المسؤولية</h3>
       <p className='terms_center'>DIMA AL UROUBA TURNERY is not liable for any direct, indirect, incidental, or consequential damages arising from the use of our website.</p>
-      <p className='terms_center'>لا تتحمل ديمة العروبة للخراطة أي مسؤولية عن الأضرار المباشرة أو غير المباشرة أو العرضية أو التبعية الناجمة عن استخدام موقعنا.</p>
+      <p className='terms_center'>لا تتحمل ديما العروبة للخراطة أي مسؤولية عن الأضرار المباشرة أو غير المباشرة أو العرضية أو التبعية الناجمة عن استخدام موقعنا.</p>
       <p className='terms_center'>We do not guarantee that our website will be error-free or uninterrupted.</p>
       <p className='terms_center'>لا نضمن أن يكون موقعنا خالياً من الأخطاء أو غير متقطع.</p>
 
