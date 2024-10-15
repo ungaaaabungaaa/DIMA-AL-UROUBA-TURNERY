@@ -154,7 +154,7 @@ function Home() {
   <div  onClick={() => navigate('/MotorMachning')} className='salesCard2'>
     <img src={M5} className='salesimage'></img>
     <br></br>
-    <h3 className='margin_bottom_zero'>Water Pumps & Motors <br></br> مضخات المياه </h3>
+    <h3 className='margin_bottom_zero'>Water Pumps & Motors <br></br> مضخات المياه و الدينموات  </h3>
     <p>High-performance motors designed for heavy-duty machining operations. <br></br> دينموات عالية الأداء مصممة لعمليات التصنيع الثقيلة.</p>
   </div>
 

@@ -13,14 +13,14 @@ function GenralMachning() {
       <>
       <Header></Header>
       <div id='genral_Machine'>
-          <h1 className='margin_bottom_zero'>Genral Machning</h1>
+          <h1 className='margin_bottom_zero'>General Machning</h1>
       </div>
       <div className='cnc_grid_layout'>
           <div className='grid-image-layout'>
             <img id='grid-machining-image' src={GridImage} className='grid-image'></img>
           </div>
           <div id='general-machining-grid-context-layout' className='grid-context-layout'>
-                <h1>General Machining | قسم التشغيل العام</h1>
+                <h1>General Machining | خراطة عامة</h1>
                 <p>At DIMA AL UROUBA TURNERY, our General Machining department is dedicated to delivering a wide array of machining services with precision and efficiency. With a variety of conventional and advanced machines, we can handle all kinds of general machining tasks, from drilling and milling to cutting and shaping. Our team of skilled machinists ensures that every component is crafted to meet exact specifications and deliver optimal performance.
                 <br></br>
                 <br></br>

@@ -24,8 +24,6 @@ import FAQ from '../Components/faq';
 import CONTACT from '../Components/contact';
 
 
-
-
 function Departments() {
   const navigate = useNavigate();
   return (
