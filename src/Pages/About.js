@@ -7,7 +7,9 @@ import '../Styles/Aboutus.css';
 import Image1 from '../Resources/AboutUs.webp';
 import Image3 from '../Resources/AboutUs3.webp';
 import AboutImage1 from '../Resources/Aboutus/aboutus.webp';
-import AboutImage2 from '../Resources/Aboutus/about2.webp';
+import AboutImage2 from '../Resources/Aboutus/about3.jpg';
+
+import heroImage3 from '../Resources/Hero/Hero4.webp';
 
 
 
@@ -20,7 +22,7 @@ function About() {
     <div className='aboutus_1'>
       <h1 className='aboutus_1_title'>Vision | رؤية </h1>
       <p className='aboutus_1_p'>
-         Reaching the world i n the field of industry, turning, and maintenance i s not easy, but with patience and diligence we have
+         Reaching the world in the field of industry, turning, and maintenance i s not easy, but with patience and diligence we have
          reached what we aspire to, and for this reason we are trying to preserve the place we have reached, to always maintain our first ranking in our field, and thus we gain the trust of our customers
          <br></br>
          <br></br>
@@ -39,7 +41,7 @@ function About() {
    
     <div class="container">
       <div class="Aboutus3_image">
-        <img className='image2' src={AboutImage1}></img>
+        <img className='image2' src={AboutImage2}></img>
       </div>
       <div class="Aboutus3_titel">
         <h1>What sets us apart ? | ما الذي يميزنا ؟</h1>
@@ -120,20 +122,18 @@ function About() {
 
     <div class="container">
       <div class="Aboutus3_image">
-        <img className='image2' src={AboutImage2}></img>
+        <img className='image3' src={heroImage3}></img>
       </div>
       <div class="Aboutus3_titel">
         <h1>Services | خدمات</h1>
         <p className='aboutus_p_english'>
           We have succeeded in providing many services since we established the entity Al-Orouba lathe for
           maintenance and with the passage of days, we are developing our services to suit modern
-          technology and the needs of the times and on top of that lathes or what is included under it and a large group of industrial equipment.
+          technology and the needs of the times and on top of that turnerying  or what is included under it and a large group of industrial equipment.
         </p>
         <br></br>
         <p className='arabic-text'>
-          لقد نجحنا في تقديم العديد من الخدمات منذ أن أسسنا كيان "مخراطة العروبة"
-          للصيانة ومع مرور الأيام نقوم بتطوير خدماتنا لتتناسب مع التكنولوجيا الحديثة واحتياجات العصر 
-          وعلى رأس ذلك المخارط أو ما يندرج تحتها ومجموعة كبيرة من المعدات الصناعية
+        	لقد نجحنا في تقديم العديد من الخدمات من أن أسسنا كيان "مخرطة ديما العروبة" للصيانة و مع مرور الأيام نقوم بتطوير خدماتنا لتتناسب مع التكنولوجيا الحديثة و إحتياجات العصر و على رأس ذلك الخراطة أو ما يندرج تحتها و مجموعة كبيرة من المعدات الصناعية 
         </p>
         <br></br>
       </div>

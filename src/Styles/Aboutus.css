@@ -58,6 +58,16 @@
     border-radius: 2.2rem;
 }
 
+
+
+.image3 {
+  max-width: 72%; /* Ensures the image fills the width of the container */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Ensures the image covers the container without stretching */
+  border-radius: 2.2rem;
+}
+
+
 .image2,.image3 {
     max-width: 62%; /* Ensures the image fills the width of the container */
     height: auto; /* Maintains aspect ratio */
@@ -73,7 +83,7 @@
     padding-top: 2.2rem;
     padding-bottom: 2.2rem;
     height: auto;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
     grid-auto-columns: 1fr;
     gap: 0px 0px;
