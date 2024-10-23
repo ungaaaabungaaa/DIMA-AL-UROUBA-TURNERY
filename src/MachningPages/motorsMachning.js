@@ -3,7 +3,7 @@ import Footer from '../Components/footer';
 import Header from '../Components/header';
 import '../Styles/Cnc.css';
 import { useNavigate } from 'react-router-dom';
-import GridImage from '../Resources/machining/machining_grid/motor-grid.webp';
+import GridImage from '../Resources/machining/machining_grid/motor-grid.jpg';
 import FAQ from '../Components/faq';
 import CONTACT from '../Components/contact';
 

@@ -3,7 +3,7 @@ import Conventional from '../Resources/Logo/Conventional.svg';
 import Electrical from '../Resources/Logo/electrical.svg';
 import Mold from '../Resources/Logo/mold.svg';
 import Sheet from '../Resources/Logo/Sheet Metal.svg';
-import Welding from '../Resources/Logo/weild.svg';
+import Welding from '../Resources/Logo/Laser2.svg';
 import GearBox from '../Resources/Logo/Gear.svg';
 
 
@@ -23,18 +23,18 @@ export const departments = [
     },
 
     {
-      name: "Conventional",
-      description: "Reliable conventional machining for precise and durable components",
+      name: "General Machining",
+      description: "Comprehensive machining services including gears, shafts, welding, and custom modifications.",
       icon: Conventional,
-      path: "/conventional" 
+      path: "/GenralMachning" 
     },
 
 
     {
-      name: "تقليدي",
-      description: "تصنيع تقليدي موثوق للحصول على مكونات دقيقة ومتينة",
+      name: "خراطة عامة",
+      description: "خدمات خراطة شاملة تشمل التروس والعمدان واللحام والتعديلات المخصصة",
       icon: Conventional,
-      path: "/conventional" 
+      path: "/GenralMachning" 
     },
 
 
@@ -85,7 +85,7 @@ export const departments = [
 
 
     {
-      name: "ثني و تشكيل",
+      name: "تشكيل المعادن ",
       description: "تصنيع صفائح معدنية دقيقة لمنتجات متعددة الاستخدامات ومتينة",
       icon: Sheet,
       path: "/sheetmetal" 
@@ -93,20 +93,19 @@ export const departments = [
 
 
     {
-      name: "Laser Cutting",
-      description: "Expert Cutting services for strong and reliable joints",
+      name: "Laser Cutting & Weilding",
+      description: "Expert Laser Cutting & Welding for Precision & Joints",
       icon: Welding,
       path: "/welding" 
     },
 
 
     {
-      name: "القطع بالليزر",
-      description: "خدمات القطع بالليزر  المتخصصة للمفاصل القوية والموثوقة",
+      name: "القطع واللحام بالليزر",
+      description: "خدمات القطع واللحام بالليزر المتخصصة للمفاصل الدقيقة والموثوقة",
       icon: Welding,
       path: "/welding" 
     },
-
 
 
 

@@ -11,7 +11,6 @@ import SomethingImage from '../Resources/AboutUs4.webp'
 import { useNavigate } from 'react-router-dom';
 import FAQ from '../Components/faq';
 import CONTACT from '../Components/contact';
-import heroImage1 from '../Resources/Hero/Hero1.webp';
 import heroImage2 from '../Resources/Hero/Hero2.webp';
 import heroImage3 from '../Resources/Hero/Hero3.webp';
 import heroImage4 from '../Resources/Hero/Hero4.webp';
@@ -23,7 +22,7 @@ import M2 from '../Resources/machining/wirecutting.webp';
 import M3 from '../Resources/machining/bending.webp';
 import M4 from '../Resources/machining/lasercutting.webp';
 import M5 from '../Resources/machining/motors.webp';
-import M6 from '../Resources/machining/machining.webp';
+import M6 from '../Resources/machining/GenralMmachninf.png';
 
 
 
@@ -40,7 +39,7 @@ function Home() {
 
   const navigate = useNavigate();
 
-  const images = [heroImage1,heroImage2,heroImage3,heroImage4,heroImage5];
+  const images = [heroImage2,heroImage3,heroImage4,heroImage5];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
     useEffect(() => {
       const interval = setInterval(() => {
@@ -58,7 +57,7 @@ function Home() {
    
     <div className='hero'>
       <div className='hero_text'>
-        <h1 className='hero_title'>DIMA AL UROUBA</h1>
+        <h1 className='hero_title'>DIMA AL UROUBA TURNERY</h1>
         <h3 className='hero_title_h3 arabic-text'>Precision Crafting for a Brighter Tomorrow <br></br> صناعة  دقيقة لمستقبل أكثر إشراقًا</h3>
         <br></br>
         <button onClick={handleContactClick} className='contact_button'>Contact</button>

@@ -7,7 +7,7 @@ import Conventional from '../Resources/Logo/Conventional.svg';
 import Electrical from '../Resources/Logo/electrical.svg';
 import Mold from '../Resources/Logo/mold.svg';
 import Sheet from '../Resources/Logo/Sheet Metal.svg';
-import Welding from '../Resources/Logo/weild.svg';
+import Welding from '../Resources/Logo/Laser2.svg';
 import GearBox from '../Resources/Logo/Gear.svg';
 import Location from '../Resources/Logo/Location.svg';
 import Contact from '../Resources/Logo/Contact.svg';
@@ -43,12 +43,12 @@ function Departments() {
             </p>
 
           </div>
-          <div onClick={() => navigate('/conventional')} class="Conventional">
+          <div onClick={() => navigate('/GenralMachning')} class="Conventional">
             <img className='logo_grid' src={Conventional}></img>
-            <h2 className='logo_title'>Conventional | تقليدي </h2>
+            <h2 className='logo_title'>General Machining | خراطة عامة </h2>
             <p className='logo_desc'>
-            Reliable conventional machining for precise and durable components <br></br>
-            تشغيل تقليدي موثوق للحصول على مكونات دقيقة ومتينة
+            Comprehensive machining services including gears, shafts, welding, and custom modifications. <br></br>
+            خدمات خراطة شاملة تشمل التروس والعمدان واللحام والتعديلات المخصصة
             </p>
           </div>
           <div onClick={() => navigate('/electrical')} class="Electrical">
@@ -69,7 +69,7 @@ function Departments() {
           </div>
           <div onClick={() => navigate('/sheetmetal')} class="Sheet-Metal">
             <img className='logo_grid' src={Sheet}></img>
-            <h2 className='logo_title'>Sheet Metal | ثني و تشكيل  </h2>
+            <h2 className='logo_title'>Sheet Metal |  تشكيل المعادن  </h2>
             <p className='logo_desc'>
             Precision sheet metal fabrication for versatile & durable products  <br></br>
             تصنيع مكونات الصفائح المعدنية عالية الجودة لمجموعة متنوعة من التطبيقات       
@@ -77,10 +77,10 @@ function Departments() {
           </div>
           <div onClick={() => navigate('/welding')} class="Welding">
             <img className='logo_grid' src={Welding}></img>
-            <h2 className='logo_title'>Laser Cutting  | القطع بالليزر </h2>
+            <h2 className='logo_title'>Laser Cutting & Weilding  | القطع واللحام بالليزر  </h2>
             <p className='logo_desc'>
-            Expert welding services for strong and reliable joints <br></br>
-            خدمات لحام متخصصة لوصلات قوية وموثوقة
+            Expert Laser Cutting & Welding for Precision & Joints <br></br>
+            خدمات القطع واللحام بالليزر المتخصصة للمفاصل الدقيقة والموثوقة
             </p>
           </div>
           <div onClick={() => navigate('/gearbox')} class="GearBox">
@@ -95,7 +95,9 @@ function Departments() {
               <img className='logo_grid' src={Contact}></img>
               <h2 className='logo_title'>Contact | اتصال </h2>
               <p className='logo_desc'>
-              Phone: +966582444166 <br></br> الهاتف: +966582444166
+              Phone: +966509909620 <pre></pre>
+              +966593121424 <pre></pre>
+              +966582444166 <pre></pre>
               </p>
           </div>
 
