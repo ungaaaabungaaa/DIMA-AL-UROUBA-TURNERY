@@ -91,7 +91,7 @@ function Departments() {
               تصنيع صندوق تروس عالية الأداء لنقل الطاقة بكفاءة وموثوقية
               </p>
           </div>
-          <div onClick={() => window.open('tel:966582444166')}  class="Contact">
+          <div onClick={() => window.open('tel:966509909620')}  class="Contact">
               <img className='logo_grid' src={Contact}></img>
               <h2 className='logo_title'>Contact | اتصال </h2>
               <p className='logo_desc'>
