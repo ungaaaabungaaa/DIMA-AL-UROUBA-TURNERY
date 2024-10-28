@@ -175,6 +175,16 @@
 }
 
 
+#Aboutus
+{
+  width: 42%;
+}
+
+#Aboutus_2
+{
+  width: 32%;
+}
+
 
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {

@@ -7,9 +7,9 @@ import '../Styles/Aboutus.css';
 import Image1 from '../Resources/AboutUs.webp';
 import Image3 from '../Resources/AboutUs3.webp';
 import AboutImage1 from '../Resources/Aboutus/aboutus.webp';
-import AboutImage2 from '../Resources/Aboutus/about3.jpg';
+import AboutImage2 from '../Resources/Aboutus/about3.png';
 
-import heroImage3 from '../Resources/Hero/Hero4.webp';
+import heroImage3 from '../Resources/Aboutus/about4.png';
 
 
 
@@ -41,7 +41,7 @@ function About() {
    
     <div class="container">
       <div class="Aboutus3_image">
-        <img className='image2' src={AboutImage2}></img>
+        <img className='image2' id='Aboutus_2' src={AboutImage2}></img>
       </div>
       <div class="Aboutus3_titel">
         <h1>What sets us apart ? | ما الذي يميزنا ؟</h1>
@@ -122,7 +122,7 @@ function About() {
 
     <div class="container">
       <div class="Aboutus3_image">
-        <img className='image3' src={heroImage3}></img>
+        <img className='image3' id='Aboutus' src={heroImage3}></img>
       </div>
       <div class="Aboutus3_titel">
         <h1>Services | خدمات</h1>
