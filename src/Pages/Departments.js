@@ -13,7 +13,7 @@ import Location from '../Resources/Logo/Location.svg';
 import Contact from '../Resources/Logo/Contact.svg';
 import '../Styles/Aboutus.css';
 import Image2 from '../Resources/Department1.webp';
-import Image3 from '../Resources/Department2.webp';
+import Image3 from '../Resources/Department2.jpg';
 import Image4 from '../Resources/Department3.webp';
 import Image5 from '../Resources/Department4.webp';
 import MetalForming from '../Resources/manufacturinggrid.png';

@@ -18,7 +18,7 @@ function Footer() {
   }
 
   const handlePhoneClick = () => {
-    window.location.href = 'tel:+0582444166';
+    window.location.href = 'tel:966509909620';
   };
 
   const handleEmailClick = () => {
