@@ -77,10 +77,10 @@ function Departments() {
           </div>
           <div onClick={() => navigate('/welding')} class="Welding">
             <img className='logo_grid' src={Welding}></img>
-            <h2 className='logo_title'>Laser Cutting & Weilding  | القطع واللحام بالليزر  </h2>
+            <h2 className='logo_title'>Laser Cutting  |  القطع بالليزر   </h2>
             <p className='logo_desc'>
-            Expert Laser Cutting & Welding for Precision & Joints <br></br>
-            خدمات القطع واللحام بالليزر المتخصصة للمفاصل الدقيقة والموثوقة
+            Offers precision laser cutting for various materials with minimal waste<br></br>
+            تقدم قص الليزر بدقة عالية للعديد من المواد مع الحد الأدنى من الهدر
             </p>
           </div>
           <div onClick={() => navigate('/gearbox')} class="GearBox">

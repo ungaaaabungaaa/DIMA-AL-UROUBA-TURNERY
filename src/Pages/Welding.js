@@ -26,17 +26,17 @@ function Welding() {
         <div id='Weilding-grid-context-layout' className='grid-context-layout'>
         <h1>Laser Cutting & Welding Department | قسم القطع واللحام بالليزر</h1>
         <p>
-          At DIMA AL UROUBA TURNERY, our Laser Cutting & Welding Department offers cutting-edge technology for precision cutting and welding. Utilizing advanced laser systems, we ensure minimal distortion and superior quality, making it ideal for intricate or delicate components. Our laser cutting and welding solutions are designed to meet the exact specifications of our clients, providing high strength and accuracy in every operation.
+          At DIMA AL UROUBA TURNERY, our Laser Cutting Department utilizes state-of-the-art laser technology to achieve high precision in every cut. Our advanced laser systems ensure minimal distortion and exceptional accuracy, making them ideal for detailed and complex components. Our laser cutting solutions are designed to meet the unique specifications of our clients, delivering outstanding quality and consistency for every project.
           <br />
           <br />
-          Our team of skilled laser technicians works closely with engineering and design teams to ensure that each component is meticulously processed, contributing to the overall durability and efficiency of our manufactured products. Whether for small-scale projects or large industrial applications, our laser cutting and welding department delivers unmatched precision and reliability.
+          Our skilled laser technicians work closely with engineering and design teams to meticulously process each component, contributing to the overall strength and reliability of our products. From small prototypes to large-scale industrial applications, our laser cutting department provides unmatched precision and performance.
         </p>
         <br />
         <p className='arabic-text'>
-          في شركة ديما العروبة للخراطة، يقدم قسم القطع واللحام بالليزر تكنولوجيا متقدمة للقطع واللحام الدقيق. باستخدام أنظمة الليزر المتطورة، نضمن أقل قدر من التشوه وجودة عالية، مما يجعله مثاليًا للمكونات المعقدة أو الحساسة. تم تصميم حلول القطع واللحام بالليزر لدينا لتلبية المواصفات الدقيقة لعملائنا، مما يوفر قوة ودقة عالية في كل عملية.
+          في شركة ديما العروبة للخراطة، يستخدم قسم القطع بالليزر تكنولوجيا الليزر المتقدمة لتحقيق الدقة العالية في كل عملية قطع. تضمن أنظمة الليزر المتطورة لدينا تشوهًا قليلًا ودقة استثنائية، مما يجعلها مثالية للمكونات المعقدة والدقيقة. تم تصميم حلول القطع بالليزر لدينا لتلبية المواصفات الفريدة لعملائنا، مما يوفر جودة وتناسقًا ممتازين في كل مشروع.
           <br />
           <br />
-          يعمل فريقنا الماهر في القطع واللحام بالليزر عن كثب مع فرق الهندسة والتصميم لضمان معالجة كل مكون بدقة، مما يساهم في تعزيز المتانة والكفاءة لمنتجاتنا المصنعة. سواء للمشاريع الصغيرة أو التطبيقات الصناعية الكبيرة، يقدم قسم القطع واللحام بالليزر لدينا دقة وموثوقية لا مثيل لهما.
+          يعمل فنيونا المهرة في القطع بالليزر عن كثب مع فرق الهندسة والتصميم لمعالجة كل مكون بدقة، مما يساهم في تعزيز القوة والموثوقية لمنتجاتنا. بدءًا من النماذج الأولية الصغيرة إلى التطبيقات الصناعية الكبيرة، يقدم قسم القطع بالليزر لدينا دقة وأداءً لا مثيل لهما.
         </p>
 
 

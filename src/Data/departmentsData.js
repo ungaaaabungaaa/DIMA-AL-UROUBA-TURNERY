@@ -93,16 +93,16 @@ export const departments = [
 
 
     {
-      name: "Laser Cutting & Weilding",
-      description: "Expert Laser Cutting & Welding for Precision & Joints",
+      name: "Laser Cutting",
+      description: "Offers precision laser cutting for various materials with minimal waste",
       icon: Welding,
       path: "/welding" 
     },
 
 
     {
-      name: "القطع واللحام بالليزر",
-      description: "خدمات القطع واللحام بالليزر المتخصصة للمفاصل الدقيقة والموثوقة",
+      name: "القطع بالليزر",
+      description: "تقدم قص الليزر بدقة عالية للعديد من المواد مع الحد الأدنى من الهدر",
       icon: Welding,
       path: "/welding" 
     },
