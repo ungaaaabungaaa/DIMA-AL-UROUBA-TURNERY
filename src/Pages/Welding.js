@@ -14,7 +14,7 @@ function Welding() {
       <>
       <Header></Header>
       <div className='Weilding_hero'>
-          <h1 className='margin_bottom_zero'>Laser Cutting & Welding Department</h1>
+          <h1 className='margin_bottom_zero'>Laser Cutting Department</h1>
           <h3 onClick={() => navigate('/departments')} className='margin_bottom_zero'>Departments</h3>
       </div>
 
@@ -24,7 +24,7 @@ function Welding() {
         </div>
        
         <div id='Weilding-grid-context-layout' className='grid-context-layout'>
-        <h1>Laser Cutting & Welding Department | قسم القطع واللحام بالليزر</h1>
+        <h1>Laser Cutting  Department | قسم القطع بالليزر   </h1>
         <p>
           At DIMA AL UROUBA TURNERY, our Laser Cutting Department utilizes state-of-the-art laser technology to achieve high precision in every cut. Our advanced laser systems ensure minimal distortion and exceptional accuracy, making them ideal for detailed and complex components. Our laser cutting solutions are designed to meet the unique specifications of our clients, delivering outstanding quality and consistency for every project.
           <br />
