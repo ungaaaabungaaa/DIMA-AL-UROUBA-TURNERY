@@ -44,10 +44,10 @@ function App() {
   return (
     <>
      <Router>
-      <ScrollToTop /> {/* Add this line */}
+      <ScrollToTop /> {/* need this for the  */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/departments" element={<Departments />} />
+        <Route path="/dep" element={<Departments />} />
         <Route path="/about" element={<About />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/cnc" element={<CNC />} />
