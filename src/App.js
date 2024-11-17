@@ -1,6 +1,5 @@
 import './Styles/index.css';
 import React from 'react';
-import usePreventActions from './Hooks/usePreventActions';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
 import Departments from './Pages/Departments';
@@ -47,7 +46,7 @@ function App() {
       <ScrollToTop /> {/* need this for the  */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/dep" element={<Departments />} />
+        <Route path="/departments" element={<Departments />} />
         <Route path="/about" element={<About />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/cnc" element={<CNC />} />
