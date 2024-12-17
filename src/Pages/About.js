@@ -8,7 +8,7 @@ import Image1 from '../Resources/AboutUs.webp';
 import Image3 from '../Resources/AboutUs3.webp';
 import AboutImage1 from '../Resources/Aboutus/aboutus.webp';
 import AboutImage2 from '../Resources/Aboutus/about3.png';
-
+import { Helmet } from 'react-helmet';
 import heroImage3 from '../Resources/Aboutus/about4.png';
 
 
@@ -18,7 +18,12 @@ function About() {
   
   return (
     <>
-    <Header></Header>
+    <Helmet>
+        <title>Dima Al-Orouba Turnery - About Us</title>
+        <meta name="description" content="Learn about Dima Al-Orouba Turnery, a leader in the industry with over 10 years of experience, offering CNC services, laser machines, and unmatched maintenance solutions." />
+        <meta name="keywords" content="Dima Al-Orouba Turnery, CNC Lathe, Maintenance, Industrial Equipment, Saudi Arabia, Metal Fabrication, Free Maintenance Services" />
+      </Helmet>
+     <Header />
     <div className='aboutus_1'>
       <h1 className='aboutus_1_title'>Vision | رؤية </h1>
       <p className='aboutus_1_p'>

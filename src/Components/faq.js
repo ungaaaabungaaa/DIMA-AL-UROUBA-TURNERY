@@ -1,15 +1,14 @@
+import React from 'react';
 import Faq from 'react-faq-component';
+import { Helmet } from 'react-helmet';
 import '../Styles/faq.css';
 
 function FAQ() {
-
   const handleContactClick = () => {
     const whatsappNumber = '+966509909620';
     const url = `https://wa.me/${whatsappNumber}`;
     window.open(url, '_blank');
   };
-
-
 
   const data = {
     title: "FAQ",
@@ -37,8 +36,6 @@ function FAQ() {
             <p className='arabic-text'>
               نعم، نحن نقدم خدمات التصنيع المخصصة لتلبية احتياجاتك المحددة. يرجى التواصل معنا بمتطلباتك، وسيعمل فريقنا معك لتطوير حل مخصص.
             </p>
-            
-            
           </>
         ),
       },
@@ -53,7 +50,9 @@ function FAQ() {
               يمكنك التواصل مع فريق دعم العملاء لدينا من خلال نموذج الاتصال الموجود على موقعنا الإلكتروني، أو عبر البريد الإلكتروني، أو عن طريق الاتصال بخط الدعم الساخن الخاص بنا. نحن هنا لمساعدتك في أي أسئلة أو مخاوف قد تكون لديك.
             </p>
             <div className='faq_button_layout'>
-              <button onClick={handleContactClick} className='contact_button'>Contact Us here | تواصل معنا هنا </button>
+              <button onClick={handleContactClick} className='contact_button'>
+                Contact Us here | تواصل معنا هنا
+              </button>
             </div>
           </>
         ),
@@ -62,11 +61,38 @@ function FAQ() {
   };
 
   return (
-    <div className='faq'>
-      <div className='faq_context'>
-        <Faq data={data} />
+    <>
+      <Helmet>
+        <title>FAQ | Frequently Asked Questions</title>
+        <meta name="description" content="Find answers to frequently asked questions about our manufacturing services, products, and customer support. Get assistance in English or Arabic." />
+        <meta name="keywords" content="FAQ, Frequently Asked Questions, CNC, Lathe, Manufacturing, Arabic, English, Customer Support" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="FAQ | Frequently Asked Questions" />
+        <meta property="og:description" content="Get answers to common questions about our manufacturing services, products, and customer support. Available in English and Arabic." />
+        <meta property="og:url" content="https://yourwebsite.com/faq" />
+        <meta property="og:type" content="website" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": data.rows.map(row => ({
+              "@type": "Question",
+              "name": row.title,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": row.content.props.children.map(child => (typeof child === 'string' ? child : '')).join(' '),
+              },
+            })),
+          })}
+        </script>
+      </Helmet>
+
+      <div className='faq'>
+        <div className='faq_context'>
+          <Faq data={data} />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
