@@ -101,12 +101,12 @@ function Departments() {
               </p>
           </div>
 
-          <div onClick={() => window.open('https://maps.app.goo.gl/UxwJvBMQUqZTuicx6')} class="Location">
+          <div onClick={() => window.open('https://maps.app.goo.gl/6ridcrCKHta1FvwB9')} class="Location">
               <img className='logo_grid' src={Location}></img>
               <h2 className='logo_title'>Location | موقع </h2>
               <p className='logo_desc'>
-              GVVF+G96, Al Kharj Rd, New Industrial Area, Riyadh 14331, Saudi Arabia <br></br>
-              GVVF+G96، طريق الخرج، المنطقة الصناعية الجديدة، الرياض 14331، المملكة العربية السعودية
+              Al Misfat, Riyadh 14528, Saudi Arabia <br></br>
+              Al Misfat, Riyadh 14528, Saudi Arabia
               </p>
           </div>
       </div>

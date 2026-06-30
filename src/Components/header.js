@@ -6,7 +6,7 @@ import '../Styles/Header.css';
 function Header() {
   const navigate = useNavigate();
   const handleContactClick = () => {
-    const url = 'https://maps.app.goo.gl/UxwJvBMQUqZTuicx6';
+    const url = 'https://maps.app.goo.gl/6ridcrCKHta1FvwB9';
     window.open(url, '_blank');
   };
 
