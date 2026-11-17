@@ -1,0 +1,23 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "headers": [
+    {
+      "source": "/static/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/:asset(logo192.png|logo512.png|apple-touch-icon.png|android-chrome-192x192.png|android-chrome-512x512.png|favicon.ico|favicon-16x16.png|favicon-32x32.png|mstile-150x150.png|safari-pinned-tab.svg)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    }
+  ]
+}
